@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Cake.Core" Version="0.33.0" />
+    <PackageReference Include="Cake.Figlet" Version="1.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.0.0-preview4-19216-03" />
+    <PackageReference Include="Nito.AsyncEx" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EpicOrbit.Emulator\EpicOrbit.Emulator.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="MongoDB.Bson">
+      <HintPath>..\remove-when-mongo-ready\MongoDB.Bson.dll</HintPath>
+    </Reference>
+    <Reference Include="MongoDB.Driver">
+      <HintPath>..\remove-when-mongo-ready\MongoDB.Driver.dll</HintPath>
+    </Reference>
+    <Reference Include="MongoDB.Driver.Core">
+      <HintPath>..\remove-when-mongo-ready\MongoDB.Driver.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

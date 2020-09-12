@@ -1,0 +1,23 @@
+﻿@inherits ShipComponentController
+
+<div class="ct-page-title">
+    <h1 class="ct-title" id="content">Equipment</h1>
+    <div class="avatar-group mt-3"></div>
+</div>
+
+<div class="row">
+    <div class="col-lg-8 px-0"
+         style="display: flex; flex-wrap: wrap; height: 400px; max-height: 400px; overflow-x: hidden; overflow-y: auto;">
+        @foreach (var ship in Ships) {
+            <ShipItemComponent Ship="ship" Company="Company" Active="ship.ID == Active.ID" Click="@SelectShip" />
+        }
+    </div>
+
+    <div class="col-lg-4 px-0 bg-gray-400"
+         style="height: 400px; max-height: 400px;">
+        <ShipDetailComponent Activate="@Activate" Equipment="@Equipment"
+                             Ship="@(Current == null ? Active : Current)"
+                             Active="@(Current == null ? true : Current.ID == Active.ID)"
+                             Company="@Company" />
+    </div>
+</div>

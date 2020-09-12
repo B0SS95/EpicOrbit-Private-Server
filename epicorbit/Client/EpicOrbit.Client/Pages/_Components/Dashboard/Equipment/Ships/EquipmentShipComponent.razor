@@ -1,0 +1,38 @@
+﻿@inherits EquipmentShipComponentController
+
+<div class="row">
+    <div class="col-lg-3 px-0 bg-gray-400"
+         style="display: flex; flex-wrap: wrap; height: 400px; max-height: 400px; overflow-x: hidden; overflow-y: auto;">
+        <EquipmentShipOverviewComponent Ship="@Ship" Company="@Company" />
+    </div>
+
+    <div class="col-lg-6 px-0 bg-gray-200"
+         style="height: 400px; max-height: 400px; overflow-x: hidden; overflow-y: auto;">
+        <div class="col-lg-12 pt-2">
+            <h6><b>Lasers</b></h6>
+            <div style="display: flex; flex-wrap: wrap;">
+                @for (int i = 0; i < Ship.WeaponSlots; i++) {
+                    <EquipmentSlotComponent Index="i" Items="Weapons" ClickHandler="WeaponClickHandler" />
+                }
+            </div>
+        </div>
+
+        <div class="col-lg-12 pt-2 mt-2" style="border-top: 2px solid #5e72e4;">
+            <h6><b>Generators</b></h6>
+            <div style="display: flex; flex-wrap: wrap;">
+                @for (int i = 0; i < Ship.GeneratorSlots; i++) {
+                    <EquipmentSlotComponent Index="i" Items="Generators" ClickHandler="GeneratorClickHandler" />
+                }
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-3 px-0 bg-gray-400"
+         style="height: 400px;">
+        <div class="col-lg-12" style="max-height: 400px; display: flex; flex-wrap: wrap; overflow-x: hidden; overflow-y: auto; margin:auto;">
+            @for (int i = 0; i < Items.Count; i++) {
+                <EquipmentSlotComponent Index="i" Items="Items" ClickHandler="InventarClickHandler" />
+            }
+        </div>
+    </div>
+</div>

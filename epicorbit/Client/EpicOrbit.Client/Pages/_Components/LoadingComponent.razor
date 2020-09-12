@@ -1,0 +1,18 @@
+﻿@inherits LoadingComponentController
+
+@if (Loading) {
+    <div style="height: 100%; display: flex; justify-content: center; align-items: center;">
+        <div style="width: 100%">
+            <div class="d-flex justify-content-center">
+                <div class="spinner-grow" role="status">
+                    <span class="sr-only">Loading...</span>
+                </div>
+            </div>
+            <div class="text-center text-muted mt-2" style="width: 100%">
+                <small>@Text</small>
+            </div>
+        </div>
+    </div>
+} else {
+    @ChildContent
+}

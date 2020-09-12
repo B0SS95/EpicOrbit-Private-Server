@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource>
+
+  <!-- header related keys -->
+  <item name="equipment_header_device_selector_ship"><![CDATA[Ship]]></item>
+  <item name="ttip_equipment_tab_ship"><![CDATA[View your ship and its equipment in the currently selected Hangar.]]></item>
+
+  <item name="equipment_header_device_selector_pet"><![CDATA[P.E.T.]]></item>
+  <item name="ttip_equipment_tab_pet"><![CDATA[View your P.E.T. and its equipment in the currently selected Hangar.]]></item>
+
+  <item name="equipment_header_device_selector_drones"><![CDATA[Drones]]></item>
+  <item name="ttip_equipment_tab_drones"><![CDATA[View your Drones and their equipment in the currently selected Hangar]]></item>
+
+  <item name="equipment_header_configswitch_config1.tooltip"><![CDATA[Switch to configuration 1]]></item>
+  <item name="equipment_header_configswitch_config2.tooltip"><![CDATA[Switch to configuration 2]]></item>
+  
+  <!-- equipment-->
+  <item name="equipment_message_equipped_items_stronger"><![CDATA[Are you sure you want to downgrade? Your equipped items are better.]]></item>
+  <!-- equipment area[ship] related keys -->
+  <item name="equipment_equipmentarea_label_lasers"><![CDATA[Lasers]]></item>
+  <item name="equipment_equipmentarea_label_rocketlaunchers"><![CDATA[Rocket Launchers]]></item>
+  <item name="equipment_equipmentarea_label_extras"><![CDATA[Extras]]></item>
+  <item name="equipment_equipmentarea_label_generators"><![CDATA[Generators]]></item>
+  <!-- equipment area[pet] related keys -->
+  <item name="equipment_equipmentarea_label_gears"><![CDATA[Gears]]></item>
+  <item name="equipment_equipmentarea_label_aiprotocols"><![CDATA[AI Protocols]]></item>
+  <!-- device display area related keys -->
+  <item name="equipment_devicedisplay_button_statistics"><![CDATA[Statistics]]></item>
+  <item name="equipment_devicedisplay_button_newships"><![CDATA[New Ships]]></item>
+  <item name="equipment_devicedisplay_button_closenewships"><![CDATA[Close New Ships]]></item>
+
+  <item name="equipment_devicedisplay_footer_button_warpin"><![CDATA[Warp In]]></item>
+  <item name="equipment_devicedisplay_footer_button_activate"><![CDATA[Activate]]></item>
+  <item name="equipment_devicedisplay_footer_button_allocate"><![CDATA[Allocate]]></item>
+  <item name="equipment_devicedisplay_footer_button_rename_pet"><![CDATA[Rename]]></item>
+
+  <!-- inventory related keys -->
+  <item name="equipment_inventory_label_inventory"><![CDATA[Inventory]]></item>
+
+  <item name="equipment_inventory_popup.filtering_label_filter"><![CDATA[Filter]]></item>
+  <item name="equipment_inventory_popup.filtering_label_showall"><![CDATA[Show All]]></item>
+
+  <!-- inventoryfilter -->
+  <item name="equipment_inventory_popup.filtering_label_ammunition"><![CDATA[Ammunition]]></item>
+  <item name="equipment_inventory_popup.filtering_label_weapons"><![CDATA[Weapons]]></item>
+  <item name="equipment_inventory_popup.filtering_label_generators"><![CDATA[Generators]]></item>
+  <item name="equipment_inventory_popup.filtering_label_extras"><![CDATA[Extras]]></item>
+
+  <item name="equipment_inventory_popup.filtering_label_pet.gear"><![CDATA[P.E.T. Gears]]></item>
+  <item name="equipment_inventory_popup.filtering_label_pet.protocols"><![CDATA[P.E.T. Protocols]]></item>
+
+  <item name="equipment_inventory_popup.filtering_label_modules"><![CDATA[CBS]]></item>
+  <item name="equipment_inventory_popup.filtering_label_drones"><![CDATA[Drones]]></item>
+  <item name="equipment_inventory_popup.filtering_label_resources"><![CDATA[Raw Materials]]></item>
+  <item name="equipment_inventory_popup.filtering_label_item"><![CDATA[Special]]></item>
+  
+  <item name="equipment_inventory_popup.filtering_label_pet"><![CDATA[P.E.T.]]></item>
+  <item name="equipment_inventory_popup.filtering_label_boosters"><![CDATA[Boosters]]></item>
+  <item name="equipment_inventory_popup.filtering_label_ships_and_designs"><![CDATA[Ships & Designs]]></item>
+  <item name="equipment_inventory_popup.filtering_label_hardware"><![CDATA[Hardware]]></item>
+
+  <!-- inventory - itemtooltip -->
+  <item name="equipment_inventory_item.tooltip.name"><![CDATA[Name]]></item>
+  <item name="equipment_inventory_item.tooltip.type"><![CDATA[Type]]></item>
+  <item name="equipment_inventory_item.tooltip.level"><![CDATA[Level]]></item>
+  <item name="equipment_inventory_item.tooltip.description"><![CDATA[Description]]></item>
+  <item name="equipment_inventory_item.tooltip.quantity"><![CDATA[Quantity]]></item>
+  <item name="equipment_inventory_item.tooltip.capacity"><![CDATA[Capacity]]></item>
+  <item name="equipment_inventory_item.tooltip.absorption"><![CDATA[Absorption]]></item>
+  <item name="equipment_inventory_item.tooltip.cooldown"><![CDATA[Cooldown]]></item>
+  <item name="equipment_inventory_item.tooltip.durability"><![CDATA[Durability]]></item>
+  <item name="equipment_inventory_item.tooltip.damage"><![CDATA[Damage]]></item>
+  <item name="equipment_inventory_item.tooltip.damagebonus"><![CDATA[Damage Bonus]]></item>
+  <item name="equipment_inventory_item.tooltip.shieldsteal"><![CDATA[Shield Steal]]></item>
+  <item name="equipment_inventory_item.tooltip.installedOn"><![CDATA[Installed on]]></item>
+  <item name="equipment_inventory_item.tooltip.range"><![CDATA[Range]]></item>
+  
+  <!-- inventory - item context -->
+  <item name="equipment_inventory_item.itemcontext.sell"><![CDATA[Sell]]></item>
+  <item name="equipment_inventory_item.itemcontext.quickbuy"><![CDATA[Quick Buy]]></item>
+  <item name="equipment_inventory_item.itemcontext.repair"><![CDATA[Repair]]></item>
+  <item name="equipment_inventory_item.itemcontext.upgrade"><![CDATA[Upgrade]]></item>
+  <item name="equipment_inventory_item.itemcontext.configure"><![CDATA[Configure]]></item>
+
+  <!-- drone area -->
+  <item name="equipment_drone_label_level"><![CDATA[Level: %NUMBER%]]></item>
+  <item name="equipment_drone_label_upgradelevel"><![CDATA[Upgrade Level: %NUMBER%]]></item>
+  <item name="equipment_drone_label_damage"><![CDATA[Damage: %NUMBER%%]]></item>
+
+
+  <!-- popup - general -->
+  <item name="equipment_popup.confirmation.ok"><![CDATA[OK]]></item>
+  <item name="equipment_popup.confirmation.cancel"><![CDATA[Cancel]]></item>
+
+  <item name="equipment.input.invalidate.toolong"><![CDATA[Name is too long.]]></item>
+  <item name="equipment.input.invalidate.tooshort"><![CDATA[Name is too short.]]></item>
+  <item name="equipment.input.invalidate.wrongchars"><![CDATA[Contains characters that are not allowed.]]></item>
+
+  <!-- popup - add hangar -->
+  <item name="equipment_popup.addhangar.title"><![CDATA[Add hangar]]></item>
+  <item name="equipment_popup.addhangar.tooltip"><![CDATA[Purchase an additional Hangar.]]></item>
+  <item name="equipment_popup.addhangar.message"><![CDATA[A Hangar lets you store ships and quickly switch between them by activating or warping a different Hangar. Do you want to buy a Hangar for %hangar_price%?]]></item>
+  <item name="equipment_popup.addhangar.changedprice.message"><![CDATA[It seems that the price of this item has changed. Do you still want to buy a Hangar for %hangar_price%?]]></item>
+  <item name="equipment_popup.addhangar.denied.message"><![CDATA[A Hangar lets you store ships and quickly switch between them by activating or warping a different Hangar. Unfortunately, you do not have the full %hangar_price% required to buy one.]]></item>
+  <item name="equipment_popup.addhangar.confirm.buy"><![CDATA[Buy]]></item>
+  <item name="msg_addhangar_success"><![CDATA[Hangar successfully purchased.]]></item>
+
+  <!-- popup - allocate ship -->
+  <item name="equipment_popup.allocateship.title"><![CDATA[Allocate ship]]></item>
+  <item name="equipment_popup.allocateship.tooltip"><![CDATA[Use the allocate button to allocate this ship to the currently selected Hangar.]]></item>
+  <item name="equipment_popup.allocateship.message"><![CDATA[Allocate a new ship to the currently selected Hangar. Warning! Any ship currently occupying that Hangar will be automatically sold!]]></item>
+  <item name="equipment_popup.allocateship.confirm.allocate"><![CDATA[Allocate]]></item>
+
+  <!-- popup - clear configuration -->
+  <item name="equipment_popup.clearconfig.title"><![CDATA[Clear Configuration]]></item>
+  <item name="equipment_popup.clearconfig.tooltip"><![CDATA[Deletes current configuration.]]></item>
+  <item name="equipment_popup.clearconfig.message"><![CDATA[Warning! You are about to delete your ship´s current configuration. Do you really wish to proceed ?]]></item>
+  <item name="equipment_popup.clearconfig.confirm.delete"><![CDATA[Delete]]></item>
+
+  <!-- popup - rename hangar  -->
+  <item name="equipment_popup.renamehangar.title"><![CDATA[Rename Hangar]]></item>
+  <item name="equipment_popup.renamehangar.message"><![CDATA[Rename your Hangar as you please. (This feature is only available with an active Premium subscription.)]]></item>
+
+  <!-- popup - rename pet -->
+  <item name="equipment_popup.renamepet.title"><![CDATA[Rename P.E.T.]]></item>
+  <item name="equipment_popup.renamepet.message"><![CDATA[You can rename your P.E.T. for %pet_rename_price%.]]></item>
+
+  <!-- popup - item-upgrade -->
+  <item name="equipment_popup.itemupgrade.title"><![CDATA[Upgrade]]></item>
+  <item name="equipment_popup.itemupgrade.upgrade.message"><![CDATA[Upgrade to level %level%!]]></item>
+  <item name="equipment_popup.itemupgrade.upgrade.chanceofsuccess"><![CDATA[Chance of success:]]></item>
+  <item name="equipment_popup.itemupgrade.upgrade.totalcosts"><![CDATA[Total costs:]]></item>
+  <item name="equipment_popup.itemupgrade.upgrade.confirm"><![CDATA[Upgrade]]></item>
+
+  <item name="equipment_popup.itemupgrade.failure.title"><![CDATA[FAILURE]]></item>
+  <item name="equipment_popup.itemupgrade.failure.message"><![CDATA[Upgrade attempt failed.]]></item>
+
+  <item name="equipment_popup.itemupgrade.success.title"><![CDATA[SUCCESS]]></item>
+  <item name="equipment_popup.itemupgrade.success.message"><![CDATA[Upgraded to level %level%!]]></item>
+  
+  <item name="equipment_popup.itemupgrade.upgrade.damage"><![CDATA[Upgrade damage bonus to %amount%%.]]></item>
+  <item name="equipment_popup.itemupgrade.upgrade.shield"><![CDATA[Upgrade shield bonus to %amount%%.]]></item>
+  <item name="equipment_popup.itemupgrade.upgrade.durability"><![CDATA[Upgrade durability bonus to %amount%.]]></item>
+  <item name="equipment_popup.itemupgrade.upgrade.booster"><![CDATA[Upgrade booster bonus to %amount%.]]></item>
+  <item name="equipment_popup.itemupgrade.upgrade.repair"><![CDATA[Upgrade repair bonus to %amount%.]]></item>
+  <item name="equipment_popup.itemupgrade.upgrade.deflectorminutes"><![CDATA[Upgrade deflector shield bonus minutes to %amount%.]]></item>  
+  
+  <item name="equipment_popup.itemupgrade.upgraded.damage"><![CDATA[Upgraded damage bonus to %amount%%.]]></item>
+  <item name="equipment_popup.itemupgrade.upgraded.shield"><![CDATA[Upgraded shield bonus to %amount%%.]]></item>
+  <item name="equipment_popup.itemupgrade.upgraded.durability"><![CDATA[Upgraded durability bonus to %amount%.]]></item>
+  <item name="equipment_popup.itemupgrade.upgraded.booster"><![CDATA[Upgraded booster bonus to %amount%.]]></item>
+  <item name="equipment_popup.itemupgrade.upgraded.repair"><![CDATA[Upgraded repair bonus to %amount%.]]></item>
+  <item name="equipment_popup.itemupgrade.upgraded.deflectorminutes"><![CDATA[Upgraded deflector shield bonus minutes to %amount%.]]></item>    
+
+  <!-- popup - item-repair -->
+  <item name="equipment_popup.repair.title"><![CDATA[Repair]]></item>
+  <item name="equipment_popup.repair.message.drone.price"><![CDATA[Repair this drone for %price% %currency%?]]></item>
+  <item name="equipment_popup.repair.message.drone.levelloss"><![CDATA[Its level will drop from Level %level.from% to Level %level.to%.]]></item>
+  <item name="equipment_popup.repair.message.ship"><![CDATA[Repair your ship for %price% %currency%, and prepare for the next round!]]></item>
+  <item name="equipment_popup.repair.message.item"><![CDATA[Repair the selected item for %price% %currency%?]]></item>
+  <item name="equipment_popup.repair.confirm"><![CDATA[Repair]]></item>
+  
+   <!-- popup - item-configure -->
+  <item name="equipment_popup.configure.title"><![CDATA[Configure]]></item>
+
+  <!-- popup - item-sell -->
+  <item name="equipment_popup.sell.title"><![CDATA[Sell]]></item>
+  <item name="equipment_popup.sell.message.stackable"><![CDATA[How many do you want to sell?]]></item>
+  <item name="equipment_popup.sell.message.unstackable"><![CDATA[Are you sure that you want to sell this item for %price% %currency%?]]></item>
+  <item name="equipment_popup.sell.item.maxitems"><![CDATA[Amount]]></item>
+  <item name="equipment_popup.sell.item.sell"><![CDATA[Sell for]]></item>
+  <item name="equipment_popup.sell.button.max"><![CDATA[Max.]]></item>
+  <item name="equipment_popup.sell.confirm"><![CDATA[Sell]]></item>
+
+  <!-- popup - shipwarp -->
+  <item name="equipment_popup.hangarchange.title"><![CDATA[Activate Hangar]]></item>
+  <item name="equipment_popup.hangarchange.message"><![CDATA[Switch to the ship and its current position in the selected Hangar for %shipwarp_price%.]]></item>
+  <item name="equipment_popup.shipwarp.title"><![CDATA[Ship Warp]]></item>
+  <item name="equipment_popup.shipwarp.message"><![CDATA[Warp the ship in the selected Hangar to your current position and switch to it for %shipwarp_price%.]]></item>
+  <item name="desc_hangarchange_costs_spacestation"><![CDATA[This hangar activation is free, because you are at the Company station.]]></item>
+
+  <!-- popup - slot buy pet slot -->
+  <item name="equipment_popup.buypetslot.title"><![CDATA[Buy a P.E.T. slot]]></item>
+  <item name="equipment_popup.buypetslot.message"><![CDATA[Do you really want to buy a P.E.T. slot for %buy_price%?]]></item>
+  <item name="equipment_popup.buypetslot.confirm"><![CDATA[Buy]]></item>
+
+  <!--stats -->
+  <item name="equipment_device_statistic_label_no_pet"><![CDATA[You don't have a P.E.T.]]></item>
+  <item name="equipment_device_statistic_label_no_drones"><![CDATA[You don't have any drones.]]></item>
+
+  <item name="equipment_device_statistic_hull"><![CDATA[Hull]]></item>
+  <item name="equipment_device_statistic_nanohull"><![CDATA[Nanohull]]></item>
+  <item name="equipment_device_statistic_laser_dmg"><![CDATA[Laser-Damage]]></item>
+  <item name="equipment_device_statistic_speed"><![CDATA[Speed]]></item>
+  <item name="equipment_device_statistic_shield_capacity"><![CDATA[Shield Capacity]]></item>
+  <item name="equipment_device_statistic_shield_hull"><![CDATA[Shield Hull Distribution]]></item>
+
+  <item name="equipment_device_statistic_pet_name"><![CDATA[Name]]></item>
+  <item name="equipment_device_statistic_pet_fuel"><![CDATA[Fuel]]></item>
+  <item name="equipment_device_statistic_pet_lvl"><![CDATA[Level]]></item>
+  <item name="equipment_device_statistic_pet_xp"><![CDATA[P.E.T. XP]]></item>
+  <item name="equipment_device_statistic_pet_hp"><![CDATA[Health]]></item>
+  <item name="equipment_device_statistic_pet_laserdmg"><![CDATA[Laser Damage]]></item>
+  <item name="equipment_device_statistic_pet_shield_capacity"><![CDATA[Shield Capacity]]></item>
+  <item name="equipment_device_statistic_pet_damage_distribution"><![CDATA[Shield Hull Distribution]]></item>
+
+  <item name="equipment_device_statistic_drone_lvl"><![CDATA[Level]]></item>
+  <item name="equipment_device_statistic_drone_damage"><![CDATA[Received Damage]]></item>
+  <item name="equipment_device_statistic_drone_buff"><![CDATA[Damage / Shield Bonus]]></item>
+  <item name="equipment_device_statistic_drone_xp"><![CDATA[Drone XP]]></item>
+  <item name="equipment_device_statistic_drone_next_lvl_xp"><![CDATA[XP for next level]]></item>
+
+  <!-- messages -->
+  <item name="msg_sastarted"><![CDATA[Activating new ship]]></item>
+   
+  <!-- error-codes -->
+  <item name="equipment_popup.error.title"><![CDATA[Error]]></item>
+  <item name="NO_SUCH_SHIP"><![CDATA[ERROR !!!\nThe requested ship could not be found.]]></item>
+  <item name="NO_SUCH_HANGAR"><![CDATA[ERROR !!!\nThe requested hangar could not be found.]]></item>
+  <item name="USER_HAS_NO_PET"><![CDATA[ERROR !!!\nYou don't have a P.E.T.]]></item>
+  <item name="INCORRECT_PRICE"><![CDATA[ERROR !!!\nThis price is incorrect.]]></item>
+  <item name="NOT_ENOUGH_MONEY"><![CDATA[ERROR !!!\nYou have insufficient funds.]]></item>
+  <item name="INCORRECT_SLOT_INDEX"><![CDATA[ERROR !!!\nThat's the wrong slot.]]></item>
+  <item name="NO_SUCH_DRONE"><![CDATA[ERROR !!!\nThe requested drone could not be found.]]></item>
+  <item name="WRONG_SHIP_ID_OR_CONFIG"><![CDATA[ERROR !!!\nShip or configuration not found.]]></item>
+  <item name="TOO_MANY_HANGARS"><![CDATA[ERROR !!!\nYou have too many hangars.]]></item>
+  <item name="NOT_PREMIUM_USER"><![CDATA[ERROR !!!\nYou do not have a Premium account.]]></item>
+  <item name="INVALID_NAME"><![CDATA[ERROR !!!\nThat is an invalid name.]]></item>
+  <item name="NO_SUCH_DESIGN"><![CDATA[ERROR !!!\nThe requested design could not be found.]]></item>
+  <item name="SOME_ITEMS_WERE_NOT_EQUIPPED"><![CDATA[ERROR !!!\nSome items could not be equipped.]]></item>
+  <item name="ILLEGAL_TARGET_SHIPACTIVATION"><![CDATA[ERROR !!!\nThis target can't be activated.]]></item>
+</resource>

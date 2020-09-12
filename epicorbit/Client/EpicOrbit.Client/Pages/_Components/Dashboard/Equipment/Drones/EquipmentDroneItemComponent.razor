@@ -1,0 +1,18 @@
+﻿@inherits EquipmentDroneItemComponentController
+
+<div class="row col-lg-12 m-2">
+    <div class="col-log-3">
+        <img class="bg-gray-400 mt-1" src="@(GetImagePath())" style="height: 68px; width: 68px; box-sizing: content-box; margin:auto" />
+    </div>
+    <div class="col-log-5">
+        <div style="display: flex; flex-wrap: wrap; flex-direction: column">
+            @for (int i = 0; i < Drone.Slots; i++) {
+                <EquipmentSlotComponent Index="i" Items="Slots" ClickHandler="ItemClicked" />
+            }
+        </div>
+    </div>
+    <div class="col-log-4 ml-3">
+        <b>Design: </b>
+        <EquipmentSlotComponent Index="0" Items="Designs" ClickHandler="DesignClicked" />
+    </div>
+</div>

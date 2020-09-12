@@ -1,0 +1,73 @@
+﻿@inherits ClanController
+
+<DashboardLayout>
+    <CenteredComponent Size="12" Class="py-3">
+        <CardComponent Type="secondary" Class="@Padding">
+            <LoadingComponent Loading="@Loading" Text="Loading clans">
+
+                <div class="ct-page-title">
+                    <h1 class="ct-title" id="content">Clan</h1>
+                    <div class="avatar-group mt-3"></div>
+                </div>
+
+                <div class="row">
+                    <div class="btn-group-vertical btn-group-toggle col-lg-3 p-0 pr-2" data-toggle="buttons" style="width: 100%; height: 400px; justify-content: flex-start">
+                        @if (PlayerIsInClan) {
+                            <label class="btn btn-default active" onclick="@(() => ChangeView(0))">
+                                <input type="radio" autocomplete="off"> Overview
+                            </label>
+                            <label class="btn btn-default" onclick="@(() => ChangeView(1))">
+                                <input type="radio" autocomplete="off"> Members
+                            </label>
+                            <label class="btn btn-default" onclick="@(() => ChangeView(2))">
+                                <input type="radio" autocomplete="off"> Messages
+                            </label>
+                            <label class="btn btn-default" onclick="@(() => ChangeView(3))">
+                                <input type="radio" autocomplete="off"> Diplomacy
+                            </label>
+                        } else {
+                            <label class="btn btn-default active" onclick="@(() => ChangeView(0))">
+                                <input type="radio" autocomplete="off"> Join
+                            </label>
+                            <label class="btn btn-default" onclick="@(() => ChangeView(1))">
+                                <input type="radio" autocomplete="off"> Create
+                            </label>
+                        }
+                        <label class="btn btn-default" onclick="@(() => ChangeView(4))">
+                            <input type="radio" autocomplete="off"> Company
+                        </label>
+                    </div>
+
+                    <div class="col-lg-9 p-0">
+                        @switch (View) {
+                            case 0: // join / overview
+                                if (PlayerIsInClan) { // overview
+                                    <ClanOverviewComponent Clan="@Current" />
+                                } else { // join
+                                    <ClanJoinComponent />
+                                }
+                                break;
+                            case 1: // create / members
+                                if (PlayerIsInClan) {
+                                    <ClanMembersComponent ReloadP="@Reload" Clan="@Current" />
+                                } else {
+                                    <ClanCreateComponent Reload="@Reload" />
+                                }
+                                break;
+                            case 2: // messages
+                                break;
+                            case 3: // diplomacy
+                                if (PlayerIsInClan) {
+                                    <ClanDiplomacyComponent Clan="@Current" />
+                                }
+                                break;
+                            case 4: // company
+                                break;
+                        }
+                    </div>
+                </div>
+
+            </LoadingComponent>
+        </CardComponent>
+    </CenteredComponent>
+</DashboardLayout>

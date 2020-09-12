@@ -1,0 +1,15 @@
+﻿@page "/game/{token}"
+@inherits GameController
+@layout DefaultLayout
+
+<div class="app-content">
+    <div class="fightzone-content">
+        @if (LoadGame) {
+            <div id="game_container"></div>
+        } else {
+            <p><b>Failed to load game, because the session you are using expired!</b></p>
+        }
+    </div>
+</div>
+
+

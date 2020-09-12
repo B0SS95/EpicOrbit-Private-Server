@@ -1,0 +1,90 @@
+﻿@inherits ClanMembersComponentController
+@using EpicOrbit.Shared.ViewModels.Account;
+@using EpicOrbit.Shared.Enumerables;
+
+<ClanPendingInspectModalComponent Selected="@Selected" Reload="@Reload" />
+<ClanManageMemberModalComponent Current="@Current" Selected="@Selected" Reload="@Reload" />
+<ClanManageClanModalComponent Clan="@Clan" Reload="@ReloadP" />
+
+<LoadingComponent Loading="@Loading" Text="Loading members">
+    <div class="app-content pb-2" style="height: 400px">
+        <ul class="list-group list-group-flush list my--3" style="flex-grow: 1; overflow-y: auto">
+            @foreach (AccountClanView member in Members) {
+                <li class="list-group-item">
+                    <div class="row align-items-center">
+                        <div class="col-auto">
+                            <a href="#" class="avatar rounded-circle">
+                                <ClanMembersShipComponent Ship="@member.Ship" Company="@member.Faction" />
+                            </a>
+                        </div>
+                        <div class="col ml--2">
+                            <h4 class="mb-0">
+                                <a><RankComponent RankID="@member.RankID" /> @member.Username <CompanyComponent Faction="@member.Faction" /> (@member.Role.ToString().Replace("_", " "))</a>
+                            </h4>
+                            <h5 class="mb-0">
+                                <a>Experience: @string.Format("{0:n0}", member.Experience) (Level: @member.Level)</a>
+                            </h5>
+
+                            @if (member.Online) {
+                                <span class="text-success">●</span>
+                                <small>Online (Map: @member.Map, Position: @(member.Position.X / 100)/@(member.Position.Y / 100))</small>
+                            } else {
+                                <span class="text-danger">●</span>
+                                <small>Offline</small>
+                            }
+                        </div>
+                        <div class="col-auto">
+                            @if (member.ID == Current.ID) {
+                                if (Role == ClanRole.LEADER) {
+                                    <a data-toggle="modal" href="#manageClan" class="btn btn-sm btn-default">Manage Clan</a>
+                                }
+                                <button type="button" onclick="@Leave" class="btn btn-sm btn-danger">Leave</button>
+                            } else if (Role >= ClanRole.VICE_LEADER && Role > member.Role) {
+                                <a data-toggle="modal" href="#manageMemberClan" onclick="@(() => Change(member))" class="btn btn-sm btn-primary">Manage</a>
+                                <button type="button" onclick="@(() => Kick(member))" class="btn btn-sm btn-warning">Kick</button>
+                            }
+                        </div>
+                    </div>
+                </li>
+            }
+
+            @if (Pending.Count > 0) {
+                <div class="col-lg-12" style="border-top: 2px solid #5e72e4;"></div>
+                <h5 style="text-align: center" class="pt-2"><b>Pending</b></h5>
+            }
+
+            @foreach (AccountClanView member in Pending) {
+                <li class="list-group-item">
+                    <div class="row align-items-center">
+                        <div class="col-auto">
+                            <a href="#" class="avatar rounded-circle">
+                                <ClanMembersShipComponent Ship="@member.Ship" Company="@member.Faction" />
+                            </a>
+                        </div>
+                        <div class="col ml--2">
+                            <h4 class="mb-0">
+                                <a><RankComponent RankID="@member.RankID" /> @member.Username <CompanyComponent Faction="@member.Faction" /></a>
+                            </h4>
+                            <h5 class="mb-0">
+                                <a>Experience: @string.Format("{0:n0}", member.Experience) (Level: @member.Level)</a>
+                            </h5>
+
+                            @if (member.Online) {
+                                <span class="text-success">●</span>
+                                <small>Online (Map: @member.Map)</small>
+                            } else {
+                                <span class="text-danger">●</span>
+                                <small>Offline</small>
+                            }
+                        </div>
+                        <div class="col-auto">
+                            @if (Role >= ClanRole.VICE_LEADER) {
+                                <a data-toggle="modal" href="#inspectPendingClan" onclick="@(() => Change(member))" class="btn btn-sm btn-primary">Inspect</a>
+                            }
+                        </div>
+                    </div>
+                </li>
+            }
+        </ul>
+    </div>
+</LoadingComponent>

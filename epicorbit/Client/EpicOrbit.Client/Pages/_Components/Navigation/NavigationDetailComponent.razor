@@ -1,0 +1,30 @@
+﻿@inherits NavigationDetailComponentController
+
+<div class="row m-0 mt-4">
+    <div class="container">
+        <div class="row px-3 justify-content-end" style="background: #172b4db0; color: white;">
+            <div class="s-nav-item p-3 text-center">
+                <a>
+                    <b>ID: </b>
+                    <span>@Account.ID</span>
+                </a>
+            </div>
+            <div class="s-nav-item p-3 text-center"></div>
+            <div class="s-nav-item p-3 text-center"></div>
+            <div class="s-nav-item p-3 text-center"></div>
+            <div class="s-nav-item p-3 text-center"></div>
+            <div class="s-nav-item p-3 text-center">
+                <a>
+                    <b>C</b>
+                    <span>@string.Format("{0:n0}", Account.Credits)</span>
+                </a>
+            </div>
+            <div class="s-nav-item p-3 text-center">
+                <a>
+                    <b>U</b>
+                    <span>@string.Format("{0:n0}", Account.Uridium)</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

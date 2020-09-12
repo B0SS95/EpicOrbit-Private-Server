@@ -1,0 +1,78 @@
+﻿@inherits EquipmentComponentController
+
+<div class="ct-page-title">
+    <h1 class="ct-title" id="content">
+        @Ship.Description
+        <button class="@(SelectedConfiguration == 1 ? ButtonActive : ButtonNormal)" type="button" onclick="@(() => ChangeConfiguration(1))">
+            <span class="btn-inner--text">1</span>
+        </button>
+        <button class="@(SelectedConfiguration == 2 ? ButtonActive : ButtonNormal)" type="button" onclick="@(() => ChangeConfiguration(2))">
+            <span class="btn-inner--text">2</span>
+        </button>
+    </h1>
+    <div class="avatar-group mt-3"></div>
+
+    <div class="p-1" style="position: absolute; right:0; top: 0">
+
+        <button type="button" class="btn btn-icon btn-2 btn-info mr-0" data-toggle="modal" data-target="#modal-notification">
+            <span class="btn-inner--icon"><i class="fas fa-question"></i></span>
+        </button>
+        <div class="modal fade" id="modal-notification" tabindex="-1" role="dialog" aria-labelledby="modal-notification" style="display: none;" aria-hidden="true">
+            <div class="modal-dialog modal-danger modal-dialog-centered modal-" role="document">
+                <div class="modal-content bg-gradient-danger">
+                    <div class="modal-header">
+                        <h6 class="modal-title" id="modal-title-notification">Help: How to use Equipment?</h6>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">×</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="py-3 text-center">
+                            <i class="ni ni-bell-55 ni-3x"></i>
+                            <h4 class="heading mt-4">Use your <b>right mouse button</b> to equip or unequip items!</h4>
+                            <img style="width: 80%" src="./assets/img/right_mouse_button.png" />
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-link text-white ml-auto" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <button class="btn btn-icon btn-2 btn-success mr-0" type="button" onclick="@SaveHandler">
+            <span class="btn-inner--icon"><i class="fas fa-check"></i></span>
+        </button>
+        <button class="btn btn-icon btn-2 btn-danger mr-0" type="button" onclick="@CloseHandler">
+            <span class="btn-inner--icon"><i class="fas fa-times"></i></span>
+        </button>
+    </div>
+</div>
+
+<div class="row">
+    <div class="btn-group btn-group-toggle pb-2" data-toggle="buttons" style="width: 100%">
+        <label class="btn btn-default col-lg-4 active" onclick="@(() => ChangeView(0))">
+            <input type="radio" autocomplete="off"> Ship
+        </label>
+        <label class="btn btn-default col-lg-4" onclick="@(() => ChangeView(1))">
+            <input type="radio" autocomplete="off"> Drones
+        </label>
+        <label class="btn btn-default col-lg-4" onclick="@(() => ChangeView(2))">
+            <input type="radio" autocomplete="off"> P.E.T
+        </label>
+    </div>
+</div>
+
+<div oncontextmenu="return false">
+    @switch (View) {
+        case 0: // ship
+            <EquipmentShipComponent Ship="@Ship" Company="@Company" Configuration="@Configuration" Vault="@Vault" />
+            break;
+        case 1: // drones
+            <EquipmentDroneComponent Configuration="@Configuration" Vault="@Vault" />
+            break;
+        case 2: // pet
+
+            break;
+    }
+</div>

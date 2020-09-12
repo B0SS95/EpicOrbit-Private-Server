@@ -1,0 +1,11 @@
+﻿@inherits NotificationContainerComponentController
+
+@if (NotificationList.Any()) {
+    <div class="notification-container position-topright">
+        <CascadingValue Value=this>
+            @foreach (var notification in NotificationList) {
+                @notification.Value
+            }
+        </CascadingValue>
+    </div>
+}

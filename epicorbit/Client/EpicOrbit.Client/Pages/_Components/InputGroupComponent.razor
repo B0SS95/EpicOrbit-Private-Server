@@ -1,0 +1,12 @@
+﻿@inherits InputGroupComponentController
+
+<div class="form-group @Class">
+    <div class="input-group input-group-alternative">
+        @if (!string.IsNullOrWhiteSpace(Icon)) {
+            <div class="input-group-prepend">
+                <span class="input-group-text"><i class="@Icon"></i></span>
+            </div>
+        }
+        @ChildContent
+    </div>
+</div>

@@ -1,0 +1,7 @@
+﻿@inherits ShipItemComponentController
+
+<div class="@(Active ? "bg-default" : "bg-gray-400") p-2 m-2"
+     style="width: 100px; height: 100px; box-sizing: content-box;"
+     onclick="@(() => Click(Ship))">
+    <img src="@(GetImagePath())">
+</div>

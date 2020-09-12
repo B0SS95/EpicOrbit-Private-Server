@@ -1,0 +1,89 @@
+﻿.notification-container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    z-index: 1;
+}
+
+.notification {
+    display: flex;
+    flex-direction: row;
+    animation: fadein 1.5s;
+    margin-bottom: 1rem;
+    padding: 1rem 1.25rem;
+    color: #fff;
+    width: 30rem;
+    border-radius: .25rem;
+    font-family: monospace;
+    box-shadow: rgba(0,0,0,0.25) 0px 10px 40px;
+}
+
+.notification-info {
+    background-color: #34a9ad;
+}
+
+.notification-success {
+    background-color: #5fba7d;
+}
+
+.notification-warning {
+    background-color: #c1c13e;
+}
+
+.notification-error {
+    background-color: #ba5e5e;
+}
+
+.notification-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 1rem;
+    font-size: 2.5rem;
+}
+
+.notification-body {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+    .notification-body .notification-header {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+        .notification-body .notification-header h5 {
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 1.5rem;
+            margin-bottom: 0;
+            line-height: 32px;
+        }
+
+        .notification-body .notification-header button {
+            background-color: transparent;
+            border: 0;
+            -webkit-appearance: none;
+            cursor: pointer;
+            color: #fff;
+            font-size: 1.25rem;
+        }
+
+    .notification-body p {
+        margin-bottom: 0;
+        font-size: 1rem;
+    }
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

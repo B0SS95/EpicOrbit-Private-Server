@@ -1,0 +1,128 @@
+﻿@inherits ClanDiplomacyComponentController
+@using EpicOrbit.Shared.ViewModels.Clan;
+@using EpicOrbit.Shared.Enumerables;
+
+<ClanDiplomacyCreateModalComponent Current="@Clan" />
+
+<LoadingComponent Loading="@Loading" Text="Loading diplomacies">
+    <div class="app-content pb-2" style="height: 400px">
+        <ul class="list-group list-group-flush list my--3" style="flex-grow: 1; overflow-y: auto">
+            @if (Diplomacies.Count == 0) {
+                <h5 style="text-align: center" class="pt-2"><b>No diplomacies active or pending!</b></h5>
+            }
+
+            @foreach (ClanDiplomacyView diplomacyView in Diplomacies) {
+                <li class="list-group-item">
+                    <div class="row align-items-center">
+                        <div class="col-auto">
+                            @switch (diplomacyView.Type) {
+                                case ClanRelationType.ALLY:
+                                    <a href="#" class="avatar rounded-circle" style="background-color: yellowgreen"></a>
+                                    break;
+                                case ClanRelationType.NON_AGGRESSION:
+                                    <a href="#" class="avatar rounded-circle" style="background-color: yellow"></a>
+                                    break;
+                                case ClanRelationType.WAR:
+                                    <a href="#" class="avatar rounded-circle" style="background-color: red"></a>
+                                    break;
+                            }
+
+                        </div>
+                        <div class="col ml--2">
+                            <h4 class="mb-0">
+                                <a><b>[@diplomacyView.Clan.Tag] @diplomacyView.Clan.Name</b></a>
+                            </h4>
+                            <h5 class="mb-0">
+                                <a>@diplomacyView.Type.ToString().Replace("_", " ") since @diplomacyView.CreationDate.ToString("dd.MM.yyyy HH:mm") (@((DateTime.Now - diplomacyView.CreationDate).TotalDays) Day(s))</a>
+                            </h5>
+                        </div>
+                        <div class="col-auto">
+                            @if (Role >= ClanRole.DIPLOMAT) {
+                                <a class="btn btn-sm btn-warning">End Diplomacy</a>
+                            }
+                        </div>
+                    </div>
+                </li>
+            }
+
+            @if (Pending.Count(x => x.InitiatorID != Clan.ID) > 0) {
+                <div class="col-lg-12" style="border-top: 2px solid #5e72e4;"></div>
+                <h5 style="text-align: center" class="pt-2"><b><i class="fas fa-angle-left"></i> Pending Incoming</b></h5>
+            }
+
+            @foreach (ClanDiplomacyView diplomacyView in Pending.Where(x => x.InitiatorID != Clan.ID)) {
+                <li class="list-group-item">
+                    <div class="row align-items-center">
+                        <div class="col-auto">
+                            @switch (diplomacyView.Type) {
+                                case ClanRelationType.ALLY:
+                                    <a href="#" class="avatar rounded-circle" style="background-color: yellowgreen"></a>
+                                    break;
+                                case ClanRelationType.NON_AGGRESSION:
+                                    <a href="#" class="avatar rounded-circle" style="background-color: yellow"></a>
+                                    break;
+                                case ClanRelationType.WAR:
+                                    <a href="#" class="avatar rounded-circle" style="background-color: red"></a>
+                                    break;
+                            }
+                        </div>
+                        <div class="col ml--2">
+                            <h4 class="mb-0">
+                                <a><b>[@diplomacyView.Clan.Tag] @diplomacyView.Clan.Name</b></a>
+                            </h4>
+                            <h5 class="mb-0">
+                                <a>@(diplomacyView.Type == ClanRelationType.WAR ? "End WAR" : diplomacyView.Type.ToString().Replace("_", " ")) requested since @diplomacyView.CreationDate.ToString("dd.MM.yyyy HH:mm") (@((DateTime.Now - diplomacyView.CreationDate).TotalDays) Day(s))</a>
+                            </h5>
+                        </div>
+                        <div class="col-auto">
+                            @if (Role >= ClanRole.DIPLOMAT) {
+                                <a data-toggle="modal" href="#inspectPendingDiplomacy" onclick="@(() => Change(diplomacyView))" class="btn btn-sm btn-primary">Inspect</a>
+                            }
+                        </div>
+                    </div>
+                </li>
+            }
+
+            @if (Pending.Count(x => x.InitiatorID == Clan.ID) > 0) {
+                <div class="col-lg-12" style="border-top: 2px solid #5e72e4;"></div>
+                <h5 style="text-align: center" class="pt-2"><b>Pending Outgoing <i class="fas fa-angle-right"></i></b></h5>
+            }
+
+            @foreach (ClanDiplomacyView diplomacyView in Pending.Where(x => x.InitiatorID == Clan.ID)) {
+                <li class="list-group-item">
+                    <div class="row align-items-center">
+                        <div class="col-auto">
+                            @switch (diplomacyView.Type) {
+                                case ClanRelationType.ALLY:
+                                    <a href="#" class="avatar rounded-circle" style="background-color: yellowgreen"></a>
+                                    break;
+                                case ClanRelationType.NON_AGGRESSION:
+                                    <a href="#" class="avatar rounded-circle" style="background-color: yellow"></a>
+                                    break;
+                                case ClanRelationType.WAR:
+                                    <a href="#" class="avatar rounded-circle" style="background-color: red"></a>
+                                    break;
+                            }
+                        </div>
+                        <div class="col ml--2">
+                            <h4 class="mb-0">
+                                <a><b>[@diplomacyView.Clan.Tag] @diplomacyView.Clan.Name</b></a>
+                            </h4>
+                            <h5 class="mb-0">
+                                <a>@(diplomacyView.Type == ClanRelationType.WAR ? "End WAR" : diplomacyView.Type.ToString().Replace("_", " ")) requested since @diplomacyView.CreationDate.ToString("dd.MM.yyyy HH:mm") (@((DateTime.Now - diplomacyView.CreationDate).TotalDays) Day(s))</a>
+                            </h5>
+                        </div>
+                        <div class="col-auto">
+                            @if (Role >= ClanRole.DIPLOMAT) {
+                                <a data-toggle="modal" href="#inspectPendingDiplomacy" onclick="@(() => Change(diplomacyView))" class="btn btn-sm btn-warning">Delete Request</a>
+                            }
+                        </div>
+                    </div>
+                </li>
+            }
+        </ul>
+    </div>
+    <div class="row" style="justify-content:flex-end">
+        <a data-toggle="modal" href="#newDiplomacy" style="margin-bottom: 0 !important" class="btn btn-default"><i class="fas fa-plus"></i> New</a>
+    </div>
+</LoadingComponent>

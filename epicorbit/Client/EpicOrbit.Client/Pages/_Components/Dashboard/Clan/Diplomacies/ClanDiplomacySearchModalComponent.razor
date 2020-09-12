@@ -1,0 +1,93 @@
+﻿@inherits ClanDiplomacySearchModalComponentController
+@using EpicOrbit.Shared.Enumerables;
+@using EpicOrbit.Shared.ViewModels.Clan;
+
+<div class="modal fade" id="searchClan" tabindex="-1" role="dialog" aria-labelledby="searchClanLabel" aria-hidden="true" style="z-index: 10000">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel"><b>Select Clan</b></h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body pt-0">
+
+                <LoadingComponent Loading="@Loading" Text="Loading clans">
+                    <div class="row" style="justify-content:flex-end">
+                        <InputGroupComponent Icon="fas fa-search" Class="my-2">
+                            <input class="form-control" placeholder="Search" type="text" bind="@Query" />
+                            <div class="input-group-append">
+                                <button onclick="@Refresh" style="margin-bottom: 0 !important" class="btn btn-default">Search <i class="fas fa-angle-right"></i></button>
+                            </div>
+                        </InputGroupComponent>
+                    </div>
+                    <div class="app-content" style="height: 400px">
+                        <div class="table-responsive" style="flex-grow: 1">
+                            <table class="table align-items-center">
+                                <thead class="thead-light">
+                                    <tr>
+                                        <th scope="col">Rank</th>
+                                        <th scope="col">Tag</th>
+                                        <th scope="col">Name</th>
+                                        <th scope="col">Members</th>
+                                        <th scope="col">Points</th>
+                                        <th scope="col"></th> <!-- für join knopf -->
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (ClanView clanView in Clans.Items) {
+                                        @if (clanView.ID == Current.ID) { continue; }
+
+                                        <tr>
+                                            <td>@(clanView.Pending ? "Pending" : clanView.Rank + ".")</td>
+                                            <td>[@clanView.Tag]</td>
+                                            <td>@clanView.Name</td>
+                                            <td>@clanView.MembersCount / 50</td>
+                                            <td>@string.Format("{0:n0}", clanView.Points)</td>
+                                            <td class="text-center">
+                                                <button type="button" class="btn btn-sm btn-secondary" onclick="@(() => Select(clanView))" data-dismiss="modal">Select</button>
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                        <nav class="pt-3" aria-label="clan pagination">
+                            <ul class="pagination justify-content-center">
+
+                                @if (Page > 1) {
+                                    <li class="page-item">
+                                        <a class="page-link" href="#" onclick="@(() => ChangePage(-1))" tabindex="-1">
+                                            <i class="fa fa-angle-left"></i>
+                                            <span class="sr-only">Previous</span>
+                                        </a>
+                                    </li>
+                                    <li class="page-item"><a class="page-link" href="#" onclick="@(() => ChangePage(-1))">@(Page - 1)</a></li>
+                                }
+
+                                <li class="page-item active"><a class="page-link" href="#">@Page</a></li>
+
+                                @if (TotalPages < Page) {
+                                    <li class="page-item"><a class="page-link" href="#" onclick="@(() => ChangePage(1))">@(Page + 1)</a></li>
+
+                                    <li class="page-item">
+                                        <a class="page-link" href="#" onclick="@(() => ChangePage(1))">
+                                            <i class="fa fa-angle-right"></i>
+                                            <span class="sr-only">Next</span>
+                                        </a>
+                                    </li>
+                                }
+
+                            </ul>
+                        </nav>
+                    </div>
+                </LoadingComponent>
+
+            </div>
+            <div class="modal-footer pt-0">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>

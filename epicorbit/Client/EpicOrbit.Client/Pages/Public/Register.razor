@@ -1,0 +1,71 @@
+﻿@inherits RegisterController
+
+<PublicLayout>
+    <CenteredComponent Size=5>
+        <div class="pb-5">
+            <img src="./assets/img/logo.png" style="max-width: 100%; display: block; margin: auto;">
+        </div>
+
+        <CardComponent Class="px-lg-5 py-lg-5" ParentClass="mb-3">
+            <LoadingComponent Loading="@Loading">
+                @if (FactionChooseVisible) {
+                    <div class="text-center text-muted mb-4">
+                        <small>Choose your company!</small>
+                    </div>
+                    <form role="form">
+                        <InputGroupComponent>
+                            <div class="btn-group-vertical" role="group" style="width: 100%">
+                                <button onclick="@(() => Register(1))" type="button" class="btn btn-warning">
+                                    MMO
+                                </button>
+                                <button onclick="@(() => Register(2))" type="button" class="btn btn-primary">
+                                    EIC
+                                </button>
+                                <button onclick="@(() => Register(3))" type="button" class="btn btn-success">
+                                    VRU
+                                </button>
+                            </div>
+                        </InputGroupComponent>
+                    </form>
+                } else {
+                    <div class="text-center text-muted mb-4">
+                        <small>Register and start your journey!</small>
+                    </div>
+                    <form role="form">
+                        <InputGroupComponent Icon="fas fa-user" Class="mb-3">
+                            <input class="form-control" placeholder="Username" type="text" bind="@Username" />
+                        </InputGroupComponent>
+                        <InputGroupComponent Icon="fas fa-lock">
+                            <input class="form-control" placeholder="Password" type="password" bind="@Password" />
+                        </InputGroupComponent>
+                        <InputGroupComponent Icon="fas fa-lock">
+                            <input class="form-control" placeholder="Password Confirmation" type="password" bind="@PasswordConfirmation" />
+                        </InputGroupComponent>
+                        <InputGroupComponent Icon="fas fa-envelope">
+                            <input class="form-control" placeholder="E-Mail address" type="email" bind="@Email" />
+                        </InputGroupComponent>
+                        <div class="text-right">
+                            <button onclick="@ToggleFactionView" style="margin-bottom: 0 !important" type="button" class="btn btn-default my-4">Next <i class="fas fa-angle-right"></i></button>
+                        </div>
+                    </form>
+                }
+            </LoadingComponent>
+        </CardComponent>
+
+        @if (!Loading) {
+            <div class="row">
+                <div class="col-6">
+                    @if (FactionChooseVisible) {
+                        <a onclick="@ToggleFactionView" class="text-light">
+                            <small style="color: yellow; text-shadow: 2px 2px 10px black;"><b><i class="fas fa-angle-left"></i> Back</b></small>
+                        </a>
+                    } else {
+                        <a href="#" onclick=@(() => ComponentService.Show(new Login())) class="text-light">
+                            <small style="color: yellow; text-shadow: 2px 2px 10px black;"><b><i class="fas fa-angle-left"></i> Log into an existing account</b></small>
+                        </a>
+                    }
+                </div>
+            </div>
+        }
+    </CenteredComponent>
+</PublicLayout>

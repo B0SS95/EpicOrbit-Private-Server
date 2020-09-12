@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language key="dev">
+ <category name="">
+  <item name="btn_label_start"><![CDATA[START]]></item>
+  <item name="btn_label_claim"><![CDATA[CLAIM]]></item>
+  <item name="btn_label_loading"><![CDATA[LOADING]]></item>
+  <item name="btn_label_loadstarsystem"><![CDATA[LOAD STAR SYSTEM]]></item>
+  
+  <item name="login_bonus_panel_title"><![CDATA[DAILY LOGIN BONUS]]></item>
+  <item name="login_bonus_item_headline"><![CDATA[Day %VALUE%]]></item>
+  <item name="login_bonus_button_get_premium"><![CDATA[Get PREMIUM]]></item>
+  <item name="login_bonus_item_headline_premium"><![CDATA[With PREMIUM you also get:]]></item>
+  <item name="login_bonus_item_premium_buybutton"><![CDATA[Buy PREMIUM now]]></item>
+  <item name="login_bonus_calendar_expires"><![CDATA[Calendar resets in %VALUE%]]></item>
+  <item name="login_bonus_tooltip_info_premiumitem"><![CDATA[To claim the Premium 25th day reward you MUST have active PREMIUM Membership before accepting the standard 25th day reward!]]></item>
+  <item name="login_bonus_tooltip_info_items"><![CDATA[Get your daily reward. Don't worry: If you miss a day, you won't lose your progress until the calendar resets.]]></item>
+  <item name="login_bonus_tooltip_info_premiumitem_deactivated"><![CDATA[You have to own an active PREMIUM membership before you can claim the reward.]]></item>
+  <item name="login_booster_time_info"><![CDATA[h]]></item>
+  <item name="login_reward_amount_info"><![CDATA[x%VALUE%]]></item>
+  
+  <item name="login_time_day_short"><![CDATA[d]]></item>
+  <item name="login_time_hour_short"><![CDATA[h]]></item>
+  <item name="login_time_minute_short"><![CDATA[m]]></item>
+ 
+ </category>
+</language>

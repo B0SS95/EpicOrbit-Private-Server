@@ -1,0 +1,24 @@
+﻿@inherits EquipmentDroneComponentController
+
+<div class="row">
+    <div class="col-lg-3 px-0 bg-gray-400"
+         style="display: flex; flex-wrap: wrap; height: 400px; max-height: 400px; overflow-x: hidden; overflow-y: auto;">
+        <EquipmentDroneOverviewComponent Drone="@Strongest" />
+    </div>
+
+    <div class="col-lg-6 px-0 bg-gray-200"
+         style="height: 400px; max-height: 400px; overflow-x: hidden; overflow-y: auto;">
+        @for (int i = 0; i < Configuration.Drones.Count; i++) {
+            <EquipmentDroneItemComponent Pair="Configuration.Drones[i]" Refresh="@StateHasChanged" />
+        }
+    </div>
+
+    <div class="col-lg-3 px-0 bg-gray-400"
+         style="height: 400px;">
+        <div class="col-lg-12" style="max-height: 400px; display: flex; flex-wrap: wrap; overflow-x: hidden; overflow-y: auto; margin:auto;">
+            @for (int i = 0; i < Items.Count; i++) {
+                <EquipmentSlotComponent Index="i" Items="Items" ClickHandler="InventarClickHandler" />
+            }
+        </div>
+    </div>
+</div>

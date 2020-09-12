@@ -1,0 +1,18 @@
+﻿@inherits EquipmentController
+
+<DashboardLayout>
+    <CenteredComponent Size="12" Class="py-3">
+        <CardComponent Type="secondary" Class="@Padding">
+            <LoadingComponent Loading="@Loading" Text="Loading equipment">
+                @if (EquipmentDashboardVisible) {
+                    <EquipmentComponent Ship="@Selected" Company="@Faction" Hangar="@Hangar"
+                                        Vault="@Vault" CloseHandler="@CloseEquipment" SaveHandler="@SaveEquipment" />
+                } else {
+                    <ShipComponent Activate="@Activate" Equipment="@Equipment"
+                                   Ships="@Ships" Active="@Active"
+                                   Company="@Faction" />
+                }
+            </LoadingComponent>
+        </CardComponent>
+    </CenteredComponent>
+</DashboardLayout>

@@ -1,0 +1,23 @@
+﻿@inherits ClanJoinModalComponentController
+
+<div class="modal fade" id="joinClan" tabindex="-1" role="dialog" aria-labelledby="joinClanLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel"><b>Join</b> [@Clan?.Tag] @Clan?.Name</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <InputGroupComponent>
+                    <textarea class="form-control" placeholder="Description" rows="5" bind="@Description"></textarea>
+                </InputGroupComponent>
+            </div>
+            <div class="modal-footer pt-0">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" onclick="@Confirm" data-dismiss="modal">Confirm</button>
+            </div>
+        </div>
+    </div>
+</div>

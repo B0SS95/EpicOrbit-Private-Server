@@ -1,0 +1,79 @@
+﻿html, body, app {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    background-image: url('../img/background.jpg');
+    background-size: cover;
+}
+
+app {
+    display: flex;
+    flex-direction: column;
+}
+
+.app-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.fightzone-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.single-column {
+    column-count: 1 !important;
+}
+
+.s-nav-item {
+    max-width: 14.28571428571429%;
+    flex: 0 0 14.28571428571429%;
+    margin: 0 !important;
+}
+
+    .s-nav-item > .nav-link {
+        font-size: 18px !important;
+    }
+
+.s-nav-item-inverted {
+    max-width: 14.28571428571429%;
+    flex: 0 0 14.28571428571429%;
+    margin: 0 !important;
+    background-color: rgba(255,255,255,.95);
+}
+
+    .s-nav-item-inverted > .nav-link {
+        font-size: 18px !important;
+        color: #172b4db0 !important;
+        font-weight: bold;
+    }
+
+#game_container {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+.bg-gray-200 {
+    background-color: #e9ecef !important;
+}
+
+.bg-gray-400 {
+    background-color: #ced4da !important;
+}
+
+.bg-gray-600 {
+    background-color: #8898aa !important;
+}
+
+.bg-gray-800 {
+    background-color: #32325d !important;
+}
+
+table tbody tr:nth-child(odd) td {
+    background-color: lightgray;
+}

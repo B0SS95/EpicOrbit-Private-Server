@@ -1,0 +1,22 @@
+﻿@inherits ClanPendingInspectModalComponentController
+
+<div class="modal fade" id="inspectPendingClan" tabindex="-1" role="dialog" aria-labelledby="inspectPendingClanLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel"><b>Inspect: </b>@Selected?.Username</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body pt-0">
+                <textarea class="col-lg-12 form-control mt-3" readonly>@Selected?.Message</textarea>
+            </div>
+            <div class="modal-footer pt-0">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-danger" onclick="@Reject" data-dismiss="modal">Reject</button>
+                <button type="button" class="btn btn-success" onclick="@Accept" data-dismiss="modal">Accept</button>
+            </div>
+        </div>
+    </div>
+</div>

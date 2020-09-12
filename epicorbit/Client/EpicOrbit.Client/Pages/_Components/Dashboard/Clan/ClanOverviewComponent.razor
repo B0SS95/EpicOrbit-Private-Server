@@ -1,0 +1,30 @@
+﻿@inherits ClanOverviewComponentController
+
+<div class="table-responsive">
+    <table class="table align-items-center">
+        <tbody>
+            <tr>
+                <td>Name:</td>
+                <td>[@Clan.Tag] @Clan.Name</td>
+            </tr>
+            <tr>
+                <td>Creation Date:</td>
+                <td>@Clan.CreationDate.ToString("dd.MM.yyyy HH:mm")</td>
+            </tr>
+            <tr>
+                <td>Leader:</td>
+                <td>@Clan.LeaderUsername</td>
+            </tr>
+            <tr>
+                <td>Members:</td>
+                <td>@Clan.MembersCount / 50</td>
+            </tr>
+            <tr>
+                <td>Rank:</td>
+                <td>@Clan.Rank. (@Clan.Points Points)</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <textarea class="col-lg-12 form-control mt-3" readonly>@Clan.Description</textarea>
+</div>

@@ -1,0 +1,79 @@
+﻿@inherits NavigationComponentController
+
+<div class="container-fluid" style="background-color: #172b4db0">
+    <div class="row text-center p-4">
+        <div style="font-size: 42px;width: 100%; color:#f4f5f7; letter-spacing: 4px;">
+            <b>Epic</b>Orbit
+        </div>
+
+        <div style="font-size: 18px;width: 100%; color:#f4f5f7">
+            @if (AccountPlayersOnline.Active) {
+                <b style="color: yellowgreen">Online: </b>
+                <span>@AccountPlayersOnline.Count Player@(@AccountPlayersOnline.Count == 1 ? "" : "s")</span>
+            } else {
+                <b style="color: red">Offline</b>
+            }
+        </div>
+
+        <div class="p-3" style="position: absolute; right:0; top: 0">
+            <button class="btn btn-icon btn-2 btn-secondary mr-0" type="button">
+                <span class="btn-inner--icon"><i class="fas fa-cog"></i></span>
+            </button>
+            <button class="btn btn-icon btn-2 btn-secondary" type="button">
+                <span class="btn-inner--icon"><i class="fas fa-sign-out-alt"></i></span>
+            </button>
+        </div>
+    </div>
+</div>
+
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-default py-0" style="background-color: #172b4db0 !important;">
+    <div class="container justify-content-center">
+        <button class="navbar-toggler mb-3" type="button" data-toggle="collapse" data-target="#navbar-default" aria-controls="navbar-default" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbar-default">
+            <div class="navbar-collapse-header">
+                <div class="row justify-content-center">
+                    <div class="collapse-close">
+                        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-default" aria-controls="navbar-default" aria-expanded="false" aria-label="Toggle navigation">
+                            <span></span>
+                            <span></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <ul class="navbar-nav justify-content-center" style="width:100%">
+                <li class="nav-item s-nav-item">
+                    <a class="nav-link text-center pt-3 pb-3" href="#" onclick=@(() => ComponentService.Show(new Pages.Dashboard.Dashboard()))>Home</a>
+                </li>
+
+                <li class="nav-item s-nav-item">
+                    <a class="nav-link text-center pt-3 pb-3" href="#" onclick=@(() => ComponentService.Show(new Pages.Dashboard.Equipment()))>Hangar</a>
+                </li>
+
+                <li class="nav-item s-nav-item">
+                    <a class="nav-link text-center pt-3 pb-3" href="#" onclick=@(() => ComponentService.Show(new Pages.Dashboard.Clan()))>Clan</a>
+                </li>
+
+                <li class="nav-item s-nav-item-inverted">
+                    <a class="nav-link text-center pt-3 pb-3" target="_blank" href="@GameToken">Play</a>
+                </li>
+
+                <li class="nav-item s-nav-item">
+                    <a class="nav-link text-center pt-3 pb-3" href="#" onclick=@(() => ComponentService.Show(new Pages.Dashboard.Shop()))>Shop</a>
+                </li>
+
+                <li class="nav-item s-nav-item">
+                    <a class="nav-link text-center pt-3 pb-3" href="/donate">Donate</a>
+                </li>
+
+                <li class="nav-item s-nav-item">
+                    <a class="nav-link text-center pt-3 pb-3" href="/skills">Skills</a>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+</nav>

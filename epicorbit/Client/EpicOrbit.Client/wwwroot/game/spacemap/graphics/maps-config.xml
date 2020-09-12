@@ -1,0 +1,1860 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<maps>
+    <map id="666" starfield="star_dust_colors_cyan">
+        <display3D templateId="map_666" />
+    </map>
+
+    <map id="1" name="1-1" groupSystemToolTip="1-1 - MMO" music="1" starfield="star_dust_colors_cyan" >
+        <display3D templateId="map_1-1">
+            <light color="0xA3FFFF" diffuse="0.8" specular="1.1" ambientColor="0xFF855C" ambient="0.5" tilt="100" pan="35" />
+        </display3D>
+
+		<backgrounds>
+			<background typeID="2001" pFactor="10" layer="0" hideLensflare="false" scale="2.5" />
+			<background typeID="1" pFactor="10" layer="1" isMain="true" region="2048,1276"/>
+			<background typeID="2013" pFactor="6" layer="3" hideLensflare="false" maskID="17" scale="1.6" />
+			<background typeID="2024" pFactor="3" layer="4" hideLensflare="false" maskID="18" scale="1.8" />
+		</backgrounds>
+		<lensflares>
+			<lensflare id="1" x="1740" y="1106" pFactor="10" star="true" />
+		</lensflares>
+		<planets>
+			<planet typeID="114" x="1110" y="1100" pFactor="9" layer="2" />
+			<planet typeID="115" x="680" y="740" pFactor="5" layer="5" />
+			<planet typeID="116" x="1800" y="250" pFactor="6" layer="6" />
+		</planets>
+	</map>
+	<map id="2" name="1-2" groupSystemToolTip="1-2 - MMO" music="1">
+		<backgrounds>
+			<background typeID="2001" pFactor="10" layer="0" hideLensflare="false" scale="2.5" />
+			<background typeID="2" layer="1" isMain="true" region="2048,1276"/>
+			<background typeID="2013" pFactor="5" layer="5" hideLensflare="false" maskID="17" scale="1.6" />
+			<background typeID="2026" pFactor="6" layer="4" hideLensflare="false" maskID="20" scale="1.6" />
+			<background typeID="2024" pFactor="3" layer="6" hideLensflare="false" maskID="20" scale="1.8" />
+		</backgrounds>
+		<lensflares>
+			<lensflare id="0" x="1710" y="800" pFactor="10" star="true" />
+		</lensflares>
+		<planets>
+			<planet typeID="3" x="492" y="266" pFactor="8" layer="3" />
+			<planet typeID="4" x="492" y="1080" pFactor="6" layer="3" />
+			<planet typeID="193" x="492" y="1080" pFactor="7" layer="2" />
+			<planet typeID="198" x="1560" y="960" pFactor="9" layer="2" />
+			<planet typeID="10" x="1800" y="240" pFactor="8" layer="3" />
+		</planets>
+	</map>
+	<map id="3" name="1-3" groupSystemToolTip="1-3 - MMO" music="1">
+		<starfield>true</starfield>
+		<backgrounds>
+			<background typeID="2001" pFactor="10" layer="0" hideLensflare="false" scale="2.5" />
+			<background typeID="3" layer="1" isMain="true" region="2048,1276"/>
+			<background typeID="2013" pFactor="5" layer="4" hideLensflare="false" maskID="17" scale="1.6" />
+			<background typeID="2024" pFactor="6" layer="3" hideLensflare="false" maskID="20" scale="1.6" />
+			<background typeID="2022" pFactor="3" layer="5" hideLensflare="false" maskID="20" scale="1.8" />
+		</backgrounds>
+		<lensflares>
+			<lensflare id="0" x="1725" y="945" pFactor="10" star="true" />
+		</lensflares>
+		<planets>
+			<planet typeID="185" x="450" y="930" pFactor="9" layer="2" />
+			<planet typeID="13" x="1800" y="960" pFactor="9" layer="2" />
+			<planet typeID="150" x="1580" y="290" pFactor="8" layer="2" />
+			<planet typeID="149" x="580" y="500" pFactor="8" layer="2" />
+		</planets>
+	</map>
+
+	<map id="4" name="1-4" groupSystemToolTip="1-4 - MMO" music="1">
+		<starfield>true</starfield>
+		<backgrounds>
+			<background typeID="2001" pFactor="10" layer="0" hideLensflare="false" scale="2.5" />
+			<background typeID="4" layer="1" isMain="true" region="2048,1276"/>
+			<background typeID="2013" pFactor="5" layer="4" hideLensflare="false" maskID="17" scale="1.6" />
+			<background typeID="2027" pFactor="6" layer="3" hideLensflare="false" maskID="20" scale="1.6" />
+			<background typeID="2028" pFactor="3" layer="5" hideLensflare="false" maskID="20" scale="1.8" />
+		</backgrounds>
+		<lensflares>
+			<lensflare id="0" x="1724" y="360" pFactor="10" star="true" />
+		</lensflares>
+		<planets>
+			<planet typeID="189" x="1774" y="360" pFactor="9" layer="2" />
+			<planet typeID="186" x="450" y="320" pFactor="8" layer="2" />
+			<planet typeID="1" x="1520" y="880" pFactor="8" layer="2" />
+			<planet typeID="2" x="430" y="550" pFactor="9" layer="2" />
+		</planets>
+	</map>
+
+	<map id="5" name="2-1" groupSystemToolTip="2-1 - EIC" music="2">
+		<display3D templateId="map_2-1">
+            <light color="0xA3FFFF" diffuse="0.8" specular="1.1" ambientColor="0xFF855C" ambient="0.5" tilt="100" pan="35" />
+		</display3D>
+
+        <backgrounds>
+            <background typeID="2001" pFactor="10" layer="0" hideLensflare="false" scale="2.5" />
+            <background typeID="5" layer="1" isMain="true" region="2048,1276"/>
+            <background typeID="2022" pFactor="3" layer="4" hideLensflare="false" maskID="16" scale="1.8" />
+        </backgrounds>
+        <lensflares>
+            <lensflare id="0" typeID="0" x="344" y="1114" pFactor="10" star="true" />
+            <lensflare id="1" typeID="2" x="1458" y="628" pFactor="10" star="true" />
+        </lensflares>
+        <planets>
+            <planet typeID="117" x="1762" y="1206" pFactor="9" layer="2" />
+            <planet typeID="118" x="527" y="392" pFactor="8" layer="3" />
+            <planet typeID="121" x="1228" y="550" pFactor="7" layer="5" />
+            <planet typeID="120" x="1096" y="500" pFactor="5" layer="6" />
+            <planet typeID="122" x="1197" y="1000" pFactor="4" layer="7" />
+            <planet typeID="119" x="1978" y="1234" pFactor="3" layer="8" />
+        </planets>
+	</map>
+	<map id="6" name="2-2" groupSystemToolTip="2-2 - EIC" music="2">
+		<backgrounds>
+			<background typeID="2001" pFactor="10" layer="0" hideLensflare="false" scale="2.5" />
+			<background typeID="6" layer="1" isMain="true" region="2048,1276"/>
+			<background typeID="2011" pFactor="5" layer="6" hideLensflare="false" maskID="17" scale="1.6" />
+			<background typeID="2022" pFactor="6" layer="5" hideLensflare="false" maskID="19" scale="1.6" />
+			<background typeID="2023" pFactor="3" layer="7" hideLensflare="false" maskID="20" scale="1.8" />
+		</backgrounds>
+		<lensflares>
+			<lensflare id="0" x="375" y="945" pFactor="10" star="true" />
+			<lensflare id="1" x="1444" y="628" pFactor="10" star="true" typeID="2" />
+		</lensflares>
+		<planets>
+			<planet typeID="17" x="530" y="830" pFactor="7" layer="3" pixelperfectLensflare="true" />
+			<planet typeID="18" x="1030" y="300" pFactor="8" layer="3" />
+			<planet typeID="19" x="1680" y="1000" pFactor="9" layer="2" />
+			<planet typeID="194" x="1770" y="550" pFactor="8" layer="3" />
+			<planet typeID="197" x="1450" y="400" pFactor="9" layer="2" />
+			<planet typeID="144" x="1750" y="630" pFactor="7" layer="4" />
+		</planets>
+	</map>
+	<map id="7" name="2-3" groupSystemToolTip="2-3 - EIC" music="2">
+		<backgrounds>
+			<background typeID="2001" pFactor="10" layer="0" hideLensflare="false" scale="2.5" />
+			<background typeID="7" layer="1" isMain="true" region="2048,1276"/>
+			<background typeID="2011" pFactor="5" layer="4" hideLensflare="false" maskID="17" scale="1.6" />
+			<background typeID="2024" pFactor="6" layer="3" hideLensflare="false" maskID="19" scale="1.6" />
+			<background typeID="2022" pFactor="3" layer="5" hideLensflare="false" maskID="20" scale="1.8" />
+		</backgrounds>
+		<lensflares>
+			<lensflare id="0" x="1725" y="945" pFactor="10" star="true" />
+		</lensflares>
+		<planets>
+			<planet typeID="20" x="340" y="570" pFactor="8" layer="2" />
+			<planet typeID="21" x="1560" y="370" pFactor="7" layer="2" />
+			<planet typeID="22" x="722" y="880" pFactor="8" layer="2" />
+		</planets>
+	</map>
+
+	<map id="8" name="2-4" groupSystemToolTip="2-4 - EIC" music="2">
+		<backgrounds>
+			<background typeID="2001" pFactor="10" layer="0" hideLensflare="false" scale="2.5" />
+			<background typeID="8" layer="1" isMain="true" region="2048,1276"/>
+			<background typeID="2011" pFactor="5" layer="4" hideLensflare="false" maskID="17" scale="1.6" />
+			<background typeID="2025" pFactor="6" layer="3" hideLensflare="false" maskID="19" scale="1.6" />
+			<background typeID="2022" pFactor="3" layer="5" hideLensflare="false" maskID="20" scale="1.8" />
+		</backgrounds>
+		<lensflares>
+			<lensflare id="0" x="375" y="950" pFactor="10" star="true" />
+		</lensflares>
+		<planets>
+			<planet typeID="23" x="570" y="350" pFactor="8" layer="2" />
+			<planet typeID="24" x="1780" y="240" pFactor="9" layer="2" />
+			<planet typeID="153" x="520" y="700" pFactor="9" layer="2" />
+		</planets>
+	</map>
+
+	<map id="9" name="3-1" groupSystemToolTip="3-1 - VRU" music="3">
+        <display3D templateId="map_3-1">
+            <light color="0xA3FFFF" diffuse="0.8" specular="1.1" ambientColor="0xFF855C" ambient="0.5" tilt="100" pan="35" />
+		</display3D>
+
+		<backgrounds>
+			<background typeID="2001" pFactor="10" layer="0" hideLensflare="false" scale="2.5" />
+			<background typeID="9" pFactor="10" layer="1" isMain="true" region="2048,1276"/>
+			<background typeID="2026" pFactor="6" layer="3" hideLensflare="false" maskID="19" scale="1.6" />
+			<background typeID="2027" pFactor="3" layer="5" hideLensflare="false" maskID="20" scale="1.8" />
+		</backgrounds>
+		<lensflares>
+			<lensflare id="0" x="346" y="296" pFactor="10" star="true" />
+		</lensflares>
+		<planets>
+			<planet typeID="123" x="1724" y="1204" pFactor="9" layer="2" />
+			<planet typeID="124" x="479" y="874" pFactor="4" layer="4" />
+			<planet typeID="125" x="1583" y="302" pFactor="4" layer="6" />
+			<planet typeID="126" x="529" y="929" pFactor="2" layer="7" />
+		</planets>
+	</map>
+	<map id="10" name="3-2" groupSystemToolTip="3-2 - VRU" music="3">
+		<starfield>true</starfield>
+		<backgrounds>
+			<background typeID="2001" pFactor="10" layer="0" hideLensflare="false" scale="2.5" />
+			<background typeID="10" layer="1" isMain="true" region="2048,1276"/>
+			<background typeID="2012" pFactor="5" layer="5" hideLensflare="false" maskID="17" scale="1.6" />
+			<background typeID="2027" pFactor="6" layer="4" hideLensflare="false" maskID="19" scale="1.6" />
+			<background typeID="2025" pFactor="3" layer="6" hideLensflare="false" maskID="20" scale="1.8" />
+		</backgrounds>
+		<lensflares>
+			<lensflare id="0" x="590" y="270" pFactor="10" star="true" />
+		</lensflares>
+		<planets>
+			<planet typeID="145" x="1580" y="1010" pFactor="7" layer="4" />
+			<planet typeID="195" x="1480" y="1010" pFactor="8" layer="3" />
+			<planet typeID="146" x="770" y="340" pFactor="8" layer="4" />
+			<planet typeID="147" x="1000" y="1080" pFactor="8" layer="4" />
+			<planet typeID="148" x="1960" y="990" pFactor="7" layer="3" />
+		</planets>
+	</map>
+	<map id="11" name="3-3" groupSystemToolTip="3-3 - VRU" music="3">
+		<starfield>true</starfield>
+		<backgrounds>
+			<background typeID="2001" pFactor="10" layer="0" hideLensflare="false" scale="2.5" />
+			<background typeID="11" layer="1" isMain="true" region="2048,1276"/>
+			<background typeID="2012" pFactor="5" layer="4" hideLensflare="false" maskID="17" scale="1.6" />
+			<background typeID="2022" pFactor="6" layer="3" hideLensflare="false" maskID="20" scale="1.6" />
+			<background typeID="2027" pFactor="3" layer="5" hideLensflare="false" maskID="20" scale="1.8" />
+
+		</backgrounds>
+		<lensflares>
+			<lensflare id="0" x="428" y="288" pFactor="10" star="true" />
+		</lensflares>
+		<planets>
+			<planet typeID="187" x="360" y="960" pFactor="9" layer="2" />
+			<planet typeID="152" x="1610" y="320" pFactor="9" layer="2" />
+			<planet typeID="151" x="330" y="850" pFactor="8" layer="3" />
+		</planets>
+	</map>
+
+	<map id="12" name="3-4" groupSystemToolTip="3-4 - VRU" music="3">
+		<starfield>true</starfield>
+		<backgrounds>
+			<background typeID="2001" pFactor="10" layer="0" hideLensflare="false" scale="2.5" />
+			<background typeID="12" layer="1" isMain="true" region="2048,1276"/>
+			<background typeID="2012" pFactor="5" layer="5" hideLensflare="false" maskID="17" scale="1.6" />
+			<background typeID="2026" pFactor="6" layer="4" hideLensflare="false" maskID="19" scale="1.6" />
+			<background typeID="2027" pFactor="3" layer="6" hideLensflare="false" maskID="20" scale="1.8" />
+		</backgrounds>
+		<lensflares>
+			<lensflare id="0" x="1722" y="360" pFactor="10" star="true" />
+		</lensflares>
+		<planets>
+			<planet typeID="188" x="420" y="500" pFactor="9" layer="2" />
+			<planet typeID="155" x="1750" y="840" pFactor="9" layer="2" />
+			<planet typeID="154" x="570" y="380" pFactor="8" layer="3" />
+		</planets>
+	</map>
+
+	<map id="13" name="4-1" groupSystemToolTip="4-1 - PVP" music="4">
+		<starfield>true</starfield>
+		<backgrounds>
+			<background typeID="2001" pFactor="10" layer="0" hideLensflare="false" scale="2.5" />
+			<background typeID="13" pFactor="10" layer="1" isMain="true"/>
+			<background typeID="2014" pFactor="9" layer="2" hideLensflare="false" maskID="17" scale="1.6" />
+			<background typeID="2028" pFactor="6" layer="6" hideLensflare="false" maskID="18" scale="1.8" />
+		</backgrounds>
+		<lensflares>
+			<lensflare id="0" typeID="2" x="1480" y="672" pFactor="10" star="true" />
+		</lensflares>
+		<planets>
+			<planet typeID="127" x="1931" y="1081" pFactor="7" layer="3" />
+			<planet typeID="128" x="673" y="1039" pFactor="7" layer="4" />
+			<planet typeID="129" x="678" y="165" pFactor="7" layer="5" />
+		</planets>
+	</map>
+	<map id="14" name="4-2" groupSystemToolTip="4-2 - PVP" music="4">
+		<starfield>true</starfield>
+		<backgrounds>
+			<background typeID="2001" pFactor="10" layer="0" hideLensflare="false" scale="2.5" />
+			<background typeID="14" pFactor="10" layer="1" isMain="true"/>
+			<background typeID="2014" pFactor="9" layer="2" hideLensflare="false" maskID="17" scale="1.6" />
+			<background typeID="2028" pFactor="6" layer="6" hideLensflare="false" maskID="18" scale="1.8" />
+		</backgrounds>
+		<lensflares>
+			<lensflare id="0" typeID="2" x="590" y="682" pFactor="10" star="true" />
+		</lensflares>
+		<planets>
+			<planet typeID="127" x="1160" y="395" pFactor="7" layer="3" />
+			<planet typeID="128" x="310" y="265" pFactor="7" layer="4" />
+			<planet typeID="129" x="425" y="985" pFactor="7" layer="5" />
+		</planets>
+	</map>
+	<map id="15" name="4-3" groupSystemToolTip="4-3 - PVP" music="4">
+		<starfield>true</starfield>
+		<backgrounds>
+			<background typeID="2001" pFactor="10" layer="0" hideLensflare="false" scale="2.5" />
+			<background typeID="15" pFactor="10" layer="1" isMain="true" />
+			<background typeID="2014" pFactor="9" layer="2" hideLensflare="false" maskID="17" scale="1.6" />
+			<background typeID="2028" pFactor="6" layer="6" hideLensflare="false" maskID="18" scale="1.8" />
+		</backgrounds>
+		<lensflares>
+			<lensflare id="0" typeID="2" x="560" y="462" pFactor="10" star="true" />
+		</lensflares>
+		<planets>
+			<planet typeID="127" x="325" y="175" pFactor="7" layer="3" />
+			<planet typeID="128" x="1260" y="435" pFactor="7" layer="4" />
+			<planet typeID="129" x="375" y="825" pFactor="7" layer="5" />
+		</planets>
+	</map>
+	<map id="16" name="4-4" groupSystemToolTip="4-4 - PVP" scaleFactor="2" music="4" minimap="16">
+		<starfield>true</starfield>
+		<backgrounds>
+			<background typeID="2001" pFactor="10" layer="0" hideLensflare="false" scale="1.6" />
+			<background typeID="16" pFactor="10" isMain="true" layer="1" region="4096,2600"/>
+			<background typeID="2014" pFactor="8" layer="2" hideLensflare="false" maskID="17" scale="1.4" />
+			<background typeID="2028" pFactor="6" layer="5" hideLensflare="false" maskID="18" scale="1.6" />
+		</backgrounds>
+		<lensflares>
+			<lensflare id="0" typeID="2" x="2200" y="1360" pFactor="10" star="true" />
+		</lensflares>
+		<planets>
+			<planet typeID="130" x="690" y="1788" pFactor="7" layer="3" />
+			<!--planet typeID="131" x="3320" y="1750" pFactor="7" layer="4" /-->
+		</planets>
+	</map>
+	<map id="17" name="1-5" groupSystemToolTip="1-5 - MMO" music="1">
+		<starfield>true</starfield>
+		<backgrounds>
+			<background typeID="2001" pFactor="10" layer="0" hideLensflare="false" scale="2.5" />
+			<background typeID="17" layer="1" isMain="true" region="2048,1276"/>
+			<background typeID="2013" pFactor="5" layer="5" hideLensflare="false" maskID="17" scale="1.6" />
+			<background typeID="2026" pFactor="6" layer="4" hideLensflare="false" maskID="20" scale="1.6" />
+			<background typeID="2024" pFactor="3" layer="6" hideLensflare="false" maskID="20" scale="1.8" />
+		</backgrounds>
+		<lensflares>
+			<lensflare id="0" x="1590" y="810" pFactor="10" star="false" />
+		</lensflares>
+		<planets>
+			<planet typeID="156" x="1090" y="250" pFactor="8" layer="3" />
+			<planet typeID="157" x="492" y="1080" pFactor="7" layer="3" />
+			<planet typeID="169" x="360" y="300" pFactor="9" layer="2" />
+		</planets>
+	</map>
+	<map id="18" name="1-6" groupSystemToolTip="1-6 - MMO" music="1">
+		<starfield>true</starfield>
+		<backgrounds>
+			<background typeID="2001" pFactor="10" layer="0" hideLensflare="false" scale="2.5" />
+			<background typeID="18" layer="1" isMain="true" region="2048,1276"/>
+			<background typeID="2013" pFactor="5" layer="5" hideLensflare="false" maskID="17" scale="1.6" />
+			<background typeID="2026" pFactor="6" layer="4" hideLensflare="false" maskID="20" scale="1.6" />
+			<background typeID="2028" pFactor="3" layer="6" hideLensflare="false" maskID="20" scale="1.8" />
+		</backgrounds>
+		<lensflares>
+			<lensflare id="0" x="1555" y="785" pFactor="10" star="true" />
+		</lensflares>
+		<planets>
+			<planet typeID="159" x="250" y="250" pFactor="8" layer="3" />
+			<planet typeID="158" x="492" y="1080" pFactor="7" layer="3" />
+			<planet typeID="170" x="1200" y="666" pFactor="9" layer="2" />
+		</planets>
+	</map>
+	<map id="19" name="1-7" groupSystemToolTip="1-7 - MMO" music="1">
+		<starfield>true</starfield>
+		<backgrounds>
+			<background typeID="2001" pFactor="10" layer="0" hideLensflare="false" scale="2.5" />
+			<background typeID="19" layer="1" isMain="true" region="2048,1276"/>
+			<background typeID="2013" pFactor="5" layer="5" hideLensflare="false" maskID="17" scale="1.6" />
+			<background typeID="2026" pFactor="6" layer="4" hideLensflare="false" maskID="19" scale="1.6" />
+			<background typeID="2028" pFactor="3" layer="6" hideLensflare="false" maskID="20" scale="1.8" />
+		</backgrounds>
+		<lensflares>
+			<lensflare id="0" x="1225" y="505" pFactor="10" star="true" />
+		</lensflares>
+		<planets>
+			<planet typeID="159" x="250" y="250" pFactor="6" layer="3" />
+			<planet typeID="156" x="492" y="1080" pFactor="6" layer="3" />
+			<planet typeID="171" x="1200" y="666" pFactor="7" layer="2" pixelperfectLensflare="true" />
+		</planets>
+	</map>
+	<map id="20" name="1-8" groupSystemToolTip="1-8 - MMO" music="1">
+		<display3D templateId="map_1-8">
+            <light color="0xA3FFFF" diffuse="0.8" specular="1.1" ambientColor="0xFF855C" ambient="0.5" tilt="100" pan="35" />
+		</display3D>
+
+		<backgrounds>
+			<background typeID="2001" pFactor="10" layer="0" hideLensflare="false" scale="2.5" />
+			<background typeID="20" layer="1" isMain="true" region="2048,1276"/>
+			<background typeID="2013" pFactor="5" layer="5" hideLensflare="false" maskID="17" scale="1.6" />
+			<background typeID="2026" pFactor="6" layer="4" hideLensflare="false" maskID="19" scale="1.6" />
+			<background typeID="2024" pFactor="3" layer="6" hideLensflare="false" maskID="20" scale="1.8" />
+		</backgrounds>
+		<lensflares>
+			<lensflare id="0" x="1300" y="880" pFactor="10" star="true" />
+		</lensflares>
+		<planets>
+			<planet typeID="13" x="1340" y="910" pFactor="9" layer="2" />
+			<planet typeID="157" x="190" y="670" pFactor="7" layer="3" />
+			<planet typeID="160" x="950" y="350" pFactor="6" layer="3" />
+			<planet typeID="172" x="880" y="1010" pFactor="9" layer="2" pixelperfectLensflare="false" />
+			<planet typeID="173" x="1550" y="340" pFactor="9" layer="2" pixelperfectLensflare="true" />
+		</planets>
+	</map>
+	<map id="21" name="2-5" groupSystemToolTip="2-5 - EIC" music="2">
+		<starfield>true</starfield>
+		<backgrounds>
+			<background typeID="2001" pFactor="10" layer="0" hideLensflare="false" scale="2.5" />
+			<background typeID="21" layer="1" isMain="true" region="2048,1276"/>
+			<background typeID="2011" pFactor="5" layer="4" hideLensflare="false" maskID="17" scale="1.6" />
+			<background typeID="2022" pFactor="6" layer="3" hideLensflare="false" maskID="19" scale="1.6" />
+			<background typeID="2023" pFactor="3" layer="5" hideLensflare="false" maskID="20" scale="1.8" />
+		</backgrounds>
+		<lensflares>
+			<lensflare id="0" x="650" y="740" pFactor="10" star="true" />
+		</lensflares>
+		<planets>
+			<planet typeID="161" x="1430" y="260" pFactor="7" layer="3" />
+			<planet typeID="162" x="1280" y="1130" pFactor="6" layer="3" />
+			<planet typeID="174" x="990" y="600" pFactor="8" layer="2" pixelperfectLensflare="true" />
+		</planets>
+	</map>
+	<map id="22" name="2-6" groupSystemToolTip="2-6 - EIC" music="2">
+		<starfield>true</starfield>
+		<backgrounds>
+			<background typeID="2001" pFactor="10" layer="0" hideLensflare="false" scale="2.5" />
+			<background typeID="22" layer="1" isMain="true" region="2048,1276"/>
+			<background typeID="2011" pFactor="5" layer="4" hideLensflare="false" maskID="17" scale="1.6" />
+			<background typeID="2022" pFactor="6" layer="3" hideLensflare="false" maskID="19" scale="1.6" />
+			<background typeID="2023" pFactor="3" layer="5" hideLensflare="false" maskID="20" scale="1.8" />
+		</backgrounds>
+		<lensflares>
+			<lensflare id="0" x="520" y="670" pFactor="10" star="true" />
+		</lensflares>
+		<planets>
+			<planet typeID="163" x="1430" y="260" pFactor="7" layer="3" />
+			<planet typeID="164" x="1280" y="1130" pFactor="6" layer="3" />
+			<planet typeID="175" x="730" y="740" pFactor="8" layer="2" pixelperfectLensflare="true" />
+		</planets>
+	</map>
+	<map id="23" name="2-7" groupSystemToolTip="2-7 - EIC" music="2">
+		<starfield>true</starfield>
+		<backgrounds>
+			<background typeID="2001" pFactor="10" layer="0" hideLensflare="false" scale="2.5" />
+			<background typeID="23" layer="1" isMain="true" region="2048,1276"/>
+			<background typeID="2011" pFactor="5" layer="4" hideLensflare="false" maskID="17" scale="1.6" />
+			<background typeID="2022" pFactor="6" layer="3" hideLensflare="false" maskID="19" scale="1.6" />
+			<background typeID="2023" pFactor="3" layer="5" hideLensflare="false" maskID="20" scale="1.8" />
+		</backgrounds>
+		<lensflares>
+			<lensflare id="0" x="677" y="370" pFactor="10" star="true" />
+		</lensflares>
+		<planets>
+			<planet typeID="161" x="1430" y="260" pFactor="7" layer="3" />
+			<planet typeID="165" x="700" y="1130" pFactor="6" layer="3" />
+			<planet typeID="176" x="990" y="741" pFactor="9" layer="2" pixelperfectLensflare="true" />
+		</planets>
+	</map>
+	<map id="24" name="2-8" groupSystemToolTip="2-8 - EIC" music="2">
+        <display3D templateId="map_2-8">
+            <light color="0xA3FFFF" diffuse="0.8" specular="1.1" ambientColor="0xFF855C" ambient="0.5" tilt="100" pan="35" />
+        </display3D>
+
+		<starfield>true</starfield>
+		<backgrounds>
+			<background typeID="2001" pFactor="10" layer="0" hideLensflare="false" scale="2.5" />
+			<background typeID="24" layer="1" isMain="true" region="2048,1276"/>
+			<background typeID="2011" pFactor="5" layer="4" hideLensflare="false" maskID="17" scale="1.6" />
+			<background typeID="2022" pFactor="6" layer="3" hideLensflare="false" maskID="19" scale="1.6" />
+			<background typeID="2023" pFactor="3" layer="5" hideLensflare="false" maskID="20" scale="1.8" />
+		</backgrounds>
+		<planets>
+			<planet typeID="163" x="1430" y="260" pFactor="7" layer="3" />
+			<planet typeID="162" x="700" y="1130" pFactor="6" layer="3" />
+			<planet typeID="178" x="1460" y="1090" pFactor="9" layer="2" pixelperfectLensflare="false" />
+			<planet typeID="177" x="540" y="640" pFactor="9" layer="2" pixelperfectLensflare="false" />
+		</planets>
+	</map>
+	<map id="25" name="3-5" groupSystemToolTip="3-5 - VRU" music="3">
+		<starfield>true</starfield>
+		<backgrounds>
+			<background typeID="2001" pFactor="10" layer="0" hideLensflare="false" scale="2.5" />
+			<background typeID="25" layer="1" isMain="true" region="2048,1276"/>
+			<background typeID="2012" pFactor="5" layer="4" hideLensflare="false" maskID="17" scale="1.6" />
+			<background typeID="2027" pFactor="6" layer="3" hideLensflare="false" maskID="19" scale="1.6" />
+			<background typeID="2025" pFactor="3" layer="5" hideLensflare="false" maskID="20" scale="1.8" />
+		</backgrounds>
+		<lensflares>
+			<lensflare id="0" typeID="5" x="990" y="620" pFactor="9" star="true" />
+		</lensflares>
+		<planets>
+			<planet typeID="166" x="1580" y="1010" pFactor="9" layer="2" />
+			<planet typeID="167" x="770" y="340" pFactor="8" layer="3" />
+			<planet typeID="179" x="990" y="620" pFactor="9" layer="2" />
+		</planets>
+	</map>
+	<map id="26" name="3-6" groupSystemToolTip="3-6 - VRU" music="3">
+		<starfield>true</starfield>
+		<backgrounds>
+			<background typeID="2001" pFactor="10" layer="0" hideLensflare="false" scale="2.5" />
+			<background typeID="26" layer="1" isMain="true" region="2048,1276"/>
+			<background typeID="2012" pFactor="5" layer="4" hideLensflare="false" maskID="17" scale="1.6" />
+			<background typeID="2027" pFactor="6" layer="3" hideLensflare="false" maskID="19" scale="1.6" />
+			<background typeID="2025" pFactor="3" layer="5" hideLensflare="false" maskID="20" scale="1.8" />
+		</backgrounds>
+		<lensflares>
+			<lensflare id="0" typeID="5" x="1447" y="335" pFactor="9" star="true" />
+		</lensflares>
+		<planets>
+			<planet typeID="166" x="390" y="260" pFactor="9" layer="2" />
+			<planet typeID="167" x="540" y="1000" pFactor="8" layer="3" />
+			<planet typeID="166" x="1700" y="220" pFactor="8" layer="3" />
+			<planet typeID="180" x="1248" y="570" pFactor="9" layer="2" />
+		</planets>
+	</map>
+	<map id="27" name="3-7" groupSystemToolTip="3-7 - VRU" music="3">
+		<starfield>true</starfield>
+		<backgrounds>
+			<background typeID="2001" pFactor="10" layer="0" hideLensflare="false" scale="2.5" />
+			<background typeID="27" layer="1" isMain="true" region="2048,1276"/>
+			<background typeID="2012" pFactor="5" layer="4" hideLensflare="false" maskID="17" scale="1.6" />
+			<background typeID="2027" pFactor="6" layer="3" hideLensflare="false" maskID="19" scale="1.6" />
+			<background typeID="2025" pFactor="3" layer="5" hideLensflare="false" maskID="20" scale="1.8" />
+		</backgrounds>
+		<lensflares>
+			<lensflare id="0" typeID="5" x="1140" y="420" pFactor="8" star="true" />
+			<lensflare id="0" typeID="5" x="1070" y="860" pFactor="8" star="true" />
+			<lensflare id="0" typeID="5" x="1490" y="710" pFactor="8" star="true" />
+			<lensflare id="0" typeID="0" x="600" y="800" pFactor="10" star="false" />
+		</lensflares>
+		<planets>
+			<planet typeID="166" x="390" y="260" pFactor="9" layer="2" />
+			<planet typeID="181" x="1230" y="657" pFactor="8" layer="3" />
+			<planet typeID="184" x="500" y="840" pFactor="9" layer="2" />
+		</planets>
+	</map>
+	<map id="28" name="3-8" groupSystemToolTip="3-8 - VRU" music="3">
+        <display3D templateId="map_3-8">
+            <light color="0xA3FFFF" diffuse="0.8" specular="1.1" ambientColor="0xFF855C" ambient="0.5" tilt="100" pan="35" />
+		</display3D>
+
+		<starfield>true</starfield>
+		<backgrounds>
+			<background typeID="2001" pFactor="10" layer="0" hideLensflare="false" scale="2.5" />
+			<background typeID="28" layer="1" isMain="true" region="2048,1276"/>
+			<background typeID="2012" pFactor="5" layer="4" hideLensflare="false" maskID="17" scale="1.6" />
+			<background typeID="2027" pFactor="6" layer="3" hideLensflare="false" maskID="19" scale="1.6" />
+			<background typeID="2025" pFactor="3" layer="5" hideLensflare="false" maskID="20" scale="1.8" />
+		</backgrounds>
+		<lensflares>
+			<lensflare id="0" typeID="0" x="890" y="560" pFactor="10" star="true" />
+		</lensflares>
+		<planets>
+			<planet typeID="166" x="390" y="260" pFactor="6" layer="3" />
+			<planet typeID="167" x="340" y="1111" pFactor="6" layer="3" />
+			<planet typeID="168" x="1390" y="760" pFactor="7" layer="3" />
+			<planet typeID="182" x="900" y="920" pFactor="9" layer="2" />
+			<planet typeID="183" x="1760" y="600" pFactor="9" layer="2" />
+		</planets>
+	</map>
+	<map id="29" name="4-5" groupSystemToolTip="4-5 - UBER" scaleFactor="2" music="4" minimap="29">
+		<starfield>true</starfield>
+		<backgrounds>
+			<background typeID="2001" pFactor="10" layer="0" hideLensflare="false" scale="1.6" />
+			<background typeID="29" pFactor="10" isMain="true" layer="1"/>
+			<background typeID="2015" pFactor="8" layer="3" hideLensflare="false" maskID="17" scale="1.6" />
+			<background typeID="2023" pFactor="6" layer="4" hideLensflare="false" maskID="18" scale="1.8" />
+		</backgrounds>
+		<lensflares>
+			<lensflare id="0" typeID="2" x="1610" y="1360" pFactor="10" star="true" />
+			<lensflare id="1" typeID="2" x="2944" y="884" pFactor="10" star="true" />
+		</lensflares>
+		<planets>
+			<planet typeID="132" x="3348" y="850" pFactor="9" layer="2" />
+		</planets>
+	</map>
+	<map id="42" name="???" music="0">
+		<starfield>true</starfield>
+		<backgrounds>
+			<background typeID="42" />
+		</backgrounds>
+	</map>
+	<map id="51" name="GG α" groupSystemName="GG" music="0">
+		<starfield>true</starfield>
+		<backgrounds>
+			<background typeID="2001" pFactor="10" layer="0" hideLensflare="false" scale="3" />
+			<background typeID="51" pFactor="10" isMain="true" layer="1"/>
+			<background typeID="2022" pFactor="8" layer="3" hideLensflare="false" maskID="17" scale="1.6" />
+			<background typeID="2011" pFactor="3" layer="5" hideLensflare="false" maskID="18" scale="1.8" />
+			<background typeID="2023" pFactor="7" layer="3" hideLensflare="false" maskID="20" scale="1.6" />
+		</backgrounds>
+		<lensflares>
+			<lensflare id="0" x="1080" y="570" pFactor="10" star="false" />
+		</lensflares>
+		<planets>
+			<planet typeID="7" x="1111" y="580" pFactor="9" layer="4" pixelperfectLensflare="true" />
+			<planet typeID="8" x="444" y="810" pFactor="7" layer="4" pixelperfectLensflare="true" />
+		</planets>
+	</map>
+	<map id="52" name="GG β" groupSystemName="GG" music="0">
+		<starfield>true</starfield>
+		<backgrounds>
+			<background typeID="2001" pFactor="10" layer="0" hideLensflare="false" scale="3" />
+			<background typeID="52" pFactor="10" isMain="true" layer="1" />
+			<background typeID="2028" pFactor="8" layer="3" hideLensflare="false" maskID="17" scale="1.6" />
+			<background typeID="2013" pFactor="3" layer="5" hideLensflare="false" maskID="18" scale="1.8" />
+			<background typeID="2026" pFactor="7" layer="3" hideLensflare="false" maskID="20" scale="1.6" />
+		</backgrounds>
+		<lensflares>
+			<lensflare id="0" x="1280" y="830" pFactor="10" star="true" />
+		</lensflares>
+		<planets>
+			<planet typeID="5" x="950" y="786" pFactor="6" layer="4" pixelperfectLensflare="true" />
+			<planet typeID="6" x="490" y="910" pFactor="4" layer="4" />
+			<planet typeID="190" x="1380" y="460" pFactor="4" layer="4" />
+		</planets>
+	</map>
+	<map id="53" name="GG γ" groupSystemName="GG" music="0">
+		<starfield>true</starfield>
+		<backgrounds>
+			<background typeID="2001" pFactor="10" layer="0" hideLensflare="false" scale="3" />
+			<background typeID="53" pFactor="10" isMain="true" layer="1"/>
+			<background typeID="2023" pFactor="8" layer="2" hideLensflare="false" maskID="17" scale="1.6" />
+			<background typeID="2011" pFactor="5" layer="5" hideLensflare="false" maskID="18" scale="1.8" />
+			<background typeID="2022" pFactor="7" layer="3" hideLensflare="false" maskID="20" scale="1.6" />
+		</backgrounds>
+		<lensflares>
+			<lensflare id="0" x="1430" y="490" pFactor="10" star="false" />
+		</lensflares>
+		<planets>
+			<planet typeID="9" x="1500" y="480" pFactor="8" layer="2" />
+			<planet typeID="191" x="1144" y="904" pFactor="6" layer="4" />
+			<planet typeID="192" x="500" y="920" pFactor="7" layer="3" />
+		</planets>
+	</map>
+	<map id="54" name="GG NC" groupSystemName="GG" music="0">
+		<starfield>true</starfield>
+		<backgrounds>
+			<background typeID="54" layer="0" />
+		</backgrounds>
+		<lensflares>
+			<lensflare id="0" x="1222" y="932" pFactor="10" star="true" />
+		</lensflares>
+		<planets>
+			<planet typeID="9" x="1144" y="904" pFactor="7" layer="1" />
+		</planets>
+	</map>
+	<map id="55" name="GG δ" groupSystemName="GG" music="0">
+		<starfield>true</starfield>
+		<backgrounds>
+			<background typeID="2001" pFactor="10" layer="0" hideLensflare="false" scale="3" />
+			<background typeID="55" layer="1" isMain="true" />
+			<background typeID="2028" pFactor="8" layer="3" hideLensflare="false" maskID="17" scale="1.8" />
+			<background typeID="2013" pFactor="5" layer="6" hideLensflare="false" maskID="18" scale="2.1" />
+			<background typeID="2026" pFactor="7" layer="4" hideLensflare="false" maskID="20" scale="1.8" />
+		</backgrounds>
+		<lensflares>
+			<lensflare id="0" x="840" y="710" pFactor="10" star="false" />
+		</lensflares>
+		<planets>
+			<planet typeID="9" x="810" y="150" pFactor="9" layer="2" />
+			<planet typeID="199" x="1337" y="630" pFactor="6" layer="5" pixelperfectLensflare="true" />
+		</planets>
+	</map>
+	<map id="56" name="GG Orb" groupSystemName="GG" music="0">
+		<starfield>true</starfield>
+		<backgrounds>
+			<background typeID="56" layer="0" />
+		</backgrounds>
+		<lensflares>
+			<lensflare id="0" x="1222" y="932" pFactor="10" star="true" />
+		</lensflares>
+		<planets>
+			<planet typeID="9" x="1144" y="904" pFactor="7" layer="1" />
+		</planets>
+	</map>
+	<map id="57" name="GG Y6" groupSystemName="GG" music="0">
+		<starfield>true</starfield>
+		<backgrounds>
+			<background typeID="2001" pFactor="10" layer="0" hideLensflare="false" scale="3" />
+			<background typeID="60" pFactor="10" layer="1" isMain="true" />
+			<background typeID="2024" pFactor="7" layer="4" hideLensflare="false" scale="1.6" maskID="5" />
+			<background typeID="2016" pFactor="6" layer="5" hideLensflare="false" scale="1.4" maskID="6" />
+			<background typeID="2022" pFactor="4" layer="6" hideLensflare="false" scale="1.6" maskID="7" />
+		</backgrounds>
+		<lensflares>
+			<lensflare id="0" typeID="2" x="774" y="904" pFactor="10" star="true" />
+		</lensflares>
+		<planets>
+			<planet typeID="71" x="521" y="885" pFactor="8" layer="2" />
+			<planet typeID="70" x="1678" y="260" pFactor="9" layer="3" />
+		</planets>
+	</map>
+	<map id="58" name="HSG" music="0">
+		<starfield>true</starfield>
+		<backgrounds>
+			<background typeID="2001" pFactor="10" layer="0" hideLensflare="false" scale="2.0" />
+			<background typeID="58" pFactor="10" isMain="true" layer="1" />
+			<background typeID="2024" pFactor="7" layer="2" hideLensflare="false" maskID="1" scale="2.0" />
+			<background typeID="2011" pFactor="6" layer="3" hideLensflare="false" maskID="2" scale="2.0" />
+			<background typeID="2022" pFactor="4" layer="4" hideLensflare="false" maskID="3" scale="2.0" />
+			<background typeID="2022" pFactor="4" layer="5" shiftX="128" hideLensflare="false" maskID="3" />
+		</backgrounds>
+		<lensflares>
+			<lensflare typeID="5" x="1033" y="628" pFactor="10" star="true" />
+		</lensflares>
+	</map>
+	<map id="61" name="MMO Invasion" groupSystemName="I:MMO" music="0">
+		<starfield>true</starfield>
+		<backgrounds>
+			<background typeID="61" layer="0" />
+		</backgrounds>
+		<planets>
+			<planet typeID="30" x="694" y="560" pFactor="6" layer="1" />
+			<planet typeID="31" x="1974" y="1022" pFactor="6" layer="2" />
+			<planet typeID="32" x="1118" y="370" pFactor="5" layer="3" />
+		</planets>
+		<lensflares>
+			<lensflare id="0" typeID="1" x="1682" y="210" pFactor="10" star="true" />
+			<lensflare id="1" typeID="2" x="658" y="1090" pFactor="10" star="true" />
+		</lensflares>
+	</map>
+	<map id="62" name="EIC Invasion" groupSystemName="I:EIC" music="0">
+		<starfield>true</starfield>
+		<backgrounds>
+			<background typeID="62" layer="0" />
+		</backgrounds>
+		<planets>
+			<planet typeID="30" x="694" y="560" pFactor="6" layer="1" />
+			<planet typeID="31" x="1974" y="1022" pFactor="6" layer="2" />
+			<planet typeID="32" x="1118" y="370" pFactor="5" layer="3" />
+		</planets>
+		<lensflares>
+			<lensflare id="0" typeID="1" x="1682" y="210" pFactor="10" star="true" />
+			<lensflare id="1" typeID="2" x="658" y="1090" pFactor="10" star="true" />
+		</lensflares>
+	</map>
+	<map id="63" name="VRU Invasion" groupSystemName="I:VRU"  music="0">
+		<starfield>true</starfield>
+		<backgrounds>
+			<background typeID="63" layer="0" />
+		</backgrounds>
+		<planets>
+			<planet typeID="30" x="694" y="560" pFactor="6" layer="1" />
+			<planet typeID="31" x="1974" y="1022" pFactor="6" layer="2" />
+			<planet typeID="32" x="1118" y="370" pFactor="5" layer="3" />
+		</planets>
+		<lensflares>
+			<lensflare id="0" typeID="1" x="1682" y="210" pFactor="10" star="true" />
+			<lensflare id="1" typeID="2" x="658" y="1090" pFactor="10" star="true" />
+		</lensflares>
+	</map>
+	<map id="64" name="MMO Invasion" groupSystemName="I:MMO" music="0">
+		<starfield>true</starfield>
+		<backgrounds>
+			<background typeID="64" layer="0" />
+		</backgrounds>
+		<planets>
+			<planet typeID="30" x="694" y="560" pFactor="6" layer="1" />
+			<planet typeID="31" x="1974" y="1022" pFactor="6" layer="2" />
+			<planet typeID="32" x="1118" y="370" pFactor="5" layer="3" />
+		</planets>
+		<lensflares>
+			<lensflare id="0" typeID="1" x="1682" y="210" pFactor="10" star="true" />
+			<lensflare id="1" typeID="2" x="658" y="1090" pFactor="10" star="true" />
+		</lensflares>
+	</map>
+	<map id="65" name="EIC Invasion" groupSystemName="I:EIC" music="0">
+		<starfield>true</starfield>
+		<backgrounds>
+			<background typeID="65" layer="0" />
+		</backgrounds>
+		<planets>
+			<planet typeID="30" x="694" y="560" pFactor="6" layer="1" />
+			<planet typeID="31" x="1974" y="1022" pFactor="6" layer="2" />
+			<planet typeID="32" x="1118" y="370" pFactor="5" layer="3" />
+		</planets>
+		<lensflares>
+			<lensflare id="0" typeID="1" x="1682" y="210" pFactor="10" star="true" />
+			<lensflare id="1" typeID="2" x="658" y="1090" pFactor="10" star="true" />
+		</lensflares>
+	</map>
+	<map id="66" name="VRU Invasion" groupSystemName="I:VRU" music="0">
+		<starfield>true</starfield>
+		<backgrounds>
+			<background typeID="66" layer="0" />
+		</backgrounds>
+		<planets>
+			<planet typeID="30" x="694" y="560" pFactor="6" layer="1" />
+			<planet typeID="31" x="1974" y="1022" pFactor="6" layer="2" />
+			<planet typeID="32" x="1118" y="370" pFactor="5" layer="3" />
+		</planets>
+		<lensflares>
+			<lensflare id="0" typeID="1" x="1682" y="210" pFactor="10" star="true" />
+			<lensflare id="1" typeID="2" x="658" y="1090" pFactor="10" star="true" />
+		</lensflares>
+	</map>
+	<map id="67" name="MMO Invasion" groupSystemName="I:MMO" music="0">
+		<starfield>true</starfield>
+		<backgrounds>
+			<background typeID="67" layer="0" />
+		</backgrounds>
+		<planets>
+			<planet typeID="30" x="694" y="560" pFactor="6" layer="1" />
+			<planet typeID="31" x="1974" y="1022" pFactor="6" layer="2" />
+			<planet typeID="32" x="1118" y="370" pFactor="5" layer="3" />
+		</planets>
+		<lensflares>
+			<lensflare id="0" typeID="1" x="1682" y="210" pFactor="10" star="true" />
+			<lensflare id="1" typeID="2" x="658" y="1090" pFactor="10" star="true" />
+		</lensflares>
+	</map>
+	<map id="68" name="EIC Invasion" groupSystemName="I:EIC" music="0">
+		<backgrounds>
+			<background typeID="68" layer="0" />
+		</backgrounds>
+		<planets>
+			<planet typeID="30" x="694" y="560" pFactor="6" layer="1" />
+			<planet typeID="31" x="1974" y="1022" pFactor="6" layer="2" />
+			<planet typeID="32" x="1118" y="370" pFactor="5" layer="3" />
+		</planets>
+		<lensflares>
+			<lensflare id="0" typeID="1" x="1682" y="210" pFactor="10" star="true" />
+			<lensflare id="1" typeID="2" x="658" y="1090" pFactor="10" star="true" />
+		</lensflares>
+	</map>
+	<map id="69" name="VRU Invasion" groupSystemName="I:VRU" music="0">
+		<backgrounds>
+			<background typeID="69" layer="0" />
+		</backgrounds>
+		<planets>
+			<planet typeID="30" x="694" y="560" pFactor="6" layer="1" />
+			<planet typeID="31" x="1974" y="1022" pFactor="6" layer="2" />
+			<planet typeID="32" x="1118" y="370" pFactor="5" layer="3" />
+		</planets>
+		<lensflares>
+			<lensflare id="0" typeID="1" x="1682" y="210" pFactor="10" star="true" />
+			<lensflare id="1" typeID="2" x="658" y="1090" pFactor="10" star="true" />
+		</lensflares>
+	</map>
+	<map id="70" name="GG ε" groupSystemName="GG" music="0">
+		<backgrounds>
+			<background typeID="2001" pFactor="10" layer="0" hideLensflare="false" scale="2.0" />
+			<background typeID="70" isMain="true" layer="1" />
+			<background typeID="2012" pFactor="7" layer="4" scale="3.0" maskID="19" />
+			<background typeID="2027" pFactor="9" layer="2" scale="2.5" maskID="23" />
+			<background typeID="2022" pFactor="8" layer="3" scale="2.5" maskID="21" />
+		</backgrounds>
+		<lensflares>
+			<lensflare id="1" x="1775" y="435" pFactor="10" star="true" typeID="2" />
+		</lensflares>
+		<planets>
+			<planet typeID="68" x="1534" y="395" pFactor="9" layer="2" pixelperfectLensflare="true" />
+			<planet typeID="69" x="1236" y="1105" pFactor="9" layer="2" pixelperfectLensflare="true" />
+			<planet typeID="63" x="454" y="900" pFactor="7" layer="4" pixelperfectLensflare="true" />
+			<planet typeID="65" x="1588" y="486" pFactor="7" layer="4" pixelperfectLensflare="true" />
+			<planet typeID="67" x="472" y="322" pFactor="7" layer="4" pixelperfectLensflare="true" />
+			<planet typeID="64" x="1656" y="946" pFactor="6" layer="5" pixelperfectLensflare="true" />
+			<planet typeID="66" x="1004" y="634" pFactor="6" layer="5" pixelperfectLensflare="true" />
+		</planets>
+	</map>
+	<map id="71" name="GG ζ 1" groupSystemName="GG" music="0">
+		<backgrounds>
+			<background typeID="2001" pFactor="10" layer="0" hideLensflare="false" scale="2.0" />
+			<background typeID="57" isMain="true" layer="1" />
+			<background typeID="2026" pFactor="9" layer="3" hideLensflare="true" maskID="20" scale="1.8" />
+			<background typeID="2022" pFactor="8" layer="4" hideLensflare="true" maskID="23" scale="2" />
+			<background typeID="2023" pFactor="7" layer="5" hideLensflare="true" maskID="21" scale="1.8" />
+		</backgrounds>
+		<lensflares>
+			<lensflare id="0" x="624" y="1064" pFactor="10" star="true" />
+			<lensflare id="1" x="1458" y="628" pFactor="10" star="true" />
+		</lensflares>
+		<planets>
+			<planet typeID="42" x="1050" y="655" pFactor="7" layer="5" />
+			<planet typeID="40" x="1050" y="655" pFactor="9" layer="3" />
+			<planet typeID="33" x="1734" y="357" pFactor="10" layer="2" />
+		</planets>
+	</map>
+	<map id="72" name="GG ζ 2" groupSystemName="GG" music="0">
+		<backgrounds>
+			<background typeID="2001" pFactor="10" layer="0" hideLensflare="false" scale="2.0" />
+			<background typeID="72" isMain="true" layer="1" />
+			<background typeID="3024" pFactor="8" layer="3" />
+			<background typeID="3025" pFactor="7" layer="4" />
+			<background typeID="2026" pFactor="8" layer="3" hideLensflare="true" maskID="23" scale="1.8" />
+			<background typeID="2026" pFactor="7" layer="4" hideLensflare="true" maskID="21" scale="1.8" />
+		</backgrounds>
+		<lensflares>
+			<lensflare id="1" x="1523" y="596" pFactor="9" star="true" />
+		</lensflares>
+		<planets>
+			<planet typeID="50" x="1523" y="596" pFactor="9" layer="2" />
+			<planet typeID="56" x="1046" y="956" pFactor="7" layer="4" />
+			<planet typeID="54" x="1663" y="393" pFactor="7" layer="4" />
+			<planet typeID="51" x="365" y="912" pFactor="7" layer="4" />
+			<planet typeID="52" x="1198" y="528" pFactor="7" layer="4" />
+			<planet typeID="53" x="675" y="416" pFactor="6" layer="5" />
+			<planet typeID="55" x="1693" y="953" pFactor="6" layer="5" />
+		</planets>
+	</map>
+	<map id="73" name="GG ζ 3" groupSystemName="GG" music="0">
+		<backgrounds>
+			<background typeID="73" isMain="true" layer="0" />
+			<background typeID="2026" pFactor="10" layer="1" hideLensflare="true" maskID="21" scale="2" />
+			<background typeID="2026" pFactor="9" layer="2" hideLensflare="true" maskID="23" scale="2" />
+			<background typeID="2013" pFactor="8" layer="3" hideLensflare="true" maskID="23" scale="3" />
+			<background typeID="2026" pFactor="9" layer="2" hideLensflare="true" maskID="23" scale="3" />
+		</backgrounds>
+		<lensflares>
+			<lensflare id="0" x="1258" y="660" pFactor="10" star="true" />
+		</lensflares>
+		<planets>
+			<planet typeID="57" x="339" y="928" pFactor="7" layer="4" />
+			<planet typeID="58" x="364" y="376" pFactor="7" layer="4" />
+			<planet typeID="59" x="869" y="539" pFactor="7" layer="4" />
+			<planet typeID="60" x="1592" y="370" pFactor="6" layer="5" />
+			<planet typeID="61" x="1707" y="1023" pFactor="7" layer="4" />
+			<planet typeID="62" x="1038" y="1061" pFactor="6" layer="5" />
+		</planets>
+	</map>
+	<map id="74" name="GG κ" groupSystemName="GG" music="0">
+		<backgrounds>
+			<background typeID="2001" pFactor="10" layer="0" hideLensflare="false" scale="1.6" />
+			<background typeID="74" pFactor="10" layer="1" isMain="true" />
+			<background typeID="2011" pFactor="6" layer="5" hideLensflare="false" maskID="2" scale="1.3" />
+			<background typeID="2024" pFactor="7" layer="4" hideLensflare="false" maskID="1" scale="1.8" />
+			<background typeID="2022" pFactor="4" layer="6" hideLensflare="false" maskID="3" scale="1.6" />
+		</backgrounds>
+		<lensflares>
+			<lensflare id="2" typeID="2" x="726" y="871" pFactor="10" star="true" />
+		</lensflares>
+		<planets>
+			<planet typeID="108" x="1367" y="879" pFactor="9" layer="2" />
+			<planet typeID="109" x="457" y="182" pFactor="9" layer="3" />
+		</planets>
+	</map>
+	<map id="75" name="GG λ" groupSystemName="GG" music="0">
+		<backgrounds>
+			<background typeID="2001" pFactor="10" layer="0" hideLensflare="false" scale="1.9" />
+			<background typeID="75" pFactor="10" layer="1" isMain="true" />
+			<background typeID="2013" pFactor="6" layer="4" hideLensflare="false" maskID="3" scale="1.5" />
+			<background typeID="2026" pFactor="4" layer="5" hideLensflare="false" maskID="2" scale="1.7" />
+			<background typeID="2026" pFactor="3" layer="6" hideLensflare="false" maskID="1" scale="1.9" />
+		</backgrounds>
+		<lensflares>
+			<lensflare id="1" x="1348" y="223" pFactor="10" star="true" />
+			<lensflare id="2" x="1566" y="1158" pFactor="10" star="true" />
+		</lensflares>
+		<planets>
+			<planet typeID="110" x="136" y="186" pFactor="7" layer="2" />
+			<planet typeID="111" x="1230" y="691" pFactor="7" layer="3" />
+		</planets>
+	</map>
+	<map id="76" name="GG Kronos" groupSystemName="GG" music="0">
+		<starfield>true</starfield>
+		<backgrounds>
+			<background typeID="2001" pFactor="10" layer="0" hideLensflare="false" scale="3" />
+			<background typeID="76" pFactor="10" layer="1" hideLensflare="false" isMain="true" />
+			<background typeID="2013" pFactor="6" layer="4" hideLensflare="false" maskID="3" scale="1.5" />
+			<background typeID="2026" pFactor="4" layer="5" hideLensflare="false" maskID="1" scale="1.7" />
+			<background typeID="2026" pFactor="3" layer="6" hideLensflare="false" maskID="2" scale="1.9" />
+		</backgrounds>
+		<lensflares>
+			<lensflare id="1" x="622" y="566" pFactor="10" star="true" />
+		</lensflares>
+		<planets>
+			<planet typeID="112" x="731" y="594" pFactor="7" layer="3" />
+			<planet typeID="113" x="1136" y="567" pFactor="7" layer="3" />
+		</planets>
+	</map>
+
+    <map id="77" name="GG Cold Wave (Easy)" groupSystemName="GG" music="0" minimap="57">
+		<starfield>true</starfield>
+		<backgrounds>
+			<background typeID="2001" pFactor="10" layer="0" hideLensflare="false" scale="3" />
+			<background typeID="74" pFactor="10" layer="1" hideLensflare="false" isMain="true" />
+			<background typeID="2016" pFactor="6" layer="4" hideLensflare="false" maskID="3" scale="1.5" />
+		</backgrounds>
+		<planets>
+			<planet typeID="71" x="521" y="885" pFactor="8" layer="2" />
+			<planet typeID="70" x="1678" y="260" pFactor="9" layer="3" />
+		</planets>
+	</map>
+	<map id="78" name="GG Cold Wave (Hard)" groupSystemName="GG" music="0" minimap="57">
+		<starfield>true</starfield>
+		<backgrounds>
+			<background typeID="2001" pFactor="10" layer="0" hideLensflare="false" scale="3" />
+			<background typeID="74" pFactor="10" layer="1" hideLensflare="false" isMain="true" />
+			<background typeID="2016" pFactor="6" layer="4" hideLensflare="false" maskID="3" scale="1.5" />
+		</backgrounds>
+		<planets>
+			<planet typeID="71" x="521" y="885" pFactor="8" layer="2" />
+			<planet typeID="70" x="1678" y="260" pFactor="9" layer="3" />
+		</planets>
+	</map>
+
+	<map id="81" name="TDM I" groupSystemName="TDM" music="0" scaleFactor="0.5" minimap="201">
+		<starfield>true</starfield>
+		<backgrounds>
+			<background typeID="2001" pFactor="10" layer="0" hideLensflare="false" scale="4" />
+			<background typeID="201" pFactor="10" layer="1" scale="2" isMain="true" isMinimap="false" region="2048,1308"/>
+			<background typeID="2011" pFactor="7" layer="3" hideLensflare="false" scale="4" maskID="14" />
+			<background typeID="2029" pFactor="3" layer="4" hideLensflare="false" scale="1" maskID="22" />
+		</backgrounds>
+		<planets>
+			<planet typeID="133" x="810" y="-50" pFactor="9" layer="2" />
+			<planet typeID="134" x="-80" y="290" pFactor="9" layer="2" />
+			<planet typeID="135" x="800" y="730" pFactor="9" layer="2" />
+		</planets>
+	</map>
+	<map id="82" name="TDM II" groupSystemName="TDM" music="0" scaleFactor="0.5" minimap="201" >
+		<starfield>true</starfield>
+		<backgrounds>
+			<background typeID="2001" pFactor="10" layer="0" hideLensflare="false" scale="4" />
+			<background typeID="201" pFactor="10" layer="1" scale="2" isMain="true" isMinimap="false" />
+			<background typeID="2011" pFactor="7" layer="3" hideLensflare="false" scale="4" maskID="14" />
+			<background typeID="2029" pFactor="3" layer="4" hideLensflare="false" scale="1" maskID="22" />
+		</backgrounds>
+		<planets>
+			<planet typeID="133" x="810" y="-50" pFactor="9" layer="2" />
+			<planet typeID="134" x="-80" y="290" pFactor="9" layer="2" />
+			<planet typeID="135" x="800" y="730" pFactor="9" layer="2" />
+		</planets>
+	</map>
+	<map id="91" name="5-1" groupSystemToolTip="5-1 Pirates" scaleFactor="2" music="5" minimap="91">
+		<starfield>true</starfield>
+		<backgrounds>
+			<background typeID="2001" pFactor="10" layer="0" hideLensflare="false" scale="1.6" />
+			<background typeID="91" pFactor="10" isMain="true" layer="1" />
+			<background typeID="2024" pFactor="7" layer="3" hideLensflare="false" maskID="1" scale="1.4" />
+			<background typeID="2011" pFactor="6" layer="4" hideLensflare="false" maskID="2" scale="1.4" />
+			<background typeID="2022" pFactor="4" layer="5" hideLensflare="false" maskID="3" scale="1.4" />
+		</backgrounds>
+		<lensflares>
+			<lensflare id="0" x="900" y="920" pFactor="10" star="true" />
+		</lensflares>
+		<planets>
+			<planet typeID="44" x="800" y="800" pFactor="8" layer="2" />
+			<planet typeID="48" x="490" y="690" pFactor="1" layer="7" />
+			<planet typeID="48" x="260" y="1360" pFactor="1" layer="8" />
+			<planet typeID="48" x="490" y="2070" pFactor="1" layer="9" />
+		</planets>
+	</map>
+	<map id="92" name="5-2" groupSystemToolTip="5-2 Pirates" music="5">
+		<starfield color="0x333333">true</starfield>
+		<backgrounds>
+			<background typeID="2001" pFactor="10" layer="0" hideLensflare="false" scale="2.2" maskID="4" />
+			<background typeID="92" layer="1" pFactor="10" isMain="true" />
+			<background typeID="2024" pFactor="7" layer="3" hideLensflare="false" maskID="5" scale="1.6" />
+			<background typeID="2011" pFactor="6" layer="4" hideLensflare="false" maskID="6" scale="1.4" />
+			<background typeID="2022" pFactor="4" layer="5" hideLensflare="false" maskID="7" scale="1.6" />
+		</backgrounds>
+		<lensflares>
+			<lensflare id="0" x="1410" y="500" pFactor="10" star="true" />
+		</lensflares>
+		<planets>
+			<planet typeID="45" x="1050" y="0" pFactor="8" layer="2" />
+			<planet typeID="48" x="250" y="370" pFactor="1" layer="6" />
+			<planet typeID="48" x="100" y="685" pFactor="1" layer="7" />
+			<planet typeID="48" x="250" y="1100" pFactor="1" layer="8" />
+		</planets>
+	</map>
+	<map id="93" name="5-3" groupSystemToolTip="5-3 Pirates" scaleFactor="2" music="5" minimap="93">
+		<starfield color="0xE3E3E3">true</starfield>
+		<backgrounds>
+			<background typeID="2001" pFactor="10" layer="0" hideLensflare="false" scale="1.6" />
+			<background typeID="93" pFactor="10" layer="1" isMain="true" />
+			<background typeID="2024" pFactor="7" layer="3" hideLensflare="false" maskID="8" scale="1.4" />
+			<!--background typeID="4001" pFactor="4" layer="4" hideLensflare="true" shiftX="3200" shiftY="4000" scale="1" />
+			<background typeID="4002" pFactor="4" layer="4" hideLensflare="true" shiftX="5248" shiftY="4000" scale="1" /-->
+			<background typeID="2022" pFactor="4" layer="5" hideLensflare="false" maskID="9" scale="1.4" />
+		</backgrounds>
+		<lensflares>
+			<lensflare id="3" x="1770" y="1660" pFactor="10" star="true" />
+		</lensflares>
+		<planets>
+			<planet typeID="46" x="3400" y="820" pFactor="8" layer="2" />
+			<planet typeID="49" x="164" y="966" pFactor="1" layer="6" />
+			<planet typeID="49" x="164" y="1366" pFactor="1" layer="7" />
+			<planet typeID="49" x="164" y="1766" pFactor="1" layer="8" />
+		</planets>
+	</map>
+	<map id="101" name="JP" scaleFactor="0.5" music="0" minimap="101">
+		<backgrounds>
+			<background typeID="101" pFactor="10" layer="0" scale="2" isMain="true" isMinimap="false" />
+			<background typeID="2023" pFactor="5" layer="1" hideLensflare="false" scale="2.8" maskID="21" />
+		</backgrounds>
+		<planets>
+			<planet typeID="136" x="780" y="-40" pFactor="7" layer="2" />
+			<planet typeID="137" x="320" y="440" pFactor="9" layer="3" />
+			<planet typeID="138" x="110" y="320" pFactor="9" layer="4" />
+			<planet typeID="139" x="1120" y="100" pFactor="9" layer="5" />
+		</planets>
+	</map>
+	<map id="102" name="JP" scaleFactor="0.5" music="0" minimap="101">
+		<reference selector="map WHERE id==101" children="true" />
+	</map>
+	<map id="103" name="JP" scaleFactor="0.5" music="0" minimap="101">
+		<reference selector="map WHERE id==101" children="true" />
+	</map>
+	<map id="104" name="JP" scaleFactor="0.5" music="0" minimap="101">
+		<reference selector="map WHERE id==101" children="true" />
+	</map>
+	<map id="105" name="JP" scaleFactor="0.5" music="0" minimap="101">
+		<reference selector="map WHERE id==101" children="true" />
+	</map>
+	<map id="106" name="JP" scaleFactor="0.5" music="0" minimap="101">
+		<reference selector="map WHERE id==101" children="true" />
+	</map>
+	<map id="107" name="JP" scaleFactor="0.5" music="0" minimap="101">
+		<reference selector="map WHERE id==101" children="true" />
+	</map>
+	<map id="108" name="JP" scaleFactor="0.5" music="0" minimap="101">
+		<reference selector="map WHERE id==101" children="true" />
+	</map>
+	<map id="109" name="JP" scaleFactor="0.5" music="0" minimap="101">
+		<reference selector="map WHERE id==101" children="true" />
+	</map>
+	<map id="110" name="JP" scaleFactor="0.5" music="0" minimap="101">
+		<reference selector="map WHERE id==101" children="true" />
+	</map>
+	<map id="111" name="JP" scaleFactor="0.5" music="0" minimap="101">
+		<reference selector="map WHERE id==101" children="true" />
+	</map>
+	<map id="112" name="UBA" scaleFactor="0.5" music="0">
+		<backgrounds>
+			<background typeID="112" pFactor="10" layer="0" scale="0.5" isMain="true" isMinimap="true" />
+		</backgrounds>
+		<planets>
+			<planet typeID="200" x="900" y="100" pFactor="8" layer="1" />
+			<planet typeID="200" x="100" y="100" pFactor="7" layer="2" />
+			<planet typeID="204" x="180" y="340" pFactor="7" layer="2" />
+			<planet typeID="200" x="900" y="550" pFactor="7" layer="2" />
+			<planet typeID="203" x="740" y="150" pFactor="6" layer="3" />
+			<planet typeID="201" x="850" y="540" pFactor="4" layer="4" />
+			<planet typeID="200" x="300" y="430" pFactor="3" layer="5" />
+			<planet typeID="202" x="700" y="340" pFactor="2" layer="6" />
+		</planets>
+	</map>
+	<map id="113" name="UBA" scaleFactor="0.5" music="0" minimap="112">
+		<reference selector="map WHERE id==112" children="true" />
+	</map>
+	<map id="114" name="UBA" scaleFactor="0.5" music="0" minimap="112">
+		<reference selector="map WHERE id==112" children="true" />
+	</map>
+	<map id="115" name="UBA" scaleFactor="0.5" music="0" minimap="112">
+		<reference selector="map WHERE id==112" children="true" />
+	</map>
+	<map id="116" name="UBA" scaleFactor="0.5" music="0" minimap="112">
+		<reference selector="map WHERE id==112" children="true" />
+	</map>
+	<map id="117" name="UBA" scaleFactor="0.5" music="0" minimap="112">
+		<reference selector="map WHERE id==112" children="true" />
+	</map>
+	<map id="118" name="UBA" scaleFactor="0.5" music="0" minimap="112">
+		<reference selector="map WHERE id==112" children="true" />
+	</map>
+	<map id="119" name="UBA" scaleFactor="0.5" music="0" minimap="112">
+		<reference selector="map WHERE id==112" children="true" />
+	</map>
+	<map id="120" name="UBA" scaleFactor="0.5" music="0" minimap="112">
+		<reference selector="map WHERE id==112" children="true" />
+	</map>
+	<map id="121" name="UBA" scaleFactor="0.5" music="0" minimap="112">
+		<reference selector="map WHERE id==112" children="true" />
+	</map>
+	<map id="200" name="LoW" music="0">
+		<starfield>true</starfield>
+		<backgrounds>
+			<background typeID="2001" pFactor="10" layer="0" hideLensflare="false" scale="3" />
+			<background typeID="200" layer="1" isMain="true" region="2048,1278"/>
+			<background typeID="1001" pFactor="9" layer="2" hideLensflare="true" />
+			<background typeID="2014" pFactor="7" layer="4" hideLensflare="true" maskID="13" scale="2" />
+			<background typeID="2028" pFactor="8" layer="3" hideLensflare="true" maskID="23" scale="1.8" />
+		</backgrounds>
+		<lensflares>
+			<lensflare id="0" typeID="0" x="900" y="390" pFactor="10" star="false" />
+		</lensflares>
+	</map>
+	<map id="201" name="SC-1" music="0" scaleFactor="0.5" minimap="201">
+		<starfield>true</starfield>
+		<backgrounds>
+			<background typeID="2001" pFactor="10" layer="0" hideLensflare="false" scale="4" />
+			<background typeID="201" pFactor="10" layer="1" scale="2" isMain="true" isMinimap="false" />
+			<background typeID="2011" pFactor="7" layer="5" hideLensflare="false" scale="4" maskID="14" />
+			<background typeID="2022" pFactor="6" layer="6" hideLensflare="false" scale="4" maskID="12" />
+		</backgrounds>
+		<planets>
+			<planet typeID="133" x="810" y="-50" pFactor="9" layer="2" />
+			<planet typeID="134" x="-80" y="290" pFactor="9" layer="3" />
+			<planet typeID="135" x="800" y="730" pFactor="9" layer="4" />
+		</planets>
+	</map>
+	<map id="202" name="SC-2" music="0" scaleFactor="0.5" minimap="201">
+		<reference selector="map WHERE id==201" children="true" />
+	</map>
+	<map id="203" name="GG Hades" groupSystemName="HG" music="0" scaleFactor="0.5" minimap="203">
+		<backgrounds>
+			<background typeID="2001" pFactor="10" layer="0" hideLensflare="false" scale="4" maskID="11" />
+			<background typeID="203" pFactor="10" layer="1" scale="2" isMain="true" isMinimap="false" />
+			<background typeID="2022" pFactor="8" layer="2" hideLensflare="false" scale="4" maskID="5" />
+			<background typeID="2011" pFactor="6" layer="4" hideLensflare="false" scale="3" maskID="22" />
+		</backgrounds>
+		<lensflares>
+			<lensflare id="0" typeID="2" x="860" y="360" pFactor="10" star="true" />
+		</lensflares>
+		<planets>
+			<planet typeID="143" x="777" y="82" pFactor="8" layer="3" />
+			<planet typeID="142" x="539" y="72" pFactor="6" layer="5" />
+			<planet typeID="141" x="199" y="172" pFactor="5" layer="6" />
+			<planet typeID="140" x="224" y="405" pFactor="3" layer="7" />
+		</planets>
+	</map>
+
+	<map id="223" name="Devolarium Attack" groupSystemName="DA" music="5">
+		<reference selector="map WHERE id==200" children="true" />
+	</map>
+
+	<map id="224" name="Custom Tournament" groupSystemName="C-T" music="0" minimap="201">
+		<backgrounds>
+			<background typeID="2001" pFactor="10" layer="0" hideLensflare="false" scale="4"/>
+			<background typeID="201" pFactor="10" layer="1" scale="2" isMain="true" isMinimap="false" region="2048,1308"/>
+			<background typeID="2011" pFactor="7" layer="3" hideLensflare="false" scale="4" maskID="14" />
+			<background typeID="2029" pFactor="3" layer="4" hideLensflare="false" scale="1" maskID="22" />
+		</backgrounds>
+		<planets>
+			<planet typeID="134" x="390" y="1160" pFactor="9" layer="2" />
+			<planet typeID="135" x="1800" y="250" pFactor="9" layer="2" />
+			<planet typeID="135" x="1030" y="620" pFactor="9" layer="2" />
+		</planets>
+		<lensflares>
+			<lensflare id="2" typeID="2" x="720" y="1020" pFactor="10" star="false" />
+			<lensflare id="2" typeID="2" x="120" y="400" pFactor="10" star="false" />
+			<lensflare id="2" typeID="2" x="760" y="270" pFactor="10" star="false" />
+			<lensflare id="2" typeID="2" x="1520" y="750" pFactor="10" star="false" />
+		</lensflares>
+	</map>
+
+    <map id="225" name="GG PET Attack (easy)" groupSystemName="GG" music="0" minimap="52">
+        <starfield>true</starfield>
+        <backgrounds>
+            <background typeID="2001" pFactor="10" layer="0" hideLensflare="false" scale="3" />
+            <background typeID="52" pFactor="10" isMain="true" layer="1" />
+            <background typeID="2028" pFactor="8" layer="3" hideLensflare="false" maskID="17" scale="1.6" />
+            <background typeID="2013" pFactor="3" layer="5" hideLensflare="false" maskID="18" scale="1.8" />
+            <background typeID="2026" pFactor="7" layer="3" hideLensflare="false" maskID="20" scale="1.6" />
+        </backgrounds>
+        <lensflares>
+            <lensflare id="0" x="1280" y="830" pFactor="10" star="true" />
+        </lensflares>
+        <planets>
+            <planet typeID="5" x="950" y="786" pFactor="6" layer="4" pixelperfectLensflare="true" />
+            <planet typeID="6" x="490" y="910" pFactor="4" layer="4" />
+            <planet typeID="190" x="1380" y="460" pFactor="4" layer="4" />
+        </planets>
+    </map>
+    <map id="226" name="GG PET Attack (hard)" music="0" minimap="52">
+        <reference selector="map WHERE id==225" children="true" />
+    </map>
+
+
+
+
+	<map id="228" name="Permafrost Fissure" groupSystemName="GG" music="0" minimap="57">
+		<starfield>true</starfield>
+		<backgrounds>
+			<background typeID="2001" pFactor="10" layer="0" hideLensflare="false" scale="3" />
+			<background typeID="74" pFactor="10" layer="1" hideLensflare="false" isMain="true" />
+			<background typeID="2016" pFactor="6" layer="4" hideLensflare="false" maskID="3" scale="1.5" />
+		</backgrounds>
+		<planets>
+			<planet typeID="71" x="521" y="885" pFactor="8" layer="2" />
+			<planet typeID="70" x="1678" y="260" pFactor="9" layer="3" />
+		</planets>
+	</map>
+
+    <map id="300" name="GG ς 1" groupSystemName="GG" music="0" missionName="Kuiper Gate" backgroundColor="192524">
+		<starfield>true</starfield>
+        <display3D templateId="map_gg_streuner_1">
+			<light color="0x2EFFBD" diffuse="0.8" specular="1.1" ambientColor="0xFFD7FF" ambient="0.5" tilt="90" pan="104" />
+        </display3D>
+		<backgrounds>
+			<background typeID="256" pFactor="10" layer="1" isMain="true" region="2048,1278"/>
+			<background typeID="2006" pFactor="10" layer="0" hideLensflare="false" scale="2.4"/>
+			<background typeID="2012" pFactor="6" layer="2" hideLensflare="false" maskID="17" scale="1.6" />
+			<background typeID="2025" pFactor="6" layer="3" hideLensflare="false" maskID="19" scale="1.6" />
+		</backgrounds>
+		<planets>
+			<planet typeID="205" pFactor="6" layer="4" hideLensflare="true" x="1900" y="300"/>
+			<planet typeID="206" pFactor="9" layer="4" hideLensflare="true" x="1200" y="400"/>
+			<planet typeID="207" pFactor="9" layer="6" hideLensflare="true" x="800"  y="600"/>
+			<planet typeID="206" pFactor="8" layer="6" hideLensflare="true" x="700"  y="700"/>
+			<planet typeID="205" pFactor="6" layer="6" hideLensflare="true" x="150"  y="900"/>
+			<planet typeID="206" pFactor="8" layer="6" hideLensflare="true" x="2000" y="200"/>
+			<planet typeID="207" pFactor="9" layer="5" hideLensflare="true" x="2000" y="200"/>
+		</planets>
+    </map>
+	<map id="301" name="GG ς 2" groupSystemName="GG" music="0" minimap="300-700" missionName="Kuiper Gate" backgroundColor="192524">
+		<starfield>true</starfield>
+		<display3D templateId="map_gg_streuner_1">
+			<light color="0x2EFFBD" diffuse="0.8" specular="1.1" ambientColor="0xFFD7FF" ambient="0.5" tilt="90" pan="104" />
+		</display3D>
+		<backgrounds>
+			<background typeID="256" pFactor="10" layer="1" isMain="true" region="2048,1278"/>
+			<background typeID="2006" pFactor="10" layer="0" hideLensflare="false" scale="2.4"/>
+			<background typeID="2012" pFactor="6" layer="2" hideLensflare="false" maskID="17" scale="1.6" />
+			<background typeID="2025" pFactor="6" layer="3" hideLensflare="false" maskID="19" scale="1.6" />
+		</backgrounds>
+		<planets>
+			<planet typeID="205" pFactor="6" layer="4" hideLensflare="true" x="1900" y="300" scale="4" />
+			<planet typeID="206" pFactor="9" layer="4" hideLensflare="true" x="1200" y="400" scale="8" />
+			<planet typeID="207" pFactor="9" layer="6" hideLensflare="true" x="800"  y="600" scale="8" />
+			<planet typeID="206" pFactor="8" layer="6" hideLensflare="true" x="700"  y="700" scale="8" />
+			<planet typeID="205" pFactor="6" layer="6" hideLensflare="true" x="150"  y="900" scale="8" />
+			<planet typeID="206" pFactor="8" layer="6" hideLensflare="true" x="2000" y="200" scale="8" />
+			<planet typeID="207" pFactor="9" layer="5" hideLensflare="true" x="2000" y="200" scale="8" />
+		</planets>
+
+	</map>
+	<map id="302" name="GG ς 3" groupSystemName="GG" music="0" missionName="Kuiper Gate" backgroundColor="192524">
+		<starfield>true</starfield>
+		<display3D templateId="map_gg_streuner_3">
+			<light color="0x2EFFBD" diffuse="0.8" specular="1.1" ambientColor="0xFFD7FF" ambient="0.5" tilt="90" pan="104" />
+		</display3D>
+		<backgrounds>
+			<background typeID="257" pFactor="10" layer="1" isMain="true" region="2048,1276"/>
+			<background typeID="2006" pFactor="10" layer="0" hideLensflare="false" scale="2.4"/>
+			<background typeID="2012" pFactor="6" layer="2" hideLensflare="false" maskID="17" scale="1.6" />
+			<background typeID="2025" pFactor="6" layer="3" hideLensflare="false" maskID="19" scale="1.6" />
+		</backgrounds>
+		<planets>
+			<planet typeID="205" pFactor="7" layer="3" hideLensflare="true" x="600"  y="200" scale="1" />
+			<planet typeID="206" pFactor="7" layer="3" hideLensflare="true" x="1200" y="300" scale="1" />
+			<planet typeID="207" pFactor="7" layer="3" hideLensflare="true" x="600"  y="1500" scale="1" />
+			<planet typeID="205" pFactor="7" layer="3" hideLensflare="true" x="1300" y="1000" scale="1" />
+			<planet typeID="206" pFactor="7" layer="3" hideLensflare="true" x="2300" y="600" scale="1" />
+		</planets>
+
+	</map>
+
+	<map id="303" name="GG ς 4" groupSystemName="GG" music="0" minimap="302-700" missionName="Kuiper Gate" backgroundColor="192524">
+		<starfield>true</starfield>
+		<display3D templateId="map_gg_streuner_4">
+			<light color="0x2EFFBD" diffuse="0.8" specular="1.1" ambientColor="0xFFD7FF" ambient="0.5" tilt="90" pan="104" />
+		</display3D>
+		<backgrounds>
+			<background typeID="257" pFactor="10" layer="1" isMain="true" region="2048,1276"/>
+			<background typeID="2006" pFactor="10" layer="0" hideLensflare="false" scale="2.4"/>
+			<background typeID="2012" pFactor="6" layer="2" hideLensflare="false" maskID="17" scale="1.6" />
+			<background typeID="2025" pFactor="6" layer="3" hideLensflare="false" maskID="19" scale="1.6" />
+		</backgrounds>
+		<planets>
+			<planet typeID="205" pFactor="7" layer="3" hideLensflare="true" x="600"  y="200" />
+			<planet typeID="206" pFactor="7" layer="3" hideLensflare="true" x="1200" y="300" />
+			<planet typeID="207" pFactor="7" layer="3" hideLensflare="true" x="600"  y="1500"/>
+			<planet typeID="205" pFactor="7" layer="3" hideLensflare="true" x="1300" y="1000"/>
+			<planet typeID="206" pFactor="7" layer="3" hideLensflare="true" x="2300" y="600" />
+
+			<planet typeID="208" pFactor="1" layer="5" hideLensflare="true" x="1050" y="680"/>
+		</planets>
+		<display2D layer="5">
+			<displayObject x="10503" y="6803" layer="5" srcKey="streuner-asteroid-gate-splitted" resKey="top" />
+		</display2D>
+	</map>
+	<map id="304" name="GG ς 5" groupSystemName="GG" music="0" missionName="Kuiper Gate" backgroundColor="192524">
+		<starfield>true</starfield>
+		<display3D templateId="map_gg_streuner_5">
+			<light color="0xFFFF99" diffuse="0.9" specular="1.1" ambientColor="0xFFD7FF" ambient="0.3" tilt="90" pan="104" />
+		</display3D>
+		<backgrounds>
+			<background typeID="258" pFactor="10" layer="1" isMain="true" region="2048,1276" scale="1.6"/>
+			<background typeID="2006" pFactor="10" layer="0" hideLensflare="false" scale="2.4"/>
+			<background typeID="2012" pFactor="6" layer="2" hideLensflare="false" maskID="17" scale="1.6" />
+			<background typeID="2025" pFactor="6" layer="3" hideLensflare="false" maskID="19" scale="1.6" />
+		</backgrounds>
+
+		<planets>
+			<planet typeID="206" pFactor="7" layer="3"  x="500"  y="300"/>
+			<planet typeID="207" pFactor="7" layer="3"  x="1100" y="300"/>
+			<planet typeID="205" pFactor="7" layer="3"  x="500"  y="1500"/>
+			<planet typeID="206" pFactor="7" layer="3"  x="1000" y="1000"/>
+			<planet typeID="205" pFactor="7" layer="3"  x="1700" y="700"/>
+			<planet typeID="207" pFactor="7" layer="3"  x="800" y="700"/>
+
+			<planet typeID="209" pFactor="2" layer="3" x="1000" y="600"/>
+			<planet typeID="210" pFactor="4" layer="3" x="1450" y="400"/>
+			<planet typeID="211" pFactor="4" layer="3" x="300" y="900"/>
+			<planet typeID="212" pFactor="5" layer="3" x="1400" y="760"/>
+		</planets>
+		<lensflares>
+			<lensflare id="1" x="925" y="520" pFactor="10" star="true" />
+		</lensflares>
+	</map>
+
+
+	<map id="150" name="R-Zone 1" groupSystemName="R-Z" missionName="R-Zone" scaleFactor="1" music="8" disableCombatMusic="true" poiColor="0x1C1A28FF" backgroundColor="222E44">
+		<starfield>false</starfield>
+
+		<backgrounds>
+			<background typeID="259"  pFactor="10" layer="1" isMain="true"/>
+			<background typeID="2030" pFactor="10" layer="0" hideLensflare="false" scale="2.4"/>
+			<background typeID="2023" pFactor="7" layer="0" hideLensflare="false" maskID="21"  scale="2.4"/>
+			<background typeID="2024" pFactor="4" layer="2" hideLensflare="false" maskID="20" scale="1.6" />
+			<background typeID="2023" pFactor="3" layer="3" hideLensflare="false" maskID="21" scale="1.6" />
+		</backgrounds>
+
+		<display3D templateId="CrossServerZone">
+			<light color="0xFFB87F" diffuse="0.6" specular="1.6" ambientColor="0x94BBFF" ambient="0.4" tilt="100" pan="110" animateSpeed="30"/>
+		</display3D>
+
+		<planets>
+			<planet comment="module01" layer="1"  typeID="module01_c" quality_settings="zones.medium" pFactor="1" x="242.215" y="643.8961" scale="1.5" rotation="120.660"/>
+			<planet comment="module01" layer="1"  typeID="module01_c" quality_settings="zones.medium" pFactor="1" x="257.4404" y="614.0942" scale="1.5" rotation="120.660"/>
+			<planet comment="module01" layer="1"  typeID="module01_c" quality_settings="zones.medium" pFactor="1" x="274.1352" y="584.3536" scale="1.5" rotation="120.660"/>
+			<planet comment="module01" layer="1"  typeID="module01_a_mmo" quality_settings="zones.medium" pFactor="1" x="293.0781" y="555.9378" scale="1.5" rotation="120.660"/>
+			<planet comment="module01" layer="1"  typeID="module01_c" quality_settings="zones.medium" pFactor="1" x="308.5805" y="526.649" scale="1.5" rotation="120.660"/>
+			<planet comment="module01" layer="1"  typeID="module01_b" quality_settings="zones.medium" pFactor="1" x="354.8973" y="451.6546" scale="1.5" rotation="120.660"/>
+			<planet comment="module01" layer="1"  typeID="module01_d" quality_settings="zones.medium" pFactor="1" x="371.5568" y="423.5515" scale="1.5" rotation="120.660"/>
+			<planet comment="module01" layer="1"  typeID="module01_b" quality_settings="zones.medium" pFactor="1" x="418.0627" y="345.1003" scale="1.5" rotation="120.660"/>
+			<planet comment="module01" layer="1"  typeID="module01_b" quality_settings="zones.medium" pFactor="1" x="433.7687" y="318.6059" scale="1.5" rotation="120.660"/>
+			<planet comment="module01" layer="1"  typeID="module01_c" quality_settings="zones.medium" pFactor="1" x="449.9336" y="291.3372" scale="1.5" rotation="120.660"/>
+			<planet comment="module01" layer="1"  typeID="module01_c" quality_settings="zones.medium" pFactor="1" x="466.0984" y="264.0686" scale="1.5" rotation="120.660"/>
+			<planet comment="module01" layer="1"  typeID="module01_b" quality_settings="zones.medium" pFactor="1" x="482.5184" y="236.3698" scale="1.5" rotation="120.660"/>
+			<planet comment="module01" layer="1"  typeID="module01_a_mmo" quality_settings="zones.medium" pFactor="1" x="498.8871" y="208.7571" scale="1.5" rotation="120.660"/>
+			<planet comment="module01" layer="1"  typeID="module01_c" quality_settings="zones.medium" pFactor="1" x="515.409" y="180.8863" scale="1.5" rotation="120.660"/>
+			<planet comment="module01" layer="1"  typeID="module01_b" quality_settings="zones.medium" pFactor="1" x="531.064" y="154.4778" scale="1.5" rotation="120.660"/>
+			<planet comment="module01" layer="1"  typeID="module01_d" quality_settings="zones.medium" pFactor="1" x="546.9229" y="127.7253" scale="1.5" rotation="120.660"/>
+			<planet comment="module01" layer="1"  typeID="module01_a_mmo" quality_settings="zones.medium" pFactor="1" x="563.0367" y="100.5427" scale="1.5" rotation="120.660"/>
+			<planet comment="module01" layer="1"  typeID="module01_c" quality_settings="zones.medium" pFactor="1" x="578.4367" y="74.56431" scale="1.5" rotation="120.660"/>
+			<planet comment="module01" layer="1"  typeID="module01_d" quality_settings="zones.medium" pFactor="1" x="596.0316" y="49.99693" scale="1.5" rotation="120.660"/>
+			<planet comment="module01" layer="1"  typeID="module01_b" quality_settings="zones.medium" pFactor="1" x="609.3898" y="22.34956" scale="1.5" rotation="120.660"/>
+			<planet comment="module05" layer="1"  typeID="module05_b" quality_settings="zones.medium" pFactor="1" x="394.4543" y="386.6781" scale="2.175" rotation="120.660"/>
+			<planet comment="module05" layer="1"  typeID="module05_a" quality_settings="zones.medium" pFactor="1" x="331.7869" y="489.8426" scale="2.175001" rotation="120.660"/>
+			<planet comment="module01" layer="1"  typeID="module01_b" quality_settings="zones.medium" pFactor="1" x="629.8716" y="-2.592432" scale="1.5" rotation="165.660"/>
+			<planet comment="module01" layer="1"  typeID="module01_c" quality_settings="zones.medium" pFactor="1" x="1786.911" y="692.0619" scale="1.5" rotation="121.047"/>
+			<planet comment="module01" layer="1"  typeID="module01_d" quality_settings="zones.medium" pFactor="1" x="1769.272" y="721.3625" scale="1.5" rotation="121.047"/>
+			<planet comment="module01" layer="1"  typeID="module01_c" quality_settings="zones.medium" pFactor="1" x="1753.228" y="751.5059" scale="1.5" rotation="121.047"/>
+			<planet comment="module01" layer="1"  typeID="module01_a_eic" quality_settings="zones.medium" pFactor="1" x="1734.099" y="779.7925" scale="1.5" rotation="121.047"/>
+			<planet comment="module01" layer="1"  typeID="module01_b" quality_settings="zones.medium" pFactor="1" x="1718.136" y="806.3088" scale="1.5" rotation="121.047"/>
+			<planet comment="module01" layer="1"  typeID="module01_b" quality_settings="zones.medium" pFactor="1" x="1670.972" y="884.658" scale="1.5" rotation="121.047"/>
+			<planet comment="module01" layer="1"  typeID="module01_b" quality_settings="zones.medium" pFactor="1" x="1654.107" y="912.6735" scale="1.5" rotation="121.047"/>
+			<planet comment="module01" layer="1"  typeID="module01_a_eic" quality_settings="zones.medium" pFactor="1" x="1607.69" y="989.7806" scale="1.5" rotation="121.047"/>
+			<planet comment="module01" layer="1"  typeID="module01_b" quality_settings="zones.medium" pFactor="1" x="1591.806" y="1016.168" scale="1.5" rotation="121.047"/>
+			<planet comment="module01" layer="1"  typeID="module01_b" quality_settings="zones.medium" pFactor="1" x="1575.457" y="1043.327" scale="1.5" rotation="121.047"/>
+			<planet comment="module01" layer="1"  typeID="module01_d" quality_settings="zones.medium" pFactor="1" x="1559.108" y="1070.486" scale="1.5" rotation="121.047"/>
+			<planet comment="module01" layer="1"  typeID="module01_c" quality_settings="zones.medium" pFactor="1" x="1542.501" y="1098.073" scale="1.5" rotation="121.047"/>
+			<planet comment="module01" layer="1"  typeID="module01_a_eic" quality_settings="zones.medium" pFactor="1" x="1525.945" y="1125.574" scale="1.5" rotation="121.047"/>
+			<planet comment="module01" layer="1"  typeID="module01_c" quality_settings="zones.medium" pFactor="1" x="1509.235" y="1153.333" scale="1.5" rotation="121.047"/>
+			<planet comment="module01" layer="1"  typeID="module01_d" quality_settings="zones.medium" pFactor="1" x="1493.402" y="1179.635" scale="1.5" rotation="121.047"/>
+			<planet comment="module01" layer="1"  typeID="module01_b" quality_settings="zones.medium" pFactor="1" x="1477.363" y="1206.28" scale="1.5" rotation="121.047"/>
+			<planet comment="module01" layer="1"  typeID="module01_d" quality_settings="zones.medium" pFactor="1" x="1461.065" y="1233.353" scale="1.5" rotation="121.047"/>
+			<planet comment="module01" layer="1"  typeID="module01_c" quality_settings="zones.medium" pFactor="1" x="1445.49" y="1259.227" scale="1.5" rotation="121.047"/>
+			<planet comment="module01" layer="1"  typeID="module01_d" quality_settings="zones.medium" pFactor="1" x="1427.738" y="1283.674" scale="1.5" rotation="121.047"/>
+			<planet comment="module01" layer="1"  typeID="module01_a_eic" quality_settings="zones.medium" pFactor="1" x="1414.184" y="1311.231" scale="1.5" rotation="121.047"/>
+			<planet comment="module05" layer="1"  typeID="module05_b" quality_settings="zones.medium" pFactor="1" x="1628.58" y="953.3331" scale="2.175" rotation="121.047"/>
+			<planet comment="module05" layer="1"  typeID="module05_b" quality_settings="zones.medium" pFactor="1" x="1692.948" y="844.6621" scale="2.175001" rotation="121.047"/>
+			<planet comment="module01" layer="1"  typeID="module01_a_vru" quality_settings="zones.medium" pFactor="1" x="1376.99" y="1335.282" scale="1.5" rotation="179.987"/>
+			<planet comment="module01" layer="1"  typeID="module01_b" quality_settings="zones.medium" pFactor="1" x="1342.79" y="1335.29" scale="1.5" rotation="179.987"/>
+			<planet comment="module01" layer="1"  typeID="module01_a_vru" quality_settings="zones.medium" pFactor="1" x="1308.691" y="1337.097" scale="1.5" rotation="179.987"/>
+			<planet comment="module01" layer="1"  typeID="module01_b" quality_settings="zones.medium" pFactor="1" x="1274.59" y="1335.305" scale="1.5" rotation="179.987"/>
+			<planet comment="module01" layer="1"  typeID="module01_a_vru" quality_settings="zones.medium" pFactor="1" x="1243.64" y="1335.312" scale="1.5" rotation="179.987"/>
+			<planet comment="module01" layer="1"  typeID="module01_b" quality_settings="zones.medium" pFactor="1" x="1153.36" y="1335.332" scale="1.5" rotation="179.987"/>
+			<planet comment="module01" layer="1"  typeID="module01_d" quality_settings="zones.medium" pFactor="1" x="1120.69" y="1335.34" scale="1.5" rotation="179.987"/>
+			<planet comment="module01" layer="1"  typeID="module01_c" quality_settings="zones.medium" pFactor="1" x="1032.75" y="1335.36" scale="1.5" rotation="179.987"/>
+			<planet comment="module01" layer="1"  typeID="module01_a_vru" quality_settings="zones.medium" pFactor="1" x="999.7902" y="1335.367" scale="1.5" rotation="179.987"/>
+			<planet comment="module01" layer="1"  typeID="module01_c" quality_settings="zones.medium" pFactor="1" x="968.4902" y="1335.374" scale="1.5" rotation="179.987"/>
+			<planet comment="module01" layer="1"  typeID="module01_b" quality_settings="zones.medium" pFactor="1" x="935.2902" y="1335.382" scale="1.5" rotation="179.987"/>
+			<planet comment="module01" layer="1"  typeID="module01_a_vru" quality_settings="zones.medium" pFactor="1" x="903.0902" y="1335.389" scale="1.5" rotation="179.987"/>
+			<planet comment="module01" layer="1"  typeID="module01_d" quality_settings="zones.medium" pFactor="1" x="870.9902" y="1335.396" scale="1.5" rotation="179.987"/>
+			<planet comment="module01" layer="1"  typeID="module01_b" quality_settings="zones.medium" pFactor="1" x="838.5901" y="1335.404" scale="1.5" rotation="179.987"/>
+			<planet comment="module01" layer="1"  typeID="module01_c" quality_settings="zones.medium" pFactor="1" x="807.8903" y="1335.411" scale="1.5" rotation="179.987"/>
+			<planet comment="module01" layer="1"  typeID="module01_a_vru" quality_settings="zones.medium" pFactor="1" x="776.7902" y="1335.418" scale="1.5" rotation="179.987"/>
+			<planet comment="module01" layer="1"  typeID="module01_a_vru" quality_settings="zones.medium" pFactor="1" x="745.1901" y="1335.425" scale="1.5" rotation="179.987"/>
+			<planet comment="module01" layer="1"  typeID="module01_d" quality_settings="zones.medium" pFactor="1" x="714.9901" y="1335.432" scale="1.5" rotation="179.987"/>
+			<planet comment="module01" layer="1"  typeID="module01_d" quality_settings="zones.medium" pFactor="1" x="684.8895" y="1332.839" scale="1.5" rotation="179.987"/>
+			<planet comment="module01" layer="1"  typeID="module01_c" quality_settings="zones.medium" pFactor="1" x="654.2902" y="1335.446" scale="1.5" rotation="179.987"/>
+			<planet comment="module05" layer="1"  typeID="module05_a" quality_settings="zones.medium" pFactor="1" x="1074.49" y="1334.45" scale="2.175" rotation="179.987"/>
+			<planet comment="module05" layer="1"  typeID="module05_b" quality_settings="zones.medium" pFactor="1" x="1197.79" y="1333.522" scale="2.175001" rotation="179.987"/>
+			<planet comment="module01" layer="1"  typeID="module01_b" quality_settings="zones.medium" pFactor="1" x="623.675" y="1306.243" scale="1.5" rotation="59.361"/>
+			<planet comment="module01" layer="1"  typeID="module01_d" quality_settings="zones.medium" pFactor="1" x="606.2457" y="1276.818" scale="1.5" rotation="59.361"/>
+			<planet comment="module01" layer="1"  typeID="module01_b" quality_settings="zones.medium" pFactor="1" x="587.3187" y="1248.396" scale="1.5" rotation="59.361"/>
+			<planet comment="module01" layer="1"  typeID="module01_d" quality_settings="zones.medium" pFactor="1" x="571.4891" y="1218.139" scale="1.5" rotation="59.361"/>
+			<planet comment="module01" layer="1"  typeID="module01_d" quality_settings="zones.medium" pFactor="1" x="555.7161" y="1191.51" scale="1.5" rotation="59.361"/>
+			<planet comment="module05" layer="1"  typeID="module05_a" quality_settings="zones.medium" pFactor="1" x="532.4767" y="1153.845" scale="2.175001" rotation="59.361"/>
+			<planet comment="module01" layer="1"  typeID="module01_b" quality_settings="zones.medium" pFactor="1" x="509.7069" y="1113.833" scale="1.5" rotation="59.361"/>
+			<planet comment="module01" layer="1"  typeID="module01_b" quality_settings="zones.medium" pFactor="1" x="493.0574" y="1085.724" scale="1.5" rotation="59.361"/>
+			<planet comment="module05" layer="1"  typeID="module05_b" quality_settings="zones.medium" pFactor="1" x="470.2869" y="1045.515" scale="2.175" rotation="59.361"/>
+			<planet comment="module01" layer="1"  typeID="module01_b" quality_settings="zones.medium" pFactor="1" x="448.2406" y="1010.061" scale="1.5" rotation="59.361"/>
+			<planet comment="module01" layer="1"  typeID="module01_d" quality_settings="zones.medium" pFactor="1" x="431.4434" y="981.7021" scale="1.5" rotation="59.361"/>
+			<planet comment="module01" layer="1"  typeID="module01_c" quality_settings="zones.medium" pFactor="1" x="415.4922" y="954.7718" scale="1.5" rotation="59.361"/>
+			<planet comment="module01" layer="1"  typeID="module01_d" quality_settings="zones.medium" pFactor="1" x="398.5724" y="926.2067" scale="1.5" rotation="59.361"/>
+			<planet comment="module01" layer="1"  typeID="module01_c" quality_settings="zones.medium" pFactor="1" x="382.1625" y="898.502" scale="1.5" rotation="59.361"/>
+			<planet comment="module01" layer="1"  typeID="module01_b" quality_settings="zones.medium" pFactor="1" x="365.8033" y="870.8832" scale="1.5" rotation="59.361"/>
+			<planet comment="module01" layer="1"  typeID="module01_c" quality_settings="zones.medium" pFactor="1" x="349.2914" y="843.0065" scale="1.5" rotation="59.361"/>
+			<planet comment="module01" layer="1"  typeID="module01_c" quality_settings="zones.medium" pFactor="1" x="333.6459" y="816.5922" scale="1.5" rotation="59.361"/>
+			<planet comment="module01" layer="1"  typeID="module01_d" quality_settings="zones.medium" pFactor="1" x="317.7965" y="789.8339" scale="1.5" rotation="59.361"/>
+			<planet comment="module01" layer="1"  typeID="module01_b" quality_settings="zones.medium" pFactor="1" x="301.6922" y="762.6454" scale="1.5" rotation="59.361"/>
+			<planet comment="module01" layer="1"  typeID="module01_c" quality_settings="zones.medium" pFactor="1" x="286.3016" y="736.6615" scale="1.5" rotation="59.361"/>
+			<planet comment="module01" layer="1"  typeID="module01_d" quality_settings="zones.medium" pFactor="1" x="273.1986" y="709.4386" scale="1.5" rotation="59.361"/>
+			<planet comment="module01" layer="1"  typeID="module01_a_vru" quality_settings="zones.medium" pFactor="1" x="257.432" y="683.2124" scale="1.5" rotation="59.361"/>
+			<planet comment="module01" layer="1"  typeID="module01_c" quality_settings="zones.medium" pFactor="1" x="1415.273" y="34.65762" scale="1.5" rotation="59.375"/>
+			<planet comment="module01" layer="1"  typeID="module01_c" quality_settings="zones.medium" pFactor="1" x="1432.695" y="64.0875" scale="1.5" rotation="59.375"/>
+			<planet comment="module01" layer="1"  typeID="module01_b" quality_settings="zones.medium" pFactor="1" x="1451.615" y="92.51448" scale="1.5" rotation="59.375"/>
+			<planet comment="module01" layer="1"  typeID="module01_b" quality_settings="zones.medium" pFactor="1" x="1467.437" y="122.7753" scale="1.5" rotation="59.375"/>
+			<planet comment="module01" layer="1"  typeID="module01_b" quality_settings="zones.medium" pFactor="1" x="1483.203" y="149.4085" scale="1.5" rotation="59.375"/>
+			<planet comment="module01" layer="1"  typeID="module01_c" quality_settings="zones.medium" pFactor="1" x="1529.193" y="227.0967" scale="1.5" rotation="59.375"/>
+			<planet comment="module01" layer="1"  typeID="module01_b" quality_settings="zones.medium" pFactor="1" x="1545.835" y="255.21" scale="1.5" rotation="59.375"/>
+			<planet comment="module01" layer="1"  typeID="module01_b" quality_settings="zones.medium" pFactor="1" x="1592.293" y="333.6898" scale="1.5" rotation="59.375"/>
+			<planet comment="module01" layer="1"  typeID="module01_d" quality_settings="zones.medium" pFactor="1" x="1607.983" y="360.1939" scale="1.5" rotation="59.375"/>
+			<planet comment="module01" layer="1"  typeID="module01_a_eic" quality_settings="zones.medium" pFactor="1" x="1624.131" y="387.4726" scale="1.5" rotation="59.375"/>
+			<planet comment="module01" layer="1"  typeID="module01_c" quality_settings="zones.medium" pFactor="1" x="1640.28" y="414.7512" scale="1.5" rotation="59.375"/>
+			<planet comment="module01" layer="1"  typeID="module01_c" quality_settings="zones.medium" pFactor="1" x="1656.683" y="442.4601" scale="1.5" rotation="59.375"/>
+			<planet comment="module01" layer="1"  typeID="module01_c" quality_settings="zones.medium" pFactor="1" x="1673.035" y="470.0829" scale="1.5" rotation="59.375"/>
+			<planet comment="module01" layer="1"  typeID="module01_c" quality_settings="zones.medium" pFactor="1" x="1689.54" y="497.9639" scale="1.5" rotation="59.375"/>
+			<planet comment="module01" layer="1"  typeID="module01_d" quality_settings="zones.medium" pFactor="1" x="1705.178" y="524.382" scale="1.5" rotation="59.375"/>
+			<planet comment="module01" layer="1"  typeID="module01_a_eic" quality_settings="zones.medium" pFactor="1" x="1721.021" y="551.1443" scale="1.5" rotation="59.375"/>
+			<planet comment="module01" layer="1"  typeID="module01_b" quality_settings="zones.medium" pFactor="1" x="1737.119" y="578.3369" scale="1.5" rotation="59.375"/>
+			<planet comment="module01" layer="1"  typeID="module01_c" quality_settings="zones.medium" pFactor="1" x="1752.503" y="604.3247" scale="1.5" rotation="59.375"/>
+			<planet comment="module01" layer="1"  typeID="module01_a_eic" quality_settings="zones.medium" pFactor="1" x="1765.599" y="631.551" scale="1.5" rotation="59.375"/>
+			<planet comment="module01" layer="1"  typeID="module01_b" quality_settings="zones.medium" pFactor="1" x="1783.424" y="656.5585" scale="1.5" rotation="59.375"/>
+			<planet comment="module05" layer="1"  typeID="module05_b" quality_settings="zones.medium" pFactor="1" x="1567.169" y="293.0152" scale="2.175" rotation="59.375"/>
+			<planet comment="module05" layer="1"  typeID="module05_b" quality_settings="zones.medium" pFactor="1" x="1505.011" y="189.7805" scale="2.175001" rotation="59.375"/>
+			<planet comment="module01" layer="1"  typeID="module01_a_mmo" quality_settings="zones.medium" pFactor="1" x="658.8" y="11.10005" scale="1.5" rotation="0.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_d" quality_settings="zones.medium" pFactor="1" x="693" y="11.10004" scale="1.5" rotation="0.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_a_mmo" quality_settings="zones.medium" pFactor="1" x="727.1" y="9.300039" scale="1.5" rotation="0.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_b" quality_settings="zones.medium" pFactor="1" x="761.2" y="11.10004" scale="1.5" rotation="0.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_b" quality_settings="zones.medium" pFactor="1" x="792.15" y="11.09996" scale="1.5" rotation="0.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_c" quality_settings="zones.medium" pFactor="1" x="882.43" y="11.10003" scale="1.5" rotation="0.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_a_mmo" quality_settings="zones.medium" pFactor="1" x="915.1" y="11.10002" scale="1.5" rotation="0.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_b" quality_settings="zones.medium" pFactor="1" x="1006.3" y="11.10002" scale="1.5" rotation="0.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_b" quality_settings="zones.medium" pFactor="1" x="1037.1" y="11.10001" scale="1.5" rotation="0.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_c" quality_settings="zones.medium" pFactor="1" x="1068.8" y="11.10001" scale="1.5" rotation="0.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_c" quality_settings="zones.medium" pFactor="1" x="1100.5" y="11.10001" scale="1.5" rotation="0.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_c" quality_settings="zones.medium" pFactor="1" x="1132.7" y="11.1" scale="1.5" rotation="0.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_c" quality_settings="zones.medium" pFactor="1" x="1164.8" y="11.1" scale="1.5" rotation="0.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_c" quality_settings="zones.medium" pFactor="1" x="1197.2" y="11.1" scale="1.5" rotation="0.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_c" quality_settings="zones.medium" pFactor="1" x="1227.9" y="11.1" scale="1.5" rotation="0.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_c" quality_settings="zones.medium" pFactor="1" x="1259" y="11.09999" scale="1.5" rotation="0.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_a_mmo" quality_settings="zones.medium" pFactor="1" x="1290.6" y="11.09999" scale="1.5" rotation="0.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_a_mmo" quality_settings="zones.medium" pFactor="1" x="1320.8" y="11.09999" scale="1.5" rotation="0.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_d" quality_settings="zones.medium" pFactor="1" x="1350.9" y="13.69998" scale="1.5" rotation="0.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_c" quality_settings="zones.medium" pFactor="1" x="1381.5" y="11.09998" scale="1.5" rotation="0.000"/>
+			<planet comment="module05" layer="1"  typeID="module05_b" quality_settings="zones.medium" pFactor="1" x="961.3" y="12.00002" scale="2.175" rotation="0.000"/>
+			<planet comment="module05" layer="1"  typeID="module05_b" quality_settings="zones.medium" pFactor="1" x="838" y="12.90003" scale="2.175001" rotation="0.000"/>
+			<planet comment="module05" layer="1"  typeID="module05_b" quality_settings="zones.medium" pFactor="1" x="528.4304" y="775.2943" scale="2.175" rotation="150.000"/>
+			<planet comment="module05" layer="1"  typeID="module05_b" quality_settings="zones.medium" pFactor="1" x="488.3051" y="798.5955" scale="2.175" rotation="150.000"/>
+			<planet comment="module05" layer="1"  typeID="module05_a" quality_settings="zones.medium" pFactor="1" x="444.1197" y="824.0641" scale="2.175001" rotation="150.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_d" quality_settings="zones.medium" pFactor="1" x="435.509" y="529.5654" scale="1.5" rotation="120.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_c" quality_settings="zones.medium" pFactor="1" x="420.0086" y="556.4121" scale="1.5" rotation="120.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_b" quality_settings="zones.medium" pFactor="1" x="404.9084" y="582.566" scale="1.5" rotation="120.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_b" quality_settings="zones.medium" pFactor="1" x="389.9582" y="608.46" scale="1.5" rotation="120.001"/>
+			<planet comment="module01" layer="1"  typeID="module01_d" quality_settings="zones.medium" pFactor="1" x="376.308" y="632.1024" scale="1.5" rotation="120.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_a_mmo" quality_settings="zones.medium" pFactor="1" x="462.7287" y="544.8192" scale="1.5" rotation="30.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_c" quality_settings="zones.medium" pFactor="1" x="488.6192" y="560.5756" scale="1.5" rotation="30.000"/>
+			<planet comment="module05" layer="1"  typeID="module05_b" quality_settings="zones.medium" pFactor="1" x="526.568" y="581.4465" scale="2.175001" rotation="30.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_d" quality_settings="zones.medium" pFactor="1" x="562.5811" y="602.47" scale="1.5" rotation="30.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_d" quality_settings="zones.medium" pFactor="1" x="590.5535" y="618.6202" scale="1.5" rotation="30.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_d" quality_settings="zones.medium" pFactor="1" x="442.5252" y="569.4122" scale="1.5" rotation="120.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_b" quality_settings="zones.medium" pFactor="1" x="427.6848" y="595.7161" scale="1.5" rotation="120.000"/>
+			<planet comment="moduleCircle" layer="1"  typeID="moduleCircle_mmo" quality_settings="zones.medium" pFactor="1" x="610.1" y="484" scale="1.5"/>
+			<planet comment="moduleCircle" layer="1"  typeID="moduleCircle_vru" quality_settings="zones.medium" pFactor="1" x="689.4" y="845.2" scale="1.5"/>
+			<planet comment="moduleCircle" layer="1"  typeID="moduleCircle_vru" quality_settings="zones.medium" pFactor="1" x="996.4" y="727.5" scale="1.5"/>
+			<planet comment="module01" layer="1"  typeID="module01_b" quality_settings="zones.medium" pFactor="1" x="545.6852" y="323.1108" scale="1.5" rotation="150.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_a_mmo" quality_settings="zones.medium" pFactor="1" x="571.9258" y="307.961" scale="1.5" rotation="150.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_b" quality_settings="zones.medium" pFactor="1" x="597.9933" y="292.9112" scale="1.5" rotation="150.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_b" quality_settings="zones.medium" pFactor="1" x="625.7957" y="279.4225" scale="1.5" rotation="150.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_d" quality_settings="zones.medium" pFactor="1" x="652.9611" y="265.9182" scale="1.5" rotation="150.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_c" quality_settings="zones.medium" pFactor="1" x="664.7754" y="290.3816" scale="1.5" rotation="60.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_d" quality_settings="zones.medium" pFactor="1" x="679.5252" y="315.9294" scale="1.5" rotation="60.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_c" quality_settings="zones.medium" pFactor="1" x="694.3751" y="341.6505" scale="1.5" rotation="60.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_c" quality_settings="zones.medium" pFactor="1" x="710.0249" y="368.7572" scale="1.5" rotation="60.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_a_mmo" quality_settings="zones.medium" pFactor="1" x="725.1247" y="394.9113" scale="1.5" rotation="60.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_a_mmo" quality_settings="zones.medium" pFactor="1" x="739.8245" y="420.3725" scale="1.5" rotation="60.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_d" quality_settings="zones.medium" pFactor="1" x="755.4743" y="447.4792" scale="1.500001" rotation="60.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_a_mmo" quality_settings="zones.medium" pFactor="1" x="770.3742" y="473.2869" scale="1.500003" rotation="60.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_b" quality_settings="zones.medium" pFactor="1" x="868.7501" y="777.9696" scale="1.500003" rotation="120.000"/>
+			<planet comment="module05" layer="1"  typeID="module05_b" quality_settings="zones.medium" pFactor="1" x="831.0317" y="847.2988" scale="2.175" rotation="120.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_d" quality_settings="zones.medium" pFactor="1" x="851.3365" y="808.3304" scale="1.500001" rotation="120.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_c" quality_settings="zones.medium" pFactor="1" x="812.3924" y="877.1828" scale="1.5" rotation="120.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_b" quality_settings="zones.medium" pFactor="1" x="782.5921" y="928.7977" scale="1.5" rotation="120.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_a_vru" quality_settings="zones.medium" pFactor="1" x="766.942" y="955.9043" scale="1.5" rotation="120.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_b" quality_settings="zones.medium" pFactor="1" x="752.0918" y="981.6251" scale="1.5" rotation="120.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_d" quality_settings="zones.medium" pFactor="1" x="737.3416" y="1007.173" scale="1.5" rotation="120.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_d" quality_settings="zones.medium" pFactor="1" x="742.2004" y="570.9595" scale="1.500009" rotation="120.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_c" quality_settings="zones.medium" pFactor="1" x="690.4093" y="675.465" scale="1.500007" rotation="120.000"/>
+			<planet comment="module05" layer="1"  typeID="module05_b" quality_settings="zones.medium" pFactor="1" x="710.1883" y="634.8074" scale="2.175001" rotation="120.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_b" quality_settings="zones.medium" pFactor="1" x="730.6055" y="598.4442" scale="1.500008" rotation="120.000"/>
+			<planet comment="module05" layer="1"  typeID="module05_b" quality_settings="zones.medium" pFactor="1" x="817.8947" y="787.4534" scale="2.175" rotation="30.000"/>
+			<planet comment="module05" layer="1"  typeID="module05_b" quality_settings="zones.medium" pFactor="1" x="834.8273" y="758.9257" scale="2.175" rotation="30.000"/>
+			<planet comment="module05" layer="1"  typeID="module05_b" quality_settings="zones.medium" pFactor="1" x="795.926" y="735.3048" scale="2.175" rotation="30.000"/>
+			<planet comment="module05" layer="1"  typeID="module05_b" quality_settings="zones.medium" pFactor="1" x="778.9612" y="763.8881" scale="2.175" rotation="30.000"/>
+			<planet comment="module05" layer="1"  typeID="module05_b" quality_settings="zones.medium" pFactor="1" x="703.0953" y="720.6917" scale="2.175" rotation="30.000"/>
+			<planet comment="module05" layer="1"  typeID="module05_b" quality_settings="zones.medium" pFactor="1" x="720.1262" y="691.9939" scale="2.175" rotation="30.000"/>
+			<planet comment="module05" layer="1"  typeID="module05_b" quality_settings="zones.medium" pFactor="1" x="761.3865" y="716.3288" scale="2.175" rotation="30.000"/>
+			<planet comment="module05" layer="1"  typeID="module05_b" quality_settings="zones.medium" pFactor="1" x="744.4399" y="744.8807" scale="2.175" rotation="30.000"/>
+			<planet comment="module05" layer="1"  typeID="module05_a" quality_settings="zones.medium" pFactor="1" x="674.5762" y="701.8885" scale="2.175" rotation="30.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_c" quality_settings="zones.medium" pFactor="1" x="797.6922" y="902.6439" scale="1.5" rotation="120.000"/>
+			<planet comment="module05" layer="1"  typeID="module05_b" quality_settings="zones.medium" pFactor="1" x="564.8528" y="1001.654" scale="2.175" rotation="60.000"/>
+			<planet comment="module05" layer="1"  typeID="module05_a" quality_settings="zones.medium" pFactor="1" x="539.5648" y="1016.254" scale="2.175" rotation="60.000"/>
+			<planet comment="module05" layer="1"  typeID="module05_a" quality_settings="zones.medium" pFactor="1" x="590.7999" y="1048.796" scale="2.175" rotation="60.000"/>
+			<planet comment="module05" layer="1"  typeID="module05_b" quality_settings="zones.medium" pFactor="1" x="565.5984" y="1063.346" scale="2.175" rotation="60.000"/>
+			<planet comment="module05" layer="1"  typeID="module05_a" quality_settings="zones.medium" pFactor="1" x="590.0179" y="1104.904" scale="2.175" rotation="60.000"/>
+			<planet comment="module05" layer="1"  typeID="module05_a" quality_settings="zones.medium" pFactor="1" x="614.9158" y="1090.53" scale="2.175" rotation="60.000"/>
+			<planet comment="module04" layer="1"  typeID="module04" quality_settings="zones.medium" pFactor="1" x="533.3036" y="978.9747" scale="2.175" rotation="60.000"/>
+			<planet comment="module04" layer="1"  typeID="module04" quality_settings="zones.medium" pFactor="1" x="618.0947" y="1122.873" scale="2.175" rotation="240.000"/>
+			<planet comment="module03" layer="1"  typeID="module03" quality_settings="zones.medium" pFactor="1" x="330.9" y="759.8" scale="3" rotation="240.000"/>
+			<planet comment="module05" layer="1"  typeID="module05_a" quality_settings="zones.medium" pFactor="1" x="1178.926" y="199.1405" scale="2.175" rotation="90.000"/>
+			<planet comment="module05" layer="1"  typeID="module05_a" quality_settings="zones.medium" pFactor="1" x="1178.809" y="152.7404" scale="2.175" rotation="90.000"/>
+			<planet comment="module05" layer="1"  typeID="module05_a" quality_settings="zones.medium" pFactor="1" x="1178.844" y="101.7404" scale="2.175001" rotation="90.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_d" quality_settings="zones.medium" pFactor="1" x="1438.194" y="241.5315" scale="1.5" rotation="60.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_b" quality_settings="zones.medium" pFactor="1" x="1422.694" y="214.6847" scale="1.5" rotation="60.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_c" quality_settings="zones.medium" pFactor="1" x="1407.594" y="188.5307" scale="1.5" rotation="60.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_a_eic" quality_settings="zones.medium" pFactor="1" x="1392.644" y="162.6364" scale="1.5" rotation="60.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_b" quality_settings="zones.medium" pFactor="1" x="1378.994" y="138.9939" scale="1.5" rotation="60.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_a_eic" quality_settings="zones.medium" pFactor="1" x="1411.374" y="257.4778" scale="1.5" rotation="150.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_b" quality_settings="zones.medium" pFactor="1" x="1384.783" y="272.0215" scale="1.5" rotation="150.000"/>
+			<planet comment="module05" layer="1"  typeID="module05_a" quality_settings="zones.medium" pFactor="1" x="1347.734" y="294.4508" scale="2.175001" rotation="150.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_b" quality_settings="zones.medium" pFactor="1" x="1311.521" y="315.1274" scale="1.5" rotation="150.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_b" quality_settings="zones.medium" pFactor="1" x="1283.548" y="331.2773" scale="1.5" rotation="150.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_d" quality_settings="zones.medium" pFactor="1" x="1384.818" y="201.6806" scale="1.5" rotation="60.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_a_eic" quality_settings="zones.medium" pFactor="1" x="1400.177" y="227.6846" scale="1.5" rotation="60.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_c" quality_settings="zones.medium" pFactor="1" x="1561.902" y="440.1738" scale="1.5" rotation="90.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_c" quality_settings="zones.medium" pFactor="1" x="1561.901" y="470.4738" scale="1.5" rotation="90.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_b" quality_settings="zones.medium" pFactor="1" x="1561.901" y="500.5738" scale="1.5" rotation="90.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_c" quality_settings="zones.medium" pFactor="1" x="1559.682" y="531.3956" scale="1.5" rotation="90.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_a_eic" quality_settings="zones.medium" pFactor="1" x="1557.794" y="561.6738" scale="1.5" rotation="90.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_c" quality_settings="zones.medium" pFactor="1" x="1530.701" y="559.6737" scale="1.5" rotation="0.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_b" quality_settings="zones.medium" pFactor="1" x="1501.201" y="559.6736" scale="1.5" rotation="0.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_d" quality_settings="zones.medium" pFactor="1" x="1471.501" y="559.6735" scale="1.5" rotation="0.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_a_eic" quality_settings="zones.medium" pFactor="1" x="1440.201" y="559.6734" scale="1.5" rotation="0.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_d" quality_settings="zones.medium" pFactor="1" x="1410.001" y="559.6733" scale="1.5" rotation="0.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_a_eic" quality_settings="zones.medium" pFactor="1" x="1380.601" y="559.6732" scale="1.5" rotation="0.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_d" quality_settings="zones.medium" pFactor="1" x="1349.301" y="559.6731" scale="1.500001" rotation="0.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_b" quality_settings="zones.medium" pFactor="1" x="1319.501" y="559.673" scale="1.500003" rotation="0.000"/>
+			<planet comment="moduleCircle" layer="1"  typeID="moduleCircle_eic" quality_settings="zones.medium" pFactor="1" x="1389" y="415.3" scale="1.5"/>
+			<planet comment="moduleCircle" layer="1"  typeID="moduleCircle_eic" quality_settings="zones.medium" pFactor="1" x="1038.9" y="303.9" scale="1.5"/>
+			<planet comment="moduleCircle" layer="1"  typeID="moduleCircle_mmo" quality_settings="zones.medium" pFactor="1" x="984.9" y="626.8" scale="1.5"/>
+			<planet comment="module01" layer="1"  typeID="module01_c" quality_settings="zones.medium" pFactor="1" x="1006.45" y="492.529" scale="1.500003" rotation="60.000"/>
+			<planet comment="module05" layer="1"  typeID="module05_a" quality_settings="zones.medium" pFactor="1" x="965.2679" y="425.1995" scale="2.175" rotation="60.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_b" quality_settings="zones.medium" pFactor="1" x="988.8634" y="462.268" scale="1.500001" rotation="60.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_a_mmo" quality_settings="zones.medium" pFactor="1" x="948.7072" y="394.1153" scale="1.5" rotation="60.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_d" quality_settings="zones.medium" pFactor="1" x="918.9073" y="342.5002" scale="1.5" rotation="60.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_c" quality_settings="zones.medium" pFactor="1" x="903.2574" y="315.3935" scale="1.5" rotation="60.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_b" quality_settings="zones.medium" pFactor="1" x="888.4074" y="289.6725" scale="1.5" rotation="60.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_a_mmo" quality_settings="zones.medium" pFactor="1" x="873.6575" y="264.1247" scale="1.5" rotation="60.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_a_mmo" quality_settings="zones.medium" pFactor="1" x="1249.001" y="486.4378" scale="1.500009" rotation="60.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_c" quality_settings="zones.medium" pFactor="1" x="1184.392" y="389.3329" scale="1.500007" rotation="60.000"/>
+			<planet comment="module05" layer="1"  typeID="module05_b" quality_settings="zones.medium" pFactor="1" x="1209.713" y="426.7907" scale="2.175001" rotation="60.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_d" quality_settings="zones.medium" pFactor="1" x="1230.996" y="462.654" scale="1.500008" rotation="60.000"/>
+			<planet comment="module05" layer="1"  typeID="module05_b" quality_settings="zones.medium" pFactor="1" x="1023.664" y="443.7449" scale="2.175" rotation="150.000"/>
+			<planet comment="module05" layer="1"  typeID="module05_b" quality_settings="zones.medium" pFactor="1" x="1039.904" y="472.6727" scale="2.175" rotation="150.000"/>
+			<planet comment="module05" layer="1"  typeID="module05_a" quality_settings="zones.medium" pFactor="1" x="1079.811" y="450.7935" scale="2.175" rotation="150.000"/>
+			<planet comment="module05" layer="1"  typeID="module05_b" quality_settings="zones.medium" pFactor="1" x="1063.539" y="421.81" scale="2.175" rotation="150.000"/>
+			<planet comment="module05" layer="1"  typeID="module05_a" quality_settings="zones.medium" pFactor="1" x="1138.881" y="377.7061" scale="2.175" rotation="150.000"/>
+			<planet comment="module05" layer="1"  typeID="module05_b" quality_settings="zones.medium" pFactor="1" x="1155.219" y="406.8041" scale="2.175" rotation="150.000"/>
+			<planet comment="module05" layer="1"  typeID="module05_b" quality_settings="zones.medium" pFactor="1" x="1113.514" y="430.3693" scale="2.175" rotation="150.000"/>
+			<planet comment="module05" layer="1"  typeID="module05_a" quality_settings="zones.medium" pFactor="1" x="1097.26" y="401.4173" scale="2.175" rotation="150.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_c" quality_settings="zones.medium" pFactor="1" x="934.0073" y="368.6541" scale="1.5" rotation="60.000"/>
+			<planet comment="module05" layer="1"  typeID="module05_a" quality_settings="zones.medium" pFactor="1" x="964.6808" y="117.5043" scale="2.175" rotation="0.000"/>
+			<planet comment="module05" layer="1"  typeID="module05_b" quality_settings="zones.medium" pFactor="1" x="964.6808" y="88.30431" scale="2.175" rotation="0.000"/>
+			<planet comment="module05" layer="1"  typeID="module05_b" quality_settings="zones.medium" pFactor="1" x="910.8809" y="116.4042" scale="2.175" rotation="0.000"/>
+			<planet comment="module05" layer="1"  typeID="module05_b" quality_settings="zones.medium" pFactor="1" x="910.8809" y="87.30419" scale="2.175" rotation="0.000"/>
+			<planet comment="module05" layer="1"  typeID="module05_a" quality_settings="zones.medium" pFactor="1" x="862.6808" y="87.67314" scale="2.175" rotation="0.000"/>
+			<planet comment="module05" layer="1"  typeID="module05_a" quality_settings="zones.medium" pFactor="1" x="862.6808" y="116.4227" scale="2.175" rotation="0.000"/>
+			<planet comment="module04" layer="1"  typeID="module04" quality_settings="zones.medium" pFactor="1" x="1000.096" y="101.5214" scale="2.175" rotation="180.000"/>
+			<planet comment="module04" layer="1"  typeID="module04" quality_settings="zones.medium" pFactor="1" x="833.0809" y="103.004" scale="2.175" rotation="0.000"/>
+			<planet comment="module05" layer="1"  typeID="module05_b" quality_settings="zones.medium" pFactor="1" x="1352.645" y="1050.562" scale="2.175" rotation="30.000"/>
+			<planet comment="module05" layer="1"  typeID="module05_b" quality_settings="zones.medium" pFactor="1" x="1392.887" y="1073.661" scale="2.175" rotation="30.000"/>
+			<planet comment="module05" layer="1"  typeID="module05_a" quality_settings="zones.medium" pFactor="1" x="1437.037" y="1099.191" scale="2.175001" rotation="30.000"/>
+			<planet comment="module03" layer="1"  typeID="module03" quality_settings="zones.medium" pFactor="1" x="1291.1" y="34.4" scale="3" rotation="0.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_c" quality_settings="zones.medium" pFactor="1" x="1186.3" y="1253.9" scale="1.5" rotation="0.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_a_vru" quality_settings="zones.medium" pFactor="1" x="1217.3" y="1253.9" scale="1.5" rotation="0.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_c" quality_settings="zones.medium" pFactor="1" x="1247.5" y="1253.9" scale="1.5" rotation="0.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_d" quality_settings="zones.medium" pFactor="1" x="1277.4" y="1253.9" scale="1.5" rotation="0.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_c" quality_settings="zones.medium" pFactor="1" x="1304.7" y="1253.9" scale="1.5" rotation="0.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_d" quality_settings="zones.medium" pFactor="1" x="1185.9" y="1222.7" scale="1.5" rotation="90.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_d" quality_settings="zones.medium" pFactor="1" x="1186.6" y="1192.4" scale="1.5" rotation="90.000"/>
+			<planet comment="module05" layer="1"  typeID="module05_b" quality_settings="zones.medium" pFactor="1" x="1185.7" y="1149.1" scale="2.175001" rotation="90.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_d" quality_settings="zones.medium" pFactor="1" x="1185.9" y="1107.4" scale="1.5" rotation="90.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_b" quality_settings="zones.medium" pFactor="1" x="1185.9" y="1075.1" scale="1.5" rotation="90.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_a_vru" quality_settings="zones.medium" pFactor="1" x="1217.3" y="1227.9" scale="1.5" rotation="0.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_d" quality_settings="zones.medium" pFactor="1" x="1247.5" y="1227.6" scale="1.5" rotation="0.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_b" quality_settings="zones.medium" pFactor="1" x="952.4171" y="1261.714" scale="1.5" rotation="30.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_d" quality_settings="zones.medium" pFactor="1" x="926.1765" y="1246.564" scale="1.5" rotation="30.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_a_vru" quality_settings="zones.medium" pFactor="1" x="900.1091" y="1231.514" scale="1.5" rotation="30.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_a_vru" quality_settings="zones.medium" pFactor="1" x="874.5262" y="1214.181" scale="1.5" rotation="30.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_d" quality_settings="zones.medium" pFactor="1" x="849.2484" y="1197.407" scale="1.5" rotation="30.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_b" quality_settings="zones.medium" pFactor="1" x="864.527" y="1174.944" scale="1.5" rotation="120.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_d" quality_settings="zones.medium" pFactor="1" x="879.277" y="1149.396" scale="1.5" rotation="120.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_a_vru" quality_settings="zones.medium" pFactor="1" x="894.127" y="1123.675" scale="1.5" rotation="120.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_c" quality_settings="zones.medium" pFactor="1" x="909.7769" y="1096.569" scale="1.5" rotation="120.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_c" quality_settings="zones.medium" pFactor="1" x="924.8768" y="1070.415" scale="1.5" rotation="120.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_d" quality_settings="zones.medium" pFactor="1" x="939.5768" y="1044.953" scale="1.5" rotation="120.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_b" quality_settings="zones.medium" pFactor="1" x="955.2269" y="1017.847" scale="1.500001" rotation="120.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_d" quality_settings="zones.medium" pFactor="1" x="970.1268" y="992.0392" scale="1.500003" rotation="120.000"/>
+			<planet comment="moduleCircle" layer="1"  typeID="moduleCircle_vru" quality_settings="zones.medium" pFactor="1" x="1060.7" y="1122.8" scale="1.5"/>
+			<planet comment="moduleCircle" layer="1"  typeID="moduleCircle_eic" quality_settings="zones.medium" pFactor="1" x="1333.6" y="875.3" scale="1.5"/>
+			<planet comment="moduleCircle" layer="1"  typeID="moduleCircle_eic" quality_settings="zones.medium" pFactor="1" x="1079.2" y="667.4" scale="1.5"/>
+			<planet comment="module01" layer="1"  typeID="module01_a_eic" quality_settings="zones.medium" pFactor="1" x="1184.8" y="754.5001" scale="1.500003" rotation="0.000"/>
+			<planet comment="module05" layer="1"  typeID="module05_a" quality_settings="zones.medium" pFactor="1" x="1263.7" y="752.4999" scale="2.175" rotation="0.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_a_eic" quality_settings="zones.medium" pFactor="1" x="1219.8" y="754.4" scale="1.500001" rotation="0.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_d" quality_settings="zones.medium" pFactor="1" x="1298.9" y="753.6999" scale="1.5" rotation="0.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_b" quality_settings="zones.medium" pFactor="1" x="1358.5" y="753.6998" scale="1.5" rotation="0.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_d" quality_settings="zones.medium" pFactor="1" x="1389.8" y="753.6997" scale="1.5" rotation="0.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_d" quality_settings="zones.medium" pFactor="1" x="1419.5" y="753.6996" scale="1.5" rotation="0.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_a_eic" quality_settings="zones.medium" pFactor="1" x="1449" y="753.6996" scale="1.5" rotation="0.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_b" quality_settings="zones.medium" pFactor="1" x="1068.8" y="967.6014" scale="1.500009" rotation="0.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_b" quality_settings="zones.medium" pFactor="1" x="1185.2" y="960.2001" scale="1.500007" rotation="0.000"/>
+			<planet comment="module05" layer="1"  typeID="module05_a" quality_settings="zones.medium" pFactor="1" x="1140.1" y="963.4002" scale="2.175001" rotation="0.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_b" quality_settings="zones.medium" pFactor="1" x="1098.4" y="963.9003" scale="1.500008" rotation="0.000"/>
+			<planet comment="module05" layer="1"  typeID="module05_b" quality_settings="zones.medium" pFactor="1" x="1218.441" y="793.8" scale="2.175" rotation="90.000"/>
+			<planet comment="module05" layer="1"  typeID="module05_b" quality_settings="zones.medium" pFactor="1" x="1185.269" y="793.4001" scale="2.175" rotation="90.000"/>
+			<planet comment="module05" layer="1"  typeID="module05_b" quality_settings="zones.medium" pFactor="1" x="1184.264" y="838.9001" scale="2.175" rotation="90.000"/>
+			<planet comment="module05" layer="1"  typeID="module05_a" quality_settings="zones.medium" pFactor="1" x="1217.5" y="839.3001" scale="2.175" rotation="90.000"/>
+			<planet comment="module05" layer="1"  typeID="module05_a" quality_settings="zones.medium" pFactor="1" x="1218.025" y="926.6001" scale="2.175" rotation="90.000"/>
+			<planet comment="module05" layer="1"  typeID="module05_b" quality_settings="zones.medium" pFactor="1" x="1184.656" y="926.2001" scale="2.175" rotation="90.000"/>
+			<planet comment="module05" layer="1"  typeID="module05_b" quality_settings="zones.medium" pFactor="1" x="1185.1" y="878.3001" scale="2.175" rotation="90.000"/>
+			<planet comment="module05" layer="1"  typeID="module05_b" quality_settings="zones.medium" pFactor="1" x="1218.3" y="878.7001" scale="2.175" rotation="90.000"/>
+			<planet comment="module05" layer="1"  typeID="module05_b" quality_settings="zones.medium" pFactor="1" x="1216" y="960.7001" scale="2.175" rotation="90.000"/>
+			<planet comment="module01" layer="1"  typeID="module01_d" quality_settings="zones.medium" pFactor="1" x="1328.3" y="753.6998" scale="1.5" rotation="0.000"/>
+			<planet comment="module05" layer="1"  typeID="module05_a" quality_settings="zones.medium" pFactor="1" x="1530.466" y="905.838" scale="2.175" rotation="120.000"/>
+			<planet comment="module05" layer="1"  typeID="module05_a" quality_settings="zones.medium" pFactor="1" x="1555.754" y="920.4379" scale="2.175" rotation="120.000"/>
+			<planet comment="module05" layer="1"  typeID="module05_b" quality_settings="zones.medium" pFactor="1" x="1558.318" y="859.7957" scale="2.175" rotation="120.000"/>
+			<planet comment="module05" layer="1"  typeID="module05_b" quality_settings="zones.medium" pFactor="1" x="1583.52" y="874.3457" scale="2.175" rotation="120.000"/>
+			<planet comment="module05" layer="1"  typeID="module05_a" quality_settings="zones.medium" pFactor="1" x="1607.3" y="832.4186" scale="2.175" rotation="120.000"/>
+			<planet comment="module05" layer="1"  typeID="module05_a" quality_settings="zones.medium" pFactor="1" x="1582.402" y="818.0439" scale="2.175" rotation="120.000"/>
+			<planet comment="module04" layer="1"  typeID="module04" quality_settings="zones.medium" pFactor="1" x="1526.6" y="944.5" scale="2.175" rotation="300.000"/>
+			<planet comment="module04" layer="1"  typeID="module04" quality_settings="zones.medium" pFactor="1" x="1608.823" y="799.1188" scale="2.175" rotation="120.000"/>
+			<planet comment="module03" layer="1"  typeID="module03" quality_settings="zones.medium" pFactor="1" x="1439.1" y="1230" scale="3" rotation="120.000"/>
+		</planets>
+
+	</map>
+
+	<map id="151" name="R-Zone 2" groupSystemName="R-Z" missionName="R-Zone" scaleFactor="1" music="8"  minimap="151" disableCombatMusic="true" poiColor="0x1C1A28FF" backgroundColor="222E44">
+		<reference selector="map WHERE id==150" children="true" />
+	</map>
+	<map id="152" name="R-Zone 3" groupSystemName="R-Z" missionName="R-Zone" scaleFactor="1" music="8"  minimap="151" disableCombatMusic="true" poiColor="0x1C1A28FF" backgroundColor="222E44">
+		<reference selector="map WHERE id==150" children="true" />
+	</map>
+	<map id="153" name="R-Zone 4" groupSystemName="R-Z" missionName="R-Zone" scaleFactor="1" music="8"  minimap="151" disableCombatMusic="true" poiColor="0x1C1A28FF" backgroundColor="222E44">
+		<reference selector="map WHERE id==150" children="true" />
+	</map>
+	<map id="154" name="R-Zone 5" groupSystemName="R-Z" missionName="R-Zone" scaleFactor="1" music="8"  minimap="151" disableCombatMusic="true" poiColor="0x1C1A28FF" backgroundColor="222E44">
+		<reference selector="map WHERE id==150" children="true" />
+	</map>
+	<map id="155" name="R-Zone 6" groupSystemName="R-Z" missionName="R-Zone" scaleFactor="1" music="8"  minimap="151" disableCombatMusic="true" poiColor="0x1C1A28FF" backgroundColor="222E44">
+		<reference selector="map WHERE id==150" children="true" />
+	</map>
+	<map id="156" name="R-Zone 7" groupSystemName="R-Z" missionName="R-Zone" scaleFactor="1" music="8"  minimap="151" disableCombatMusic="true" poiColor="0x1C1A28FF" backgroundColor="222E44">
+		<reference selector="map WHERE id==150" children="true" />
+	</map>
+	<map id="157" name="R-Zone 8" groupSystemName="R-Z" missionName="R-Zone" scaleFactor="1" music="8"  minimap="151" disableCombatMusic="true" poiColor="0x1C1A28FF" backgroundColor="222E44">
+		<reference selector="map WHERE id==150" children="true" />
+	</map>
+	<map id="158" name="R-Zone 9" groupSystemName="R-Z" missionName="R-Zone" scaleFactor="1" music="8"  minimap="151" disableCombatMusic="true" poiColor="0x1C1A28FF" backgroundColor="222E44">
+		<reference selector="map WHERE id==150" children="true" />
+	</map>
+	<map id="159" name="R-Zone 10" groupSystemName="R-Z" missionName="R-Zone" scaleFactor="1" music="8"  minimap="151" disableCombatMusic="true" poiColor="0x1C1A28FF" backgroundColor="222E44">
+		<reference selector="map WHERE id==150" children="true" />
+	</map>
+
+	<map id="229" name="Quarantine Zone" groupSystemName="GG" scaleFactor="0.5" music="0">
+		<starfield>true</starfield>
+		<backgrounds>
+			<background typeID="2007" pFactor="10" layer="0" hideLensflare="false" scale="3" />
+			<background typeID="204" layer="1" isMain="true" region="2048,1278"/>
+			<background typeID="2024" pFactor="8" layer="3" hideLensflare="true" maskID="23" scale="1.8" />
+		</backgrounds>
+		<lensflares>
+			<lensflare id="0" typeID="0" x="900" y="390" pFactor="10" star="false" />
+		</lensflares>
+	</map>
+
+
+<!-- VORTEX of Terror -->
+	<map id="227" name="GG Vortex of Terror" groupSystemName="GG" minimap="71-clean" music="9"  ambient="135">
+		<backgrounds>
+			<background typeID="2001" pFactor="10" layer="0" hideLensflare="false" scale="2.0" />
+			<background typeID="71" isMain="true" layer="1" />
+			<background typeID="2026" pFactor="9" layer="3" hideLensflare="true" maskID="20" scale="1.8" />
+			<background typeID="2022" pFactor="8" layer="4" hideLensflare="true" maskID="23" scale="2" />
+			<background typeID="2023" pFactor="7" layer="5" hideLensflare="true" maskID="21" scale="1.8" />
+		</backgrounds>
+	</map>
+
+	<map id="230" name="GG Vortex of Terror" groupSystemName="GG" minimap="72-clean" music="9"  ambient="135">
+		<backgrounds>
+			<background typeID="2001" pFactor="10" layer="0" hideLensflare="false" scale="2.0" />
+			<background typeID="72" isMain="true" layer="1" />
+			<background typeID="3024" pFactor="8" layer="3" />
+			<background typeID="3025" pFactor="7" layer="4" />
+			<background typeID="2026" pFactor="8" layer="3" hideLensflare="true" maskID="23" scale="1.8" />
+			<background typeID="2026" pFactor="7" layer="4" hideLensflare="true" maskID="21" scale="1.8" />
+		</backgrounds>
+		<lensflares>
+			<lensflare id="1" x="1523" y="596" pFactor="9" star="true" />
+		</lensflares>
+	</map>
+
+	<map id="231" name="GG Vortex of Terror" groupSystemName="GG" minimap="72-clean" music="9"  ambient="135">
+		<backgrounds>
+			<background typeID="2001" pFactor="10" layer="0" hideLensflare="false" scale="2.0" />
+			<background typeID="72" isMain="true" layer="1" />
+			<background typeID="3024" pFactor="8" layer="3" />
+			<background typeID="3025" pFactor="7" layer="4" />
+			<background typeID="2026" pFactor="8" layer="3" hideLensflare="true" maskID="23" scale="1.8" />
+			<background typeID="2026" pFactor="7" layer="4" hideLensflare="true" maskID="21" scale="1.8" />
+		</backgrounds>
+		<lensflares>
+			<lensflare id="1" x="1523" y="596" pFactor="9" star="true" />
+		</lensflares>
+	</map>
+
+	<map id="232" name="GG Vortex of Terror" groupSystemName="GG" minimap="71-clean" music="9"  ambient="135">
+		<backgrounds>
+			<background typeID="2001" pFactor="10" layer="0" hideLensflare="false" scale="2.0" />
+			<background typeID="71" isMain="true" layer="1" />
+			<background typeID="3024" pFactor="8" layer="3" />
+			<background typeID="3025" pFactor="7" layer="4" />
+			<background typeID="2026" pFactor="8" layer="3" hideLensflare="true" maskID="23" scale="1.8" />
+			<background typeID="2026" pFactor="7" layer="4" hideLensflare="true" maskID="21" scale="1.8" />
+		</backgrounds>
+		<lensflares>
+			<lensflare id="1" x="1523" y="596" pFactor="9" star="true" />
+		</lensflares>
+	</map>
+
+	<map id="233" name="GG Vortex of Terror" groupSystemName="GG" minimap="vortexZeta" music="9"  ambient="135">
+		<backgrounds>
+			<background typeID="2001" pFactor="10" layer="0" hideLensflare="false" scale="2.0" />
+			<background typeID="261" isMain="true" layer="1" />
+			<background typeID="3024" pFactor="8" layer="3" />
+			<background typeID="3025" pFactor="7" layer="4" />
+			<background typeID="2026" pFactor="8" layer="3" hideLensflare="true" maskID="23" scale="1.8" />
+			<background typeID="2026" pFactor="7" layer="4" hideLensflare="true" maskID="21" scale="1.8" />
+		</backgrounds>
+		<lensflares>
+			<lensflare id="1" x="1523" y="596" pFactor="9" star="true" />
+		</lensflares>
+	</map>
+
+	<map id="234" name="GG Vortex of Terror" groupSystemName="GG" minimap="vortexPirat" music="9"  ambient="135">
+		<backgrounds>
+			<background typeID="260" isMain="true" layer="1" />
+			<background typeID="2024" pFactor="7" layer="3" hideLensflare="false" maskID="1" scale="1.4" />
+			<background typeID="2011" pFactor="6" layer="4" hideLensflare="false" maskID="2" scale="1.4" />
+			<background typeID="2022" pFactor="4" layer="5" hideLensflare="false" maskID="3" scale="1.4" />
+		</backgrounds>
+	</map>
+
+	<map id="235" name="GG Vortex of Terror" groupSystemName="GG" minimap="vortexZeta" music="9"  ambient="135">
+		<backgrounds>
+			<background typeID="2001" pFactor="10" layer="0" hideLensflare="false" scale="2.0" />
+			<background typeID="261" isMain="true" layer="1" />
+			<background typeID="3024" pFactor="8" layer="3" />
+			<background typeID="3025" pFactor="7" layer="4" />
+			<background typeID="2026" pFactor="8" layer="3" hideLensflare="true" maskID="23" scale="1.8" />
+			<background typeID="2026" pFactor="7" layer="4" hideLensflare="true" maskID="21" scale="1.8" />
+		</backgrounds>
+		<lensflares>
+			<lensflare id="1" x="1523" y="596" pFactor="9" star="true" />
+		</lensflares>
+	</map>
+
+	<map id="236" name="GG Vortex of Terror" groupSystemName="GG" minimap="vortexPirat" music="9"  ambient="135">
+		<backgrounds>
+			<background typeID="260" isMain="true" layer="1" />
+			<background typeID="2024" pFactor="7" layer="3" hideLensflare="false" maskID="1" scale="1.4" />
+			<background typeID="2011" pFactor="6" layer="4" hideLensflare="false" maskID="2" scale="1.4" />
+			<background typeID="2022" pFactor="4" layer="5" hideLensflare="false" maskID="3" scale="1.4" />
+		</backgrounds>
+	</map>
+<!-- VORTEX of Terror -->
+</maps>

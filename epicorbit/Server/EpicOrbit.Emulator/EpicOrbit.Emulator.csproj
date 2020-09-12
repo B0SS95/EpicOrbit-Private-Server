@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EpicOrbit.Server.Data\EpicOrbit.Server.Data.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Chat\" />
+    <Folder Include="Network\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CSharp" Version="4.5.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="MongoDB.Bson">
+      <HintPath>..\remove-when-mongo-ready\MongoDB.Bson.dll</HintPath>
+    </Reference>
+    <Reference Include="MongoDB.Driver">
+      <HintPath>..\remove-when-mongo-ready\MongoDB.Driver.dll</HintPath>
+    </Reference>
+    <Reference Include="MongoDB.Driver.Core">
+      <HintPath>..\remove-when-mongo-ready\MongoDB.Driver.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

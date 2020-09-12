@@ -1,0 +1,26 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iis": {
+      "applicationUrl": "http://localhost/EpicOrbit.Client",
+      "sslPort": 0
+    },
+    "iisExpress": {
+      "applicationUrl": "http://localhost:49679",
+      "sslPort": 0
+    }
+  },
+  "profiles": {
+    "EpicOrbit.Client": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "http://0.0.0.0:5000"
+    },
+    "IIS Express 2": {
+      "commandName": "IISExpress"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+﻿@inherits ClanCreateComponentController
+
+<LoadingComponent Loading="@Loading" Text="Creating clan">
+    <div class="row">
+        <div class="col-lg-6">
+            <p>
+                To found a clan, please enter the following information.<br />
+                <b>Name: (min. 1 character, max: 24 characters)<br />
+                Tag: (min. 1 character, max: 4 characters)<br />
+                Description: (max: 256 characters)<br /></b>
+                Confirm your entries with the "<b>Create</b>" button.
+            </p>
+        </div>
+        <div class="col-lg-6">
+            <form role="form" onsubmit="@Create">
+                <InputGroupComponent Class="mb-3">
+                    <input class="form-control" placeholder="Clan-Name" type="text" bind="@Name" />
+                </InputGroupComponent>
+                <InputGroupComponent>
+                    <input class="form-control" placeholder="Clan-Tag" type="text" bind="@Tag" />
+                </InputGroupComponent>
+                <InputGroupComponent>
+                    <textarea class="form-control" placeholder="Description" rows="5" bind="@Description"></textarea>
+                </InputGroupComponent>
+                <div class="text-right">
+                    <button type="submit" style="margin-bottom: 0 !important" class="btn btn-default mt-0">Create <i class="fas fa-angle-right"></i></button>
+                </div>
+            </form>
+        </div>
+    </div>
+</LoadingComponent>

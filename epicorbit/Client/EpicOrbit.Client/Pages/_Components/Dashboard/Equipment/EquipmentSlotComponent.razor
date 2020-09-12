@@ -1,0 +1,7 @@
+﻿@inherits EquipmentSlotComponentController
+
+<div class="bg-gray-400 m-1" style="width: 30px; height: 30px; box-sizing: content-box;">
+    @if (GetImagePath(out string path)) {
+        <img src="@path" onmousedown="@MouseEvent" />
+    }
+</div>

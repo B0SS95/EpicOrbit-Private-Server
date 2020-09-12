@@ -1,0 +1,47 @@
+﻿@inherits ClanDiplomacyCreateModalComponentController
+@using EpicOrbit.Shared.Enumerables;
+
+<ClanDiplomacySearchModalComponent Current="@Current" Select="@Select" />
+
+<div class="modal fade" id="newDiplomacy" tabindex="-1" role="dialog" aria-labelledby="newDiplomacyLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel"><b>New Diplomacy</b></h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body pt-0">
+
+                <b>Selected Clan: @(Selected == null ? "None" : Selected.Tag)</b>
+                <a data-toggle="modal" href="#searchClan" class="btn btn-sm btn-primary mb-1">Select Clan ...</a>
+
+                <br />
+
+                <b>Diplomacy Type: </b>
+                <div class="dropdown">
+                    <button class="btn btn-primary btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        @Relation.ToString().Replace("_", " ")
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        @foreach (ClanRelationType type in Enum.GetValues(typeof(ClanRelationType))) {
+                            <a class="dropdown-item" href="#" onclick="@(() => Select(type))">@type.ToString().Replace("_", " ")</a>
+                        }
+                    </div>
+                </div>
+
+                @if (Relation != ClanRelationType.WAR) {
+                    <InputGroupComponent>
+                        <textarea class="form-control" placeholder="Message" rows="5" bind="@Message"></textarea>
+                    </InputGroupComponent>
+                }
+
+            </div>
+            <div class="modal-footer pt-0">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" onclick="@Confirm" data-dismiss="modal">Confirm</button>
+            </div>
+        </div>
+    </div>
+</div>

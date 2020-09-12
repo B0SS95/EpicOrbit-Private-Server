@@ -1,0 +1,83 @@
+﻿@inherits ClanJoinComponentController
+@using EpicOrbit.Shared.ViewModels.Clan;
+
+<ClanShowModalComponent Clan="@Selected" />
+<ClanJoinModalComponent Clan="@Selected" Reload="@(() => ChangePage(0))" />
+
+<LoadingComponent Loading="@Loading" Text="Loading clans">
+    <div class="row" style="justify-content:flex-end">
+        <InputGroupComponent Icon="fas fa-search" Class="my-2">
+            <input class="form-control" placeholder="Search" type="text" bind="@Query" />
+            <div class="input-group-append">
+                <button onclick="@Refresh" style="margin-bottom: 0 !important" class="btn btn-default">Search <i class="fas fa-angle-right"></i></button>
+            </div>
+        </InputGroupComponent>
+    </div>
+    <div class="app-content" style="height: 400px">
+        <div class="table-responsive" style="flex-grow: 1">
+            <table class="table align-items-center">
+                <thead class="thead-light">
+                    <tr>
+                        <th scope="col">Rank</th>
+                        <th scope="col">Tag</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Members</th>
+                        <th scope="col">Points</th>
+                        <th scope="col"></th> <!-- für join knopf -->
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (ClanView clanView in Clans.Items) {
+                        <tr>
+                            <td>@(clanView.Pending ? "Pending" : clanView.Rank + ".")</td>
+                            <td>[@clanView.Tag]</td>
+                            <td>@clanView.Name</td>
+                            <td>@clanView.MembersCount / 50</td>
+                            <td>@string.Format("{0:n0}", clanView.Points)</td>
+                            <td class="text-center">
+                                <a data-toggle="modal" href="#showClan" onclick="@(() => Change(clanView))" class="badge badge-default">Show</a> |
+                                @if (clanView.Pending) {
+                                    <a href="#" onclick="@(() => Revoke(clanView))" class="badge badge-danger">Cancel</a>
+                                } else {
+                                    if (clanView.MembersCount < 50) {
+                                        <a data-toggle="modal" href="#joinClan" onclick="@(() => Change(clanView))" class="badge badge-primary">Join</a>
+                                    } else {
+                                        <a class="badge badge-danger">Clan full</a>
+                                    }
+                                }
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+        <nav class="pt-3" aria-label="clan pagination">
+            <ul class="pagination justify-content-center">
+
+                @if (Page > 1) {
+                    <li class="page-item">
+                        <a class="page-link" href="#" onclick="@(() => ChangePage(-1))" tabindex="-1">
+                            <i class="fa fa-angle-left"></i>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#" onclick="@(() => ChangePage(-1))">@(Page - 1)</a></li>
+                }
+
+                <li class="page-item active"><a class="page-link" href="#">@Page</a></li>
+
+                @if (TotalPages < Page) {
+                    <li class="page-item"><a class="page-link" href="#" onclick="@(() => ChangePage(1))">@(Page + 1)</a></li>
+
+                    <li class="page-item">
+                        <a class="page-link" href="#" onclick="@(() => ChangePage(1))">
+                            <i class="fa fa-angle-right"></i>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </li>
+                }
+
+            </ul>
+        </nav>
+    </div>
+</LoadingComponent>

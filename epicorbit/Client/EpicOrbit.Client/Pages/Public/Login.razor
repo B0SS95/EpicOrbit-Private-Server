@@ -1,0 +1,43 @@
+﻿@inherits LoginController
+
+<PublicLayout>
+    <CenteredComponent Size=5>
+        <div class="pb-5">
+            <img src="./assets/img/logo.png" style="max-width: 100%; display: block; margin: auto;">
+        </div>
+
+        <CardComponent Class="px-lg-5 py-lg-5" ParentClass="mb-3">
+            <LoadingComponent Loading="@Loading">
+                <div class="text-center text-muted mb-4 ">
+                    <small>Login to continue your journey!</small>
+                </div>
+                <form role="form" onsubmit="@Login">
+                    <InputGroupComponent Icon="fas fa-user" Class="mb-3">
+                        <input class="form-control" placeholder="Username" type="text" bind="@Username" />
+                    </InputGroupComponent>
+                    <InputGroupComponent Icon="fas fa-lock">
+                        <input class="form-control" placeholder="Password" type="password" bind="@Password" />
+                    </InputGroupComponent>
+                    <div class="text-right">
+                        <button type="submit" style="margin-bottom: 0 !important" class="btn btn-default my-4">Login <i class="fas fa-angle-right"></i></button>
+                    </div>
+                </form>
+            </LoadingComponent>
+        </CardComponent>
+
+        @if (!Loading) {
+            <div class="row">
+                <div class="col-6">
+                    <a href="#" onclick=@(() => ComponentService.Show(new ResetPassword())) class="text-light">
+                        <small style="color: yellow; text-shadow: 2px 2px 10px black;"><b>Forgot password?</b></small>
+                    </a>
+                </div>
+                <div class="col-6 text-right">
+                    <a href="#" onclick=@(() => ComponentService.Show(new Register())) class="text-light">
+                        <small style="color: yellow; text-shadow: 2px 2px 10px black;"><b>Create new account <i class="fas fa-angle-right"></i></b></small>
+                    </a>
+                </div>
+            </div>
+        }
+    </CenteredComponent>
+</PublicLayout>

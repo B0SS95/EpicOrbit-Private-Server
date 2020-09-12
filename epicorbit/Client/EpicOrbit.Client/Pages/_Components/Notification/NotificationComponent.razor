@@ -1,0 +1,12 @@
+﻿@inherits NotificationComponentController
+
+<div class="notification @NotificationSettings.BackgroundClass">
+    <div class="notification-body">
+        <div class="notification-header">
+            <h5>@NotificationSettings.Heading</h5>
+            <button onclick=@HideNotification>x</button>
+        </div>
+
+        <p>@NotificationSettings.Message</p>
+    </div>
+</div>
